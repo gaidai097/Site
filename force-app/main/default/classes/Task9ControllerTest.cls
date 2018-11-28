@@ -51,7 +51,7 @@ public class Task9ControllerTest {
         tct.dateFilter = 'AFTER';
         tct.setPublishedDate(Date.today().addDays(-75));
         System.debug('tct.ssc.getResultSize() ' + tct.ssc.getResultSize());
-        System.assertEquals( 15, tct.ssc.getResultSize() );
+        System.assertEquals( 14, tct.ssc.getResultSize() );
         System.assertEquals( Date.today().addDays(-75), tct.getPublishedDate() );
         System.assertEquals( 20, tct.getCheckedIDsSize() );
         Test.stopTest();

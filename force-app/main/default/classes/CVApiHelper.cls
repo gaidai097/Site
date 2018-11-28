@@ -5,18 +5,44 @@ public class CVApiHelper {
         String json;    
         DateTime yesterdayStart = Datetime.newInstance( Date.today().addDays(-8), Time.newInstance(8, 0, 0, 0) );        
         DateTime todaydaysEnd = Datetime.newInstance( Date.today(), Time.newInstance(23, 0, 0, 0) );
+        List <CV__c> cvsResults;   
+        Integer boundSizeLimit = integerOffset + sizeLimit;
+        String queryString = 'SELECT Name, Status__c,Phone__c, Age__c, Email__c, CreatedDate, Salary__c , ID, Additional_info__c,(SELECT id,CV__c, Email__c, Job_Advertisement__c from CVJAs__r ) FROM CV__c WHERE CreatedDate >= :yesterdayStart AND CreatedDate <= :todaydaysEnd ORDER BY Email__c LIMIT :boundSizeLimit ';
+        ApexPages.StandardSetController ssc = new ApexPages.StandardSetController(Database.getQueryLocator(queryString)); 
+        ssc.setPageSize(sizeLimit);
+        ssc.last();
         
-        List <CV__c> cvsResults = [SELECT Name, Status__c,Phone__c, Age__c, Email__c, CreatedDate, Salary__c , ID, Additional_info__c,
-                                   (SELECT id,CV__c, Email__c, Job_Advertisement__c from CVJAs__r )
-                                   FROM CV__c 
-                                   WHERE CreatedDate >= :yesterdayStart AND CreatedDate <= :todaydaysEnd 
-                                   ORDER BY CreatedDate LIMIT :sizeLimit OFFSET :integerOffset];
+        List <CV__c> page = ssc.getRecords() ;
+        cvsResults = new List <CV__c>();
+        for(Integer i = ssc.getRecords().size()> integerOffset? integerOffset : 0; i < boundSizeLimit && i < page.size() ; i++){
+            
+            cvsResults.add( page[i]);
+        }
+              
+        system.debug('getPageNumber  = ' + ssc.getPageNumber());
+        system.debug('getPageSize  = ' + ssc.getPageSize());
+        system.debug('sizeLimit  = ' + sizeLimit);
+        system.debug('integerOffset  = ' + integerOffset);
+        system.debug('boundSizeLimit  = ' + boundSizeLimit);        
+        system.debug('cvsResults size  = ' + cvsResults.size());
+        
+             
         Map <ID, CV__c> cvsMap = (new Map <ID, CV__c>(cvsResults));
+            
         Set <ID> cvIDs = cvsMap.keySet();
         List <ContentVersion> images = [SELECT Id, CV__c FROM ContentVersion WHERE CV__c IN :cvIDs LIMIT :sizeLimit];
+        Map <String, ContentVersion> cvConVerMap = new Map <String, ContentVersion>();
+        for(ContentVersion image: images){
+                  cvConVerMap.put(image.CV__c, image) ;     
+        }
+        String defaultID = '0685E000000583cQAA';
         List <CVImageWrapper> cvsWrapped = new List <CVImageWrapper>();
-        for(ContentVersion conVer : images){
-            cvsWrapped.add( new CVImageWrapper(cvsMap.get(conVer.CV__c), conVer.id) );
+        for(CV__c cv : cvsResults){
+            if(cvConVerMap.get(cv.id) == null){
+                cvsWrapped.add( new CVImageWrapper(cv, defaultID) );
+            }else{
+                cvsWrapped.add( new CVImageWrapper(cv, cvConVerMap.get(cv.id).id) );
+            }
         }
         //Select id, LinkedEntityId, SystemModstamp from ContentDocumentLink Where ContentDocumentId IN ('0691t000000geH2AAI')
 		System.debug( ' cvsWrapped.size() => ' + cvsWrapped.size() );
@@ -37,6 +63,10 @@ public class CVApiHelper {
         
         Integer count = database.countQuery('SELECT count() from CV__c WHERE CreatedDate >= :yesterdayStart AND CreatedDate <= :todaydaysEnd ');
 		System.debug( ' count => ' + count);
+        Integer boundLimit = 9900;
+        if(count > boundLimit){
+            count = boundLimit;
+        }
         return count;
     }
   
@@ -52,7 +82,7 @@ public class CVApiHelper {
         public string additionalInfo;
         public List <ID> jobs;
         
-        public CVImageWrapper( CV__c cv, Id contentVersionId ){
+        public CVImageWrapper( CV__c cv, String contentVersionId ){
             this.contentVersionId = contentVersionId;
             this.phone = cv.Phone__c;
             this.email = cv.Email__c;

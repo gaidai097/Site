@@ -75,7 +75,7 @@ public with sharing class Task9ControllerHelper {
             System.debug(' saveContentVersion conVer.id  ' + conVer.id); 
             ID idcon = con.id;
             ID docId = [ SELECT ID FROM ContentDocument where LatestPublishedVersionId = :idcon][0].id;            
-            ContentDocumentLink link = new ContentDocumentLink(LinkedEntityId = '00D1t000000GO7CEAW', ShareType = 'C', ContentDocumentId = docId , Visibility = 'AllUsers');
+            ContentDocumentLink link = new ContentDocumentLink(LinkedEntityId = UserInfo.getOrganizationId(), ShareType = 'C', ContentDocumentId = docId , Visibility = 'AllUsers');
             insert link ;
         }catch (Exception e){
             System.debug('Exception uploading e ' + e.getCause() + ' ' + e.getLineNumber() +' ' + e.getMessage());

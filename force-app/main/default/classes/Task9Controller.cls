@@ -107,20 +107,18 @@ public with sharing class Task9Controller {
         noOfRecords = ssc.getResultSize();
     }
     public void saveCV(){
+        
         cv.Name = cvFirstName + ' ' + cvLastName ;
         System.debug('saveCV');
-        String emailBasic =  cv.Email__c ;
+        //String emailBasic =  cv.Email__c ;
         if(image != null && image.size() < 1024*128){
             
             try{
                 //msg = Task9ControllerHelper.echo(image, fileName);
             	//sendInfo( msg );
-            	//Integer count = 38;
-                //for(Integer i = 0; i< count; i++){
-                  //  cv.Email__c = i+  emailBasic;
-                    Task9ControllerHelper.saveCV( cv , selectedJobs, image ,fileName);
-                    cv.id = null;
-                //}          
+            	
+                Task9ControllerHelper.saveCV( cv , selectedJobs, image ,fileName);
+                           
                 cv.Salary__c = null;
                 cv.id = null;
                 sendInfo('CV successfully saved');
@@ -133,7 +131,97 @@ public with sharing class Task9Controller {
             this.image = null;
             return ; 
         }
+	
+       // cloneCVS();
+        //duplicateCloning(); 
     }
+    /*
+    public void duplicateCloning(){
+          
+        cvLastName= cvLastName + 'o';
+        cv.Email__c = 'o'+ cv.Email__c;
+        cloneCVS(); 
+        cvLastName= cvLastName + 'f';
+        cv.Email__c = 'f'+ cv.Email__c;
+        cloneCVS();
+        /*
+        cv.Email__c = 'k'+ cv.Email__c;
+        cloneCVS();
+        cv.Email__c = 'b'+ cv.Email__c;
+        cloneCVS();
+        
+        cv.Email__c = 'c'+ cv.Email__c;
+        cloneCVS();
+        cv.Email__c = 'w'+ cv.Email__c;
+        cloneCVS();
+        cv.Email__c = 'a'+ cv.Email__c;
+        cloneCVS();
+        cv.Email__c = 'e'+ cv.Email__c;
+        cloneCVS();
+        cv.Email__c = 'i'+ cv.Email__c;
+        cloneCVS();
+        cv.Email__c = 'u'+ cv.Email__c;
+        cloneCVS();
+
+        cv.Email__c = 'y'+ cv.Email__c;
+        cloneCVS();
+        cv.Email__c = 't'+ cv.Email__c;
+        cloneCVS();
+        cv.Email__c = 'r'+ cv.Email__c;
+        cloneCVS();
+        cv.Email__c = 's'+ cv.Email__c;
+        cloneCVS();
+    }
+    
+    public void cloneCVS() {
+        List <CV__c> cvs = new List <CV__c>();
+        List <ContentVersion> images = new List <ContentVersion>();
+        List <ContentDocumentLink> links = new List <ContentDocumentLink>();
+        List <CVJA__c> cvjas = new List <CVJA__c>();
+        String nameBasic = cvFirstName + ' ' + cvLastName ;
+        Integer count = 200;
+        String emailBasic =  cv.Email__c ;
+        for(Integer i = 0; i<count; i++){
+            CV__c someCV = new CV__c();
+            someCV.Email__c = i+  emailBasic;
+            someCV.Name = nameBasic + i;
+            someCV.Additional_info__c = 'test'+i;
+            someCV.Salary__c = cv.Salary__c;
+            someCV.Status__c = cv.Status__c;
+            someCV.Phone__c = cv.Phone__c;
+            someCV.Age__c = cv.Age__c;
+            cvs.add(someCV);
+        }
+        insert cvs;
+        for(CV__c cvVar : cvs){
+            
+            cvjas.add( new CVJA__c(Job_Advertisement__c = selectedJobs[0].id, Email__c = cvVar.Email__c, CV__c = cvVar.id) );
+        }
+        insert cvjas;
+       
+        for(CV__c cvVar : cvs){
+            images.add( 
+                new ContentVersion(
+                    CV__c = cvVar.id, SharingOption = 'A',SharingPrivacy = 'N',                                                   
+                    VersionData = image, title = fileName, PathOnClient = fileName , Description = 'CVImage'
+                )
+            );
+            cvjas.add( new CVJA__c(Job_Advertisement__c = selectedJobs[0].id, Email__c = cvVar.Email__c, CV__c = cvVar.id) );
+        }
+        insert images;
+        Map<Id,ContentVersion> conVerMap = new Map<Id,ContentVersion>(images);
+        List<ContentDocument> docs = [ SELECT ID,LatestPublishedVersionId FROM ContentDocument where LatestPublishedVersionId = :conVerMap.keySet()];         
+        for(ContentDocument doc: docs){
+            links.add(
+                new ContentDocumentLink(LinkedEntityId = UserInfo.getOrganizationId(), ShareType = 'C', ContentDocumentId = doc.id , Visibility = 'AllUsers')
+            );
+        }
+        insert links;
+        insert cvjas;
+
+        
+    }
+*/
     public void refresh() {
         nameFilter = null;
         salaryFilter = 'EQUAL';
