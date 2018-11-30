@@ -27,7 +27,7 @@ global with sharing class JobAdvertismentRecord {
         }catch(Task6Exception e ){
             res.responseBody = Blob.valueOf( e.getMessage() );
             RestContext.response.statusCode = 500;            
-        }catch(Exception e ){
+        }catch( Exception e ){
             System.debug('Record was not deleted, Exception e ' + e);
             res.responseBody = Blob.valueOf( 'Record was not deleted' );
             RestContext.response.statusCode = 500;            

@@ -44,7 +44,6 @@ public class JobAdvertismentRecordTest {
         req.httpMethod = 'GET';
         RestContext.request = req;
         RestContext.response = res;
-        
         Test.startTest();
         JobAdvertismentRecord.doGet();
         Test.stopTest();
@@ -53,8 +52,12 @@ public class JobAdvertismentRecordTest {
     }   
     @isTest
     public static void doDeleteValidTest(){
-        List<Job_Advertisement__c> jAs = TestDataFactory.createJobAdvertisement(101);
-        
+        Integer count = 101;
+      
+        List<Job_Advertisement__c> jAs = TestDataFactory.createJobAdvertisement(count);
+        List <CV__c> cvs =  TestDataFactory.createCVs(count);
+        List <CVJA__c> cvjas = TestDataFactory.createCVJAs(cvs, jAs[55]);
+        Test.startTest();
         RestRequest req = new RestRequest();
         RestResponse res = new RestResponse();
         req.requestURI = '/services/apexrest/JobAdvertisementRecord';
@@ -62,11 +65,13 @@ public class JobAdvertismentRecordTest {
         req.httpMethod = 'DELETE';
         RestContext.request = req;
         RestContext.response = res;
-        Test.startTest();
-        JobAdvertismentRecord.doDelete();
+        JobAdvertismentRecord.doDelete(); 
         Test.stopTest();
-        System.assertEquals( 'success' , RestContext.response.responseBody.toString());
-        System.assertEquals(100, [Select ID from Job_Advertisement__c ].size());
+        System.assertEquals( 'success' , RestContext.response.responseBody.toString());        
+        System.assertEquals(0, [Select ID from CVJA__c ].size());
+        System.assertEquals(count-1, [Select ID from Job_Advertisement__c ].size());
+        System.assertEquals(0, [Select ID from CV__c ].size());
+        
     }
     @isTest
     public static void doDeleteFalseIdInvalidTest(){

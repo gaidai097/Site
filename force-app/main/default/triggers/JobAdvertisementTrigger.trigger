@@ -1,5 +1,5 @@
 trigger JobAdvertisementTrigger on Job_Advertisement__c (before delete, after update) {
-    //Remove all related CVs 
+    //Remove all related CVs      
     if(Trigger.isBefore && Trigger.isDelete){        
         JobAdvertisementTriggerHelper.removeCVs(Trigger.old);        
     }
@@ -10,6 +10,6 @@ trigger JobAdvertisementTrigger on Job_Advertisement__c (before delete, after up
                 jobs.add( ja );
             }
         }
-        if(!jobs.isempty()) JobAdvertisementTriggerHelper.removeCVs(jobs);        
+        if(!jobs.isempty()) JobAdvertisementTriggerHelper.removeCVs(jobs);          
     }    
 }

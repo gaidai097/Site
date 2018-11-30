@@ -30,7 +30,7 @@ public class JobAdvertisementsWrapper {
     }
     public static Job_Advertisement__c convertFromWrapper(JobAdvertisementsWrapper model){
         Job_Advertisement__c obj = new Job_Advertisement__c();
-        
+        System.debug('model ' + model);
         if(model.name != null &&  model.name != ''){
             obj.Name = model.name ;
         }else { return null; }
@@ -44,7 +44,8 @@ public class JobAdvertisementsWrapper {
         if(model.education != null &&  model.education != '') obj.Education__c = model.education;        
         if(model.location != null &&  model.location !='') obj.Location__c = model.location;           
         if(model.phone != null &&  model.phone != '')obj.phone__c = model.phone;
-        if(model.id != null &&  model.id != '') obj.id = model.id;              
+        if(model.id != null &&  model.id != '') obj.id = model.id;   
+        if(model.status == 'Open' ) obj.Status__c = 'Active'; 
         return obj;
     }
     

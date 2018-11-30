@@ -11,20 +11,18 @@ public class CVApiHelper {
         ApexPages.StandardSetController ssc = new ApexPages.StandardSetController(Database.getQueryLocator(queryString)); 
         ssc.setPageSize(sizeLimit);
         ssc.last();
-        
         List <CV__c> page = ssc.getRecords() ;
         cvsResults = new List <CV__c>();
         for(Integer i = ssc.getRecords().size()> integerOffset? integerOffset : 0; i < boundSizeLimit && i < page.size() ; i++){
-            
             cvsResults.add( page[i]);
         }
               
-        system.debug('getPageNumber  = ' + ssc.getPageNumber());
-        system.debug('getPageSize  = ' + ssc.getPageSize());
-        system.debug('sizeLimit  = ' + sizeLimit);
-        system.debug('integerOffset  = ' + integerOffset);
-        system.debug('boundSizeLimit  = ' + boundSizeLimit);        
-        system.debug('cvsResults size  = ' + cvsResults.size());
+        System.debug('getPageNumber  = ' + ssc.getPageNumber());
+        System.debug('getPageSize  = ' + ssc.getPageSize());
+        System.debug('sizeLimit  = ' + sizeLimit);
+        System.debug('integerOffset  = ' + integerOffset);
+        System.debug('boundSizeLimit  = ' + boundSizeLimit);        
+        System.debug('cvsResults size  = ' + cvsResults.size());
         
              
         Map <ID, CV__c> cvsMap = (new Map <ID, CV__c>(cvsResults));
@@ -64,9 +62,7 @@ public class CVApiHelper {
         Integer count = database.countQuery('SELECT count() from CV__c WHERE CreatedDate >= :yesterdayStart AND CreatedDate <= :todaydaysEnd ');
 		System.debug( ' count => ' + count);
         Integer boundLimit = 9900;
-        if(count > boundLimit){
-            count = boundLimit;
-        }
+        if(count > boundLimit) count = boundLimit;
         return count;
     }
   

@@ -6,7 +6,7 @@ public with sharing class Task9ControllerHelper {
         if( jobsMap.isEmpty() ) return;    
         insertCV(cv);
         insertCVJs(cv, jobsMap);
-        //sendEmailNotification(cv, jobs);
+        sendEmailNotification(cv, jobs);
         saveImage( cv, image ,fileName);
     }
     public static void insertCV( CV__c cv ){
@@ -30,7 +30,7 @@ public with sharing class Task9ControllerHelper {
         }
     }
     
-/*
+
     public static void sendEmailNotification( CV__c cv, List <Job_Advertisement__c> jobs ){
         Messaging.SingleEmailMessage email = new Messaging.SingleEmailMessage();
         email.setToAddresses( new String[]{ cv.Email__c } );
@@ -43,7 +43,7 @@ public with sharing class Task9ControllerHelper {
         email.setPlainTextBody( body );
        // Messaging.sendEmail( new Messaging.SingleEmailMessage[] { email });
     }
-*/
+
     public static Map <Id,Job_Advertisement__c> filterSelectedJobs(Map <Id,Job_Advertisement__c> jobsMap, String email){
         Map <Id,Job_Advertisement__c> filteredJobsMap = jobsMap;
         for(CVJA__c cvja: [SELECT ID, Job_Advertisement__c FROM CVJA__c WHERE Email__c =:email]){

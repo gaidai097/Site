@@ -18,13 +18,18 @@ public class ArchivateJobAdvertisementTest {
         RestContext.request = req;
         RestContext.response = res;
         Test.startTest();
+        System.debug('json ====> '  + json );
         ArchivateJobAdvertisement.doPost();
         Test.stopTest();
         String newStatus = 'Archived';                 
         List <Job_Advertisement__c> createdObj = [Select ID, Name, Status__c from Job_Advertisement__c Where Status__c = : newStatus];
+        System.debug('createdObj.size ====> '  + createdObj.size() );
+        
+        System.debug('createdObj.status__c  ====> '  + createdObj[0].status__c );
         System.assertEquals(count, createdObj.size());
         System.assertEquals('success', RestContext.response.responseBody.toString());
-        System.assertNotEquals(500, RestContext.response.statusCode);
+        System.assertEquals(200, RestContext.response.statusCode);
+        
     }
     @isTest
     public static void doPostInvalidJSONTest(){

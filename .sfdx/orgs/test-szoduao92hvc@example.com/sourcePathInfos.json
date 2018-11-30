@@ -32,14 +32,14 @@
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1543415901079,
             "changeTime": 1543415901079,
-            "contentHash": "2b5b83408862b8e19c4e21209f51bd48a6e65019"
+            "contentHash": "2b5b83408862b8e19c4e21209f51bd48a6e65019",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -60,14 +60,14 @@
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1543415901013,
             "changeTime": 1543415901013,
-            "contentHash": "a3c2c22b912614fb2af54a58ee61eb7fc904298e"
+            "contentHash": "a3c2c22b912614fb2af54a58ee61eb7fc904298e",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -103,16 +103,14 @@
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\ArchivateJobAdvertisementTest.cls",
         {
+            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\ArchivateJobAdvertisementTest.cls",
             "isDirectory": false,
-            "size": 3380,
-            "modifiedTime": 1543253409188,
-            "changeTime": 1543253409188,
-            "contentHash": "3be72cf8aa02a56510afd50bebb84112d00aa0ab",
             "isMetadataFile": false,
-            "state": "n",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "size": 3593,
+            "modifiedTime": 1543596564829,
+            "changeTime": 1543596564829,
+            "contentHash": "14f76bed1333d0b2341fcf5e46a8f14b63f4239b"
         }
     ],
     [
@@ -167,10 +165,10 @@
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\CVApiHelper.cls",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 4488,
-            "modifiedTime": 1543415900982,
-            "changeTime": 1543415900982,
-            "contentHash": "cced4e0bbb81a9cc59f796ceb22c79628e1c1b8d"
+            "size": 4443,
+            "modifiedTime": 1543596564794,
+            "changeTime": 1543596564794,
+            "contentHash": "d076da2978bff5e4651096e1efafb87c04855ea8"
         }
     ],
     [
@@ -221,16 +219,14 @@
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementApiHelper.cls",
         {
+            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementApiHelper.cls",
             "isDirectory": false,
-            "size": 4121,
-            "modifiedTime": 1543253409202,
-            "changeTime": 1543253409202,
-            "contentHash": "71419c5d65ceed05f06025dcf7f9e334e690c860",
             "isMetadataFile": false,
-            "state": "n",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "size": 4857,
+            "modifiedTime": 1543596564783,
+            "changeTime": 1543596564783,
+            "contentHash": "70b540ac340c9790a9fca3d64b666d10630aa88f"
         }
     ],
     [
@@ -251,16 +247,14 @@
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementApiHelperTest.cls",
         {
+            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementApiHelperTest.cls",
             "isDirectory": false,
-            "size": 6353,
-            "modifiedTime": 1543253409206,
-            "changeTime": 1543253409206,
-            "contentHash": "f64bbca22cb7259c23e2797ffe211c2363844753",
             "isMetadataFile": false,
-            "state": "n",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "size": 6595,
+            "modifiedTime": 1543596564778,
+            "changeTime": 1543596564778,
+            "contentHash": "8e2d9ca359e90855795f35bb0cee3843b4934cf4"
         }
     ],
     [
@@ -371,16 +365,14 @@
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementsWrapper.cls",
         {
+            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementsWrapper.cls",
             "isDirectory": false,
-            "size": 2966,
-            "modifiedTime": 1543253409243,
-            "changeTime": 1543253409243,
-            "contentHash": "337020802f70b8ba66c5ae79f40d9575d0f05d2b",
             "isMetadataFile": false,
-            "state": "n",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "size": 3049,
+            "modifiedTime": 1543596564723,
+            "changeTime": 1543596564723,
+            "contentHash": "28b908d257f497807eba74883a1035e2778df615"
         }
     ],
     [
@@ -431,16 +423,14 @@
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementTriggerHelper.cls",
         {
+            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementTriggerHelper.cls",
             "isDirectory": false,
-            "size": 2130,
-            "modifiedTime": 1543253409209,
-            "changeTime": 1543253409209,
-            "contentHash": "1a34e3fe609e9473040c1c0fcf3a56d483f9dce6",
             "isMetadataFile": false,
-            "state": "n",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "size": 2410,
+            "modifiedTime": 1543596564764,
+            "changeTime": 1543596564764,
+            "contentHash": "a9900fa26a05d4d55de669b501d9c48fd88a4cb5"
         }
     ],
     [
@@ -461,16 +451,14 @@
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementTriggerHelperTest.cls",
         {
+            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementTriggerHelperTest.cls",
             "isDirectory": false,
-            "size": 970,
-            "modifiedTime": 1543253409211,
-            "changeTime": 1543253409211,
-            "contentHash": "7ec10d99e83595ed99f7ec85bfc7c3bb3f1c055e",
             "isMetadataFile": false,
-            "state": "n",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "size": 1327,
+            "modifiedTime": 1543596564730,
+            "changeTime": 1543596564730,
+            "contentHash": "ebabe94eb11bbccb8e9923a4b6069354ea14c14e"
         }
     ],
     [
@@ -491,16 +479,14 @@
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertismentRecord.cls",
         {
+            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertismentRecord.cls",
             "isDirectory": false,
-            "size": 3077,
-            "modifiedTime": 1543253409258,
-            "changeTime": 1543253409258,
-            "contentHash": "a74eb288283d1aa001e7244915ee069fe4dcabc4",
             "isMetadataFile": false,
-            "state": "n",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "size": 3078,
+            "modifiedTime": 1543596564878,
+            "changeTime": 1543596564878,
+            "contentHash": "266b01a095a8c28739d46191d7b98e1f2b74e007"
         }
     ],
     [
@@ -521,16 +507,14 @@
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertismentRecordTest.cls",
         {
+            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertismentRecordTest.cls",
             "isDirectory": false,
-            "size": 8373,
-            "modifiedTime": 1543253409258,
-            "changeTime": 1543253409258,
-            "contentHash": "dd78b89b1f2a3a8734f03accc60f4eb360bc0e84",
             "isMetadataFile": false,
-            "state": "n",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "size": 8681,
+            "modifiedTime": 1543596564840,
+            "changeTime": 1543596564840,
+            "contentHash": "21ccd55c247d3a2085df86a06be566465f680dac"
         }
     ],
     [
@@ -615,10 +599,10 @@
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\Task9Controller.cls",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 10485,
-            "modifiedTime": 1543415900998,
-            "changeTime": 1543415900998,
-            "contentHash": "cfd1368843ef6ffa6430853b5bf97900872294e3"
+            "size": 10499,
+            "modifiedTime": 1543596564820,
+            "changeTime": 1543596564820,
+            "contentHash": "352f9e80d55b8df072d988fba52090fd04a98813"
         }
     ],
     [
@@ -643,10 +627,10 @@
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\Task9ControllerHelper.cls",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 7904,
-            "modifiedTime": 1543415900995,
-            "changeTime": 1543415900995,
-            "contentHash": "0b68c2e64d72260dc41b6033fa120ac4eed1da0e"
+            "size": 7898,
+            "modifiedTime": 1543596564804,
+            "changeTime": 1543596564804,
+            "contentHash": "459a10fb0930dc124a2fa987e5a01d39ec83b5dc"
         }
     ],
     [
@@ -697,14 +681,14 @@
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\Task9ControllerTest.cls",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\Task9ControllerTest.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 4211,
             "modifiedTime": 1543415900989,
             "changeTime": 1543415900989,
-            "contentHash": "71eacb45b5ba9abd7bb8afc5c73fd865b1a574a6"
+            "contentHash": "71eacb45b5ba9abd7bb8afc5c73fd865b1a574a6",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -1400,14 +1384,14 @@
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1543415900965,
             "changeTime": 1543415900965,
-            "contentHash": "0765d6f81f0bf706d49d0650c6257477aa3af0c3"
+            "contentHash": "0765d6f81f0bf706d49d0650c6257477aa3af0c3",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -1473,14 +1457,14 @@
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\profiles",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\profiles",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1543415901066,
             "changeTime": 1543415901066,
-            "contentHash": "57093a0254ae4a9bcfbf267c725965c4d0a70858"
+            "contentHash": "57093a0254ae4a9bcfbf267c725965c4d0a70858",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -1501,14 +1485,14 @@
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\remoteSiteSettings",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\remoteSiteSettings",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1543415901075,
             "changeTime": 1543415901075,
-            "contentHash": "100bc7cac8d54b09e55f57f48ef3b4632541ed05"
+            "contentHash": "100bc7cac8d54b09e55f57f48ef3b4632541ed05",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -1529,14 +1513,14 @@
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1543415900858,
             "changeTime": 1543415900858,
-            "contentHash": "4f3a13f07754ad7a2301b25602ce03dac9dd23c8"
+            "contentHash": "4f3a13f07754ad7a2301b25602ce03dac9dd23c8",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -2007,16 +1991,14 @@
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\triggers\\JobAdvertisementTrigger.trigger",
         {
+            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\triggers\\JobAdvertisementTrigger.trigger",
             "isDirectory": false,
-            "size": 681,
-            "modifiedTime": 1543253409743,
-            "changeTime": 1543253409743,
-            "contentHash": "53c207c3a5189462d6a5d436ab5a2cac5392411e",
             "isMetadataFile": false,
-            "state": "n",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "size": 688,
+            "modifiedTime": 1543596564909,
+            "changeTime": 1543596564909,
+            "contentHash": "bd06ba50858ec0ffe22f926106ee3be6bbdc48da"
         }
     ],
     [
@@ -2052,1223 +2034,1223 @@
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\SiteSamples.resource-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\SiteSamples.resource-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 279,
             "modifiedTime": 1543415900826,
             "changeTime": 1543415900826,
-            "contentHash": "d631b8484f7cf65ecbe56127a65e4ec278d8657d"
+            "contentHash": "d631b8484f7cf65ecbe56127a65e4ec278d8657d",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\clock.png",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\clock.png",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 4681,
             "modifiedTime": 1543415900861,
             "changeTime": 1543415900861,
-            "contentHash": "6f2f8d42808b3c04c1a2e7d9b6ba37ea7f862ba7"
+            "contentHash": "6f2f8d42808b3c04c1a2e7d9b6ba37ea7f862ba7",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\construction.png",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\construction.png",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 15051,
             "modifiedTime": 1543415900864,
             "changeTime": 1543415900864,
-            "contentHash": "322851d6d1ef8caf107caf445de1b6c05caef6bc"
+            "contentHash": "322851d6d1ef8caf107caf445de1b6c05caef6bc",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\force_logo.png",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\force_logo.png",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 1728,
             "modifiedTime": 1543415900868,
             "changeTime": 1543415900868,
-            "contentHash": "40bb27e6354b88edcd694651e69ac817cc859541"
+            "contentHash": "40bb27e6354b88edcd694651e69ac817cc859541",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\maintenance.png",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\maintenance.png",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 12247,
             "modifiedTime": 1543415900869,
             "changeTime": 1543415900869,
-            "contentHash": "3eae4032e6c554a7c44ec277b10f9fa92de2d6cf"
+            "contentHash": "3eae4032e6c554a7c44ec277b10f9fa92de2d6cf",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\poweredby.png",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\poweredby.png",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 984,
             "modifiedTime": 1543415900870,
             "changeTime": 1543415900870,
-            "contentHash": "a29fa078df1fc18309a8fa02d5941312e4e41344"
+            "contentHash": "a29fa078df1fc18309a8fa02d5941312e4e41344",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\tools.png",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\tools.png",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 2136,
             "modifiedTime": 1543415900871,
             "changeTime": 1543415900871,
-            "contentHash": "06ee26032a159736878decef296cba66ec8d8e25"
+            "contentHash": "06ee26032a159736878decef296cba66ec8d8e25",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\unauthorized.png",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\unauthorized.png",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 2076,
             "modifiedTime": 1543415900872,
             "changeTime": 1543415900872,
-            "contentHash": "74dc855d72862a1f62d1c9ec0535f43a229fb1a4"
+            "contentHash": "74dc855d72862a1f62d1c9ec0535f43a229fb1a4",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\warning.png",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\warning.png",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 1767,
             "modifiedTime": 1543415900873,
             "changeTime": 1543415900873,
-            "contentHash": "90ef2806b042926ca428c19654b9306555b53429"
+            "contentHash": "90ef2806b042926ca428c19654b9306555b53429",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\SiteSamples\\SiteStyles.css",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\SiteSamples\\SiteStyles.css",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 402,
             "modifiedTime": 1543415900874,
             "changeTime": 1543415900874,
-            "contentHash": "acbb17c79c96e91d9c04ae4c847b7241ccde01de"
+            "contentHash": "acbb17c79c96e91d9c04ae4c847b7241ccde01de",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\components\\SitePoweredBy.component-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\components\\SitePoweredBy.component-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 271,
             "modifiedTime": 1543415900880,
             "changeTime": 1543415900880,
-            "contentHash": "e16e55c17764af0e8b1b36e85575a2baef54deef"
+            "contentHash": "e16e55c17764af0e8b1b36e85575a2baef54deef",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\components\\SitePoweredBy.component",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\components\\SitePoweredBy.component",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 532,
             "modifiedTime": 1543415900882,
             "changeTime": 1543415900882,
-            "contentHash": "353f26acfff5ff089406bc9b6029fec483f8360f"
+            "contentHash": "353f26acfff5ff089406bc9b6029fec483f8360f",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\components\\SiteHeader.component-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\components\\SiteHeader.component-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 264,
             "modifiedTime": 1543415900885,
             "changeTime": 1543415900885,
-            "contentHash": "20335bdf7dcc08d077e270d634c104b47c6a5c52"
+            "contentHash": "20335bdf7dcc08d077e270d634c104b47c6a5c52",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\components\\SiteHeader.component",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\components\\SiteHeader.component",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 1214,
             "modifiedTime": 1543415900887,
             "changeTime": 1543415900887,
-            "contentHash": "0a710387c2669b94a3224b8016f37d0a3fc20948"
+            "contentHash": "0a710387c2669b94a3224b8016f37d0a3fc20948",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\components\\SiteFooter.component-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\components\\SiteFooter.component-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 264,
             "modifiedTime": 1543415900897,
             "changeTime": 1543415900897,
-            "contentHash": "35acee77693af777265d8a62abc9f96cf3c072a9"
+            "contentHash": "35acee77693af777265d8a62abc9f96cf3c072a9",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\components\\SiteFooter.component",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\components\\SiteFooter.component",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 77,
             "modifiedTime": 1543415900899,
             "changeTime": 1543415900899,
-            "contentHash": "8c9f2b97bbfa52fdef76795bfea4a72ea95d3258"
+            "contentHash": "8c9f2b97bbfa52fdef76795bfea4a72ea95d3258",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\components\\SiteLogin.component-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\components\\SiteLogin.component-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 255,
             "modifiedTime": 1543415900902,
             "changeTime": 1543415900902,
-            "contentHash": "497192abef94827c33be02e404c1d3bfb4d42d69"
+            "contentHash": "497192abef94827c33be02e404c1d3bfb4d42d69",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\components\\SiteLogin.component",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\components\\SiteLogin.component",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 1254,
             "modifiedTime": 1543415900904,
             "changeTime": 1543415900904,
-            "contentHash": "bc708781ea43467adf9e0efda09caf0e4abc96ba"
+            "contentHash": "bc708781ea43467adf9e0efda09caf0e4abc96ba",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\AnswersHome.page-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\AnswersHome.page-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 373,
             "modifiedTime": 1543415900906,
             "changeTime": 1543415900906,
-            "contentHash": "0737b4def4660ce12213c392263c21cb0a05209a"
+            "contentHash": "0737b4def4660ce12213c392263c21cb0a05209a",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\AnswersHome.page",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\AnswersHome.page",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 61,
             "modifiedTime": 1543415900907,
             "changeTime": 1543415900907,
-            "contentHash": "a82a578935f0381f7ce194fc36f422775d6ab707"
+            "contentHash": "a82a578935f0381f7ce194fc36f422775d6ab707",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\ForgotPasswordConfirm.page-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\ForgotPasswordConfirm.page-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 387,
             "modifiedTime": 1543415900910,
             "changeTime": 1543415900910,
-            "contentHash": "78a4c81a2d6fbcce7170090bd70a164e8fb6c109"
+            "contentHash": "78a4c81a2d6fbcce7170090bd70a164e8fb6c109",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\ForgotPasswordConfirm.page",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\ForgotPasswordConfirm.page",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 1315,
             "modifiedTime": 1543415900911,
             "changeTime": 1543415900911,
-            "contentHash": "b36e48b39e4d3b8b31a82c9c5eee2ffffc194ee3"
+            "contentHash": "b36e48b39e4d3b8b31a82c9c5eee2ffffc194ee3",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\IdeasHome.page-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\IdeasHome.page-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 369,
             "modifiedTime": 1543415900914,
             "changeTime": 1543415900914,
-            "contentHash": "934b078664a5ab7b8a4844feb24e85396289022f"
+            "contentHash": "934b078664a5ab7b8a4844feb24e85396289022f",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\IdeasHome.page",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\IdeasHome.page",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 56,
             "modifiedTime": 1543415900915,
             "changeTime": 1543415900915,
-            "contentHash": "321994aef1dc6905bd2f9ea1275cef640575796a"
+            "contentHash": "321994aef1dc6905bd2f9ea1275cef640575796a",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\SiteLogin.page-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\SiteLogin.page-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 352,
             "modifiedTime": 1543415900918,
             "changeTime": 1543415900918,
-            "contentHash": "4fbd256d596dd79a4395693aef74dd314e919c80"
+            "contentHash": "4fbd256d596dd79a4395693aef74dd314e919c80",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\SiteLogin.page",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\SiteLogin.page",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 1178,
             "modifiedTime": 1543415900920,
             "changeTime": 1543415900920,
-            "contentHash": "cbc0628ee0ca131ce53c251ae3221ba5048f2020"
+            "contentHash": "cbc0628ee0ca131ce53c251ae3221ba5048f2020",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\MyProfilePage.page-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\MyProfilePage.page-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 361,
             "modifiedTime": 1543415900922,
             "changeTime": 1543415900922,
-            "contentHash": "6e0370f7cd8906b75832c663c149f8058f244ad0"
+            "contentHash": "6e0370f7cd8906b75832c663c149f8058f244ad0",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\MyProfilePage.page",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\MyProfilePage.page",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 5352,
             "modifiedTime": 1543415900923,
             "changeTime": 1543415900923,
-            "contentHash": "620edf5c2c314699cb5acd8a29ee2897a7f4be9c"
+            "contentHash": "620edf5c2c314699cb5acd8a29ee2897a7f4be9c",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\SiteRegisterConfirm.page-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\SiteRegisterConfirm.page-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 387,
             "modifiedTime": 1543415900926,
             "changeTime": 1543415900926,
-            "contentHash": "4ce12f4358d78649635ada66fdd9fef3365db504"
+            "contentHash": "4ce12f4358d78649635ada66fdd9fef3365db504",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\SiteRegisterConfirm.page",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\SiteRegisterConfirm.page",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 1336,
             "modifiedTime": 1543415900927,
             "changeTime": 1543415900927,
-            "contentHash": "e1c4950e6f20b5744e83b77652be25196945a53b"
+            "contentHash": "e1c4950e6f20b5744e83b77652be25196945a53b",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\InMaintenance.page-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\InMaintenance.page-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 367,
             "modifiedTime": 1543415900930,
             "changeTime": 1543415900930,
-            "contentHash": "1d86404a46c25b24e5ef94881225cbff0b2b1d51"
+            "contentHash": "1d86404a46c25b24e5ef94881225cbff0b2b1d51",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\InMaintenance.page",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\InMaintenance.page",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 854,
             "modifiedTime": 1543415900931,
             "changeTime": 1543415900931,
-            "contentHash": "660848468f184da3bdb013f9fdf96c6104ec33d6"
+            "contentHash": "660848468f184da3bdb013f9fdf96c6104ec33d6",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\SiteRegister.page-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\SiteRegister.page-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 367,
             "modifiedTime": 1543415900933,
             "changeTime": 1543415900933,
-            "contentHash": "83edbba47bbb7cbf7b4b0567481f28a1d02aa4d0"
+            "contentHash": "83edbba47bbb7cbf7b4b0567481f28a1d02aa4d0",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\SiteRegister.page",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\SiteRegister.page",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 2535,
             "modifiedTime": 1543415900934,
             "changeTime": 1543415900934,
-            "contentHash": "41ff51ebecfc21b5b03567851586edbc5fefc6bf"
+            "contentHash": "41ff51ebecfc21b5b03567851586edbc5fefc6bf",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\Exception.page-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\Exception.page-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 380,
             "modifiedTime": 1543415900937,
             "changeTime": 1543415900937,
-            "contentHash": "1a8aa9050a377f456fbb4f57a13f08f61aa028d2"
+            "contentHash": "1a8aa9050a377f456fbb4f57a13f08f61aa028d2",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\Exception.page",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\Exception.page",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 1716,
             "modifiedTime": 1543415900939,
             "changeTime": 1543415900939,
-            "contentHash": "830bc42abae82f60204235bc55bb4e817329b8db"
+            "contentHash": "830bc42abae82f60204235bc55bb4e817329b8db",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\ForgotPassword.page-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\ForgotPassword.page-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 380,
             "modifiedTime": 1543415900941,
             "changeTime": 1543415900941,
-            "contentHash": "a9e2e40fc6957137a9c8c111a3db2d6d688c9542"
+            "contentHash": "a9e2e40fc6957137a9c8c111a3db2d6d688c9542",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\ForgotPassword.page",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\ForgotPassword.page",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 1734,
             "modifiedTime": 1543415900942,
             "changeTime": 1543415900942,
-            "contentHash": "d08010b952d7bc3b249a76a840810bef066c56e8"
+            "contentHash": "d08010b952d7bc3b249a76a840810bef066c56e8",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\UnderConstruction.page-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\UnderConstruction.page-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 375,
             "modifiedTime": 1543415900944,
             "changeTime": 1543415900944,
-            "contentHash": "00842aa53642efec919cdd458f5c1fd5802a98f2"
+            "contentHash": "00842aa53642efec919cdd458f5c1fd5802a98f2",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\UnderConstruction.page",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\UnderConstruction.page",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 819,
             "modifiedTime": 1543415900945,
             "changeTime": 1543415900945,
-            "contentHash": "7e44e8eff2115cba3f9494ac0ebac64ba628e919"
+            "contentHash": "7e44e8eff2115cba3f9494ac0ebac64ba628e919",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\ChangePassword.page-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\ChangePassword.page-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 367,
             "modifiedTime": 1543415900947,
             "changeTime": 1543415900947,
-            "contentHash": "72a201fc1954c47f85131bb144afbc5d10568fbc"
+            "contentHash": "72a201fc1954c47f85131bb144afbc5d10568fbc",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\ChangePassword.page",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\ChangePassword.page",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 2253,
             "modifiedTime": 1543415900948,
             "changeTime": 1543415900948,
-            "contentHash": "ef99757f7f329769d4297658a07069ba6479259a"
+            "contentHash": "ef99757f7f329769d4297658a07069ba6479259a",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\Unauthorized.page-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\Unauthorized.page-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 374,
             "modifiedTime": 1543415900950,
             "changeTime": 1543415900950,
-            "contentHash": "9a2c50ae89cb14f6c9edbe1abf32e6a73ffd640d"
+            "contentHash": "9a2c50ae89cb14f6c9edbe1abf32e6a73ffd640d",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\Unauthorized.page",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\Unauthorized.page",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 1728,
             "modifiedTime": 1543415900951,
             "changeTime": 1543415900951,
-            "contentHash": "e2d900a0e0685865732acee0c84539a31cb8638e"
+            "contentHash": "e2d900a0e0685865732acee0c84539a31cb8638e",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\SiteTemplate.page-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\SiteTemplate.page-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 370,
             "modifiedTime": 1543415900953,
             "changeTime": 1543415900953,
-            "contentHash": "beb96f8be809c9faa9cac8caf9143d1216eb7237"
+            "contentHash": "beb96f8be809c9faa9cac8caf9143d1216eb7237",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\SiteTemplate.page",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\SiteTemplate.page",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 363,
             "modifiedTime": 1543415900954,
             "changeTime": 1543415900954,
-            "contentHash": "0795cba97d90e8e6f4511bdc6845b4f6ba593a49"
+            "contentHash": "0795cba97d90e8e6f4511bdc6845b4f6ba593a49",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\StdExceptionTemplate.page-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\StdExceptionTemplate.page-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 392,
             "modifiedTime": 1543415900957,
             "changeTime": 1543415900957,
-            "contentHash": "d8b5c6f467db8b22f512aef9252ed0a8f84e423d"
+            "contentHash": "d8b5c6f467db8b22f512aef9252ed0a8f84e423d",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\StdExceptionTemplate.page",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\StdExceptionTemplate.page",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 918,
             "modifiedTime": 1543415900958,
             "changeTime": 1543415900958,
-            "contentHash": "ee21ef14d08dc898cc2f7c14b009b44e39843047"
+            "contentHash": "ee21ef14d08dc898cc2f7c14b009b44e39843047",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\BandwidthExceeded.page-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\BandwidthExceeded.page-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 371,
             "modifiedTime": 1543415900960,
             "changeTime": 1543415900960,
-            "contentHash": "2acb27d3d5fcc642953f028d06b9703355a1c7ab"
+            "contentHash": "2acb27d3d5fcc642953f028d06b9703355a1c7ab",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\BandwidthExceeded.page",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\BandwidthExceeded.page",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 746,
             "modifiedTime": 1543415900962,
             "changeTime": 1543415900962,
-            "contentHash": "af8b65b80f92aa12ee84f138858b6b1253dde9f8"
+            "contentHash": "af8b65b80f92aa12ee84f138858b6b1253dde9f8",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\FileNotFound.page-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\FileNotFound.page-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 371,
             "modifiedTime": 1543415900964,
             "changeTime": 1543415900964,
-            "contentHash": "4fbd62c32ddb38bdc3f869bcb03208db2c281d9f"
+            "contentHash": "4fbd62c32ddb38bdc3f869bcb03208db2c281d9f",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\FileNotFound.page",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\FileNotFound.page",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 1667,
             "modifiedTime": 1543415900965,
             "changeTime": 1543415900965,
-            "contentHash": "5e6c03f7313422001a3df2c492db52fabdc10212"
+            "contentHash": "5e6c03f7313422001a3df2c492db52fabdc10212",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\tabs\\CV__c.tab-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\tabs\\CV__c.tab-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 223,
             "modifiedTime": 1543415900967,
             "changeTime": 1543415900967,
-            "contentHash": "27c1eace60dd656aade6bb15821f7413f18887ef"
+            "contentHash": "27c1eace60dd656aade6bb15821f7413f18887ef",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\tabs\\Job_Advertisement__c.tab-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\tabs\\Job_Advertisement__c.tab-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 225,
             "modifiedTime": 1543415900969,
             "changeTime": 1543415900969,
-            "contentHash": "02af176c2b3fe640302ea93f03571c71708827e2"
+            "contentHash": "02af176c2b3fe640302ea93f03571c71708827e2",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\tabs\\CVJA__c.tab-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\tabs\\CVJA__c.tab-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 221,
             "modifiedTime": 1543415900970,
             "changeTime": 1543415900970,
-            "contentHash": "69912039ef5c0feb96853dc7b54eb8684c066c13"
+            "contentHash": "69912039ef5c0feb96853dc7b54eb8684c066c13",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\MyProfilePageControllerTest.cls-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\MyProfilePageControllerTest.cls-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 174,
             "modifiedTime": 1543415900971,
             "changeTime": 1543415900971,
-            "contentHash": "acdd80366dfee192a19331bfa686b269d836d68a"
+            "contentHash": "acdd80366dfee192a19331bfa686b269d836d68a",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\MyProfilePageControllerTest.cls",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\MyProfilePageControllerTest.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 2792,
             "modifiedTime": 1543415900972,
             "changeTime": 1543415900972,
-            "contentHash": "3dad7650b8dd8e6e57710fec687bf1bb5eff80bd"
+            "contentHash": "3dad7650b8dd8e6e57710fec687bf1bb5eff80bd",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\MyProfilePageController.cls-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\MyProfilePageController.cls-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 174,
             "modifiedTime": 1543415900974,
             "changeTime": 1543415900974,
-            "contentHash": "acdd80366dfee192a19331bfa686b269d836d68a"
+            "contentHash": "acdd80366dfee192a19331bfa686b269d836d68a",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\MyProfilePageController.cls",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\MyProfilePageController.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 1584,
             "modifiedTime": 1543415900975,
             "changeTime": 1543415900975,
-            "contentHash": "2e72ea98db541366419984e2a8878f467de5a3e5"
+            "contentHash": "2e72ea98db541366419984e2a8878f467de5a3e5",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\ForgotPasswordControllerTest.cls-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\ForgotPasswordControllerTest.cls-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 174,
             "modifiedTime": 1543415900977,
             "changeTime": 1543415900977,
-            "contentHash": "acdd80366dfee192a19331bfa686b269d836d68a"
+            "contentHash": "acdd80366dfee192a19331bfa686b269d836d68a",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\ForgotPasswordControllerTest.cls",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\ForgotPasswordControllerTest.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 506,
             "modifiedTime": 1543415900978,
             "changeTime": 1543415900978,
-            "contentHash": "66dcdb35e263e3858438516c272143f39594ab6b"
+            "contentHash": "66dcdb35e263e3858438516c272143f39594ab6b",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\SiteLoginController.cls-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\SiteLoginController.cls-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 174,
             "modifiedTime": 1543415900984,
             "changeTime": 1543415900984,
-            "contentHash": "acdd80366dfee192a19331bfa686b269d836d68a"
+            "contentHash": "acdd80366dfee192a19331bfa686b269d836d68a",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\SiteLoginController.cls",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\SiteLoginController.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 434,
             "modifiedTime": 1543415900985,
             "changeTime": 1543415900985,
-            "contentHash": "45bce0841ca7e53e9891170118879727980b051a"
+            "contentHash": "45bce0841ca7e53e9891170118879727980b051a",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\ForgotPasswordController.cls-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\ForgotPasswordController.cls-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 174,
             "modifiedTime": 1543415900990,
             "changeTime": 1543415900990,
-            "contentHash": "acdd80366dfee192a19331bfa686b269d836d68a"
+            "contentHash": "acdd80366dfee192a19331bfa686b269d836d68a",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\ForgotPasswordController.cls",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\ForgotPasswordController.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 480,
             "modifiedTime": 1543415900991,
             "changeTime": 1543415900991,
-            "contentHash": "f90081d88c1b56f4db006bf0c9022a1b23126145"
+            "contentHash": "f90081d88c1b56f4db006bf0c9022a1b23126145",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\ChangePasswordControllerTest.cls-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\ChangePasswordControllerTest.cls-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 174,
             "modifiedTime": 1543415900999,
             "changeTime": 1543415900999,
-            "contentHash": "acdd80366dfee192a19331bfa686b269d836d68a"
+            "contentHash": "acdd80366dfee192a19331bfa686b269d836d68a",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\ChangePasswordControllerTest.cls",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\ChangePasswordControllerTest.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 642,
             "modifiedTime": 1543415901000,
             "changeTime": 1543415901000,
-            "contentHash": "0bb3c4ec096aa5dd33d79abbb693eb98b3e899a0"
+            "contentHash": "0bb3c4ec096aa5dd33d79abbb693eb98b3e899a0",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\ChangePasswordController.cls-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\ChangePasswordController.cls-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 174,
             "modifiedTime": 1543415901002,
             "changeTime": 1543415901002,
-            "contentHash": "acdd80366dfee192a19331bfa686b269d836d68a"
+            "contentHash": "acdd80366dfee192a19331bfa686b269d836d68a",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\ChangePasswordController.cls",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\ChangePasswordController.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 467,
             "modifiedTime": 1543415901004,
             "changeTime": 1543415901004,
-            "contentHash": "769eaed52f3c934b7ad9b57adcb55a922c257168"
+            "contentHash": "769eaed52f3c934b7ad9b57adcb55a922c257168",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\SiteRegisterControllerTest.cls-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\SiteRegisterControllerTest.cls-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 174,
             "modifiedTime": 1543415901005,
             "changeTime": 1543415901005,
-            "contentHash": "acdd80366dfee192a19331bfa686b269d836d68a"
+            "contentHash": "acdd80366dfee192a19331bfa686b269d836d68a",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\SiteRegisterControllerTest.cls",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\SiteRegisterControllerTest.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 721,
             "modifiedTime": 1543415901007,
             "changeTime": 1543415901007,
-            "contentHash": "00a06a0620a60d0ee0118431a169b4ec3ba79891"
+            "contentHash": "00a06a0620a60d0ee0118431a169b4ec3ba79891",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\SiteRegisterController.cls-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\SiteRegisterController.cls-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 174,
             "modifiedTime": 1543415901009,
             "changeTime": 1543415901009,
-            "contentHash": "acdd80366dfee192a19331bfa686b269d836d68a"
+            "contentHash": "acdd80366dfee192a19331bfa686b269d836d68a",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\SiteRegisterController.cls",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\SiteRegisterController.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 2077,
             "modifiedTime": 1543415901010,
             "changeTime": 1543415901010,
-            "contentHash": "19e473741cd0e4047e59345c952d815aa05e1ac2"
+            "contentHash": "19e473741cd0e4047e59345c952d815aa05e1ac2",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\SiteLoginControllerTest.cls-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\SiteLoginControllerTest.cls-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 174,
             "modifiedTime": 1543415901012,
             "changeTime": 1543415901012,
-            "contentHash": "acdd80366dfee192a19331bfa686b269d836d68a"
+            "contentHash": "acdd80366dfee192a19331bfa686b269d836d68a",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\SiteLoginControllerTest.cls",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\SiteLoginControllerTest.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 558,
             "modifiedTime": 1543415901013,
             "changeTime": 1543415901013,
-            "contentHash": "676ee62c09240e726b685da56266e2201bf46664"
+            "contentHash": "676ee62c09240e726b685da56266e2201bf46664",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\profiles\\Custom%3A Support Profile.profile-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\profiles\\Custom%3A Support Profile.profile-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 8773,
             "modifiedTime": 1543415901023,
             "changeTime": 1543415901023,
-            "contentHash": "0e1df78a3a6ec7e5c0879adcf00e872e135a183d"
+            "contentHash": "0e1df78a3a6ec7e5c0879adcf00e872e135a183d",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\profiles\\Custom%3A Sales Profile.profile-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\profiles\\Custom%3A Sales Profile.profile-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 8435,
             "modifiedTime": 1543415901030,
             "changeTime": 1543415901030,
-            "contentHash": "5749a48eb31d29e07f7991ae436a69f9bfb6aa36"
+            "contentHash": "5749a48eb31d29e07f7991ae436a69f9bfb6aa36",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\profiles\\Custom%3A Marketing Profile.profile-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\profiles\\Custom%3A Marketing Profile.profile-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 8435,
             "modifiedTime": 1543415901036,
             "changeTime": 1543415901036,
-            "contentHash": "5749a48eb31d29e07f7991ae436a69f9bfb6aa36"
+            "contentHash": "5749a48eb31d29e07f7991ae436a69f9bfb6aa36",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\profiles\\Admin.profile-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\profiles\\Admin.profile-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 21944,
             "modifiedTime": 1543415901056,
             "changeTime": 1543415901056,
-            "contentHash": "985144384e28051c14ed3bc94d052f67c81c8af0"
+            "contentHash": "985144384e28051c14ed3bc94d052f67c81c8af0",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\profiles\\Task9 Profile.profile-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\profiles\\Task9 Profile.profile-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 4848,
             "modifiedTime": 1543415901066,
             "changeTime": 1543415901066,
-            "contentHash": "86d9ded33f7d9e437d270978eb2d619bfc9d8b00"
+            "contentHash": "86d9ded33f7d9e437d270978eb2d619bfc9d8b00",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\profilePasswordPolicies\\Task9_Profile_profilePasswordPolicy1543310353365.profilePasswordPolicy-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\profilePasswordPolicies\\Task9_Profile_profilePasswordPolicy1543310353365.profilePasswordPolicy-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 640,
             "modifiedTime": 1543415901069,
             "changeTime": 1543415901069,
-            "contentHash": "6ff9059e848fb5feb443089bbe06c5b6d1ca4c42"
+            "contentHash": "6ff9059e848fb5feb443089bbe06c5b6d1ca4c42",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\profileSessionSettings\\Task9_Profile_profileSessionSetting1543310353486.profileSessionSetting-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\profileSessionSettings\\Task9_Profile_profileSessionSetting1543310353486.profileSessionSetting-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 440,
             "modifiedTime": 1543415901072,
             "changeTime": 1543415901072,
-            "contentHash": "4e937adc74293b1970d5eeb0579762ae53ca7335"
+            "contentHash": "4e937adc74293b1970d5eeb0579762ae53ca7335",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\remoteSiteSettings\\RESTDestination.remoteSite-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\remoteSiteSettings\\RESTDestination.remoteSite-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 287,
             "modifiedTime": 1543415901074,
             "changeTime": 1543415901074,
-            "contentHash": "f1238367c39e8a1c2d7dbdb17df62a6a10ca3537"
+            "contentHash": "f1238367c39e8a1c2d7dbdb17df62a6a10ca3537",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\remoteSiteSettings\\ApexDevNetstandard.remoteSite-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\remoteSiteSettings\\ApexDevNetstandard.remoteSite-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 260,
             "modifiedTime": 1543415901075,
             "changeTime": 1543415901075,
-            "contentHash": "57960f0ebf2014c63da0d6e977d3efabd6eabc16"
+            "contentHash": "57960f0ebf2014c63da0d6e977d3efabd6eabc16",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\sites\\Task9.site-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\sites\\Task9.site-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 1586,
             "modifiedTime": 1543415901078,
             "changeTime": 1543415901078,
-            "contentHash": "e13d631ad4a6507724bad13465f84d54b3e467cb"
+            "contentHash": "e13d631ad4a6507724bad13465f84d54b3e467cb",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\connectedApps\\SiteScratch.connectedApp-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\connectedApps\\SiteScratch.connectedApp-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 574,
             "modifiedTime": 1543415901080,
             "changeTime": 1543415901080,
-            "contentHash": "1a18396ae9366b29f8bec1eba205caeaa75aea2b"
+            "contentHash": "1a18396ae9366b29f8bec1eba205caeaa75aea2b",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\SiteSamples\\img",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\SiteSamples\\img",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1543415900872,
             "changeTime": 1543415900872,
-            "contentHash": "ca36f65b7f8888bd595c26bba98c091a986284ab"
+            "contentHash": "ca36f65b7f8888bd595c26bba98c091a986284ab",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\SiteSamples",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\SiteSamples",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1543415900873,
             "changeTime": 1543415900873,
-            "contentHash": "bfc7b578cefd1230c8d14deafa0e6ea3053edc7e"
+            "contentHash": "bfc7b578cefd1230c8d14deafa0e6ea3053edc7e",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\components",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\components",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1543415900903,
             "changeTime": 1543415900903,
-            "contentHash": "7e3b47b6f015d41da2682d23c08c6bd410b8f4bb"
+            "contentHash": "7e3b47b6f015d41da2682d23c08c6bd410b8f4bb",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\tabs",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\tabs",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1543415900970,
             "changeTime": 1543415900970,
-            "contentHash": "3935a908582f83baa236f7b400c37ce8a94da83b"
+            "contentHash": "3935a908582f83baa236f7b400c37ce8a94da83b",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\profilePasswordPolicies",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\profilePasswordPolicies",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1543415901069,
             "changeTime": 1543415901069,
-            "contentHash": "16773865e2499fcc687effaaf482ff0fe47afffe"
+            "contentHash": "16773865e2499fcc687effaaf482ff0fe47afffe",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\profileSessionSettings",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\profileSessionSettings",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1543415901071,
             "changeTime": 1543415901071,
-            "contentHash": "6fadf99439502b23b32f3ce0e715b797454e78ff"
+            "contentHash": "6fadf99439502b23b32f3ce0e715b797454e78ff",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\sites",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\sites",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1543415901078,
             "changeTime": 1543415901078,
-            "contentHash": "ffecd6593c162ee46ed9637fc624532ce588c5a0"
+            "contentHash": "ffecd6593c162ee46ed9637fc624532ce588c5a0",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\connectedApps",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\connectedApps",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1543415901080,
             "changeTime": 1543415901080,
-            "contentHash": "cde0c710f04d318a2f6c2209f2b7f463094e1421"
+            "contentHash": "cde0c710f04d318a2f6c2209f2b7f463094e1421",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ]
 ]

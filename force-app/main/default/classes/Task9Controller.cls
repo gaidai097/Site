@@ -107,7 +107,7 @@ public with sharing class Task9Controller {
         noOfRecords = ssc.getResultSize();
     }
     public void saveCV(){
-        
+       /* 
         cv.Name = cvFirstName + ' ' + cvLastName ;
         System.debug('saveCV');
         //String emailBasic =  cv.Email__c ;
@@ -131,11 +131,11 @@ public with sharing class Task9Controller {
             this.image = null;
             return ; 
         }
-	
+	*/
        // cloneCVS();
-        //duplicateCloning(); 
+        duplicateCloning(); 
     }
-    /*
+  
     public void duplicateCloning(){
           
         cvLastName= cvLastName + 'o';
@@ -144,16 +144,17 @@ public with sharing class Task9Controller {
         cvLastName= cvLastName + 'f';
         cv.Email__c = 'f'+ cv.Email__c;
         cloneCVS();
-        /*
+     
         cv.Email__c = 'k'+ cv.Email__c;
         cloneCVS();
         cv.Email__c = 'b'+ cv.Email__c;
         cloneCVS();
-        
+       
         cv.Email__c = 'c'+ cv.Email__c;
-        cloneCVS();
+        cloneCVS(); 		
         cv.Email__c = 'w'+ cv.Email__c;
         cloneCVS();
+        /*
         cv.Email__c = 'a'+ cv.Email__c;
         cloneCVS();
         cv.Email__c = 'e'+ cv.Email__c;
@@ -162,7 +163,7 @@ public with sharing class Task9Controller {
         cloneCVS();
         cv.Email__c = 'u'+ cv.Email__c;
         cloneCVS();
-
+		*/
         cv.Email__c = 'y'+ cv.Email__c;
         cloneCVS();
         cv.Email__c = 't'+ cv.Email__c;
@@ -198,7 +199,7 @@ public with sharing class Task9Controller {
             cvjas.add( new CVJA__c(Job_Advertisement__c = selectedJobs[0].id, Email__c = cvVar.Email__c, CV__c = cvVar.id) );
         }
         insert cvjas;
-       
+       /*
         for(CV__c cvVar : cvs){
             images.add( 
                 new ContentVersion(
@@ -218,10 +219,10 @@ public with sharing class Task9Controller {
         }
         insert links;
         insert cvjas;
-
+		*/
         
     }
-*/
+
     public void refresh() {
         nameFilter = null;
         salaryFilter = 'EQUAL';

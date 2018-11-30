@@ -1,18 +1,23 @@
-public class JobAdvertisementTriggerHelper {
-    
-    public static void removeCVs( List <Job_Advertisement__c> jobs ){
-        System.debug('jobs => ' + jobs);
-        Set <ID> jobsIds = (new Map <ID,Job_Advertisement__c >( jobs )).keySet();
+public class JobAdvertisementTriggerHelper  {
+          
+    public static void removeCVs(List<Job_Advertisement__c> jobs ){
+        System.debug('Job_Advertisement__c ' + [Select ID from Job_Advertisement__c ].size());
+        System.debug('CV__c ' + [Select ID from CV__c ].size());
+        System.debug('CVJA__c ' + [Select ID from CVJA__c ].size());
+        System.debug('jobs from Triggers Helper=> ' + jobs);
+        
         try{
+            Set <ID> jobsIds = (new Map <ID,Job_Advertisement__c >( jobs )).keySet();
             List <CV__c> cvsToDelete = getCvs ( jobsIds );
             if(!cvsToDelete.isEmpty()){
                 removeAllImages( (new Map < ID, CV__c >( cvsToDelete )).keySet() );
-            	delete cvsToDelete;
+                delete cvsToDelete;
             }
         }catch(Exception e){
             System.debug( ' DB exception : ' + e.getMessage());
         }
     }
+    
     public static List <CV__c> getCvs( Set<ID> jobsIds ){
         // Select junction objects CV - Job
         List <CVJA__c> cvjas = [ SELECT CV__c, ID FROM CVJA__c WHERE Job_Advertisement__c IN :jobsIds ];
@@ -46,4 +51,5 @@ public class JobAdvertisementTriggerHelper {
         }
         delete documents;
     }    
+    
 }
