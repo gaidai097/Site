@@ -143,18 +143,16 @@ public with sharing class Task9Controller {
         cloneCVS(); 
         cvLastName= cvLastName + 'f';
         cv.Email__c = 'f'+ cv.Email__c;
-        cloneCVS();
-     
+        cloneCVS(); 
+        /*
         cv.Email__c = 'k'+ cv.Email__c;
         cloneCVS();
         cv.Email__c = 'b'+ cv.Email__c;
-        cloneCVS();
-       
+        cloneCVS();       
         cv.Email__c = 'c'+ cv.Email__c;
         cloneCVS(); 		
         cv.Email__c = 'w'+ cv.Email__c;
-        cloneCVS();
-        /*
+        cloneCVS();       
         cv.Email__c = 'a'+ cv.Email__c;
         cloneCVS();
         cv.Email__c = 'e'+ cv.Email__c;
@@ -163,7 +161,7 @@ public with sharing class Task9Controller {
         cloneCVS();
         cv.Email__c = 'u'+ cv.Email__c;
         cloneCVS();
-		*/
+		
         cv.Email__c = 'y'+ cv.Email__c;
         cloneCVS();
         cv.Email__c = 't'+ cv.Email__c;
@@ -172,6 +170,7 @@ public with sharing class Task9Controller {
         cloneCVS();
         cv.Email__c = 's'+ cv.Email__c;
         cloneCVS();
+		*/
     }
     
     public void cloneCVS() {

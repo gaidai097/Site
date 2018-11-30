@@ -63,7 +63,7 @@
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1543415901013,
+            "modifiedTime": 1543596564878,
             "changeTime": 1543415901013,
             "contentHash": "a3c2c22b912614fb2af54a58ee61eb7fc904298e",
             "isMetadataFile": false,
@@ -103,14 +103,14 @@
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\ArchivateJobAdvertisementTest.cls",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\ArchivateJobAdvertisementTest.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 3593,
             "modifiedTime": 1543596564829,
             "changeTime": 1543596564829,
-            "contentHash": "14f76bed1333d0b2341fcf5e46a8f14b63f4239b"
+            "contentHash": "14f76bed1333d0b2341fcf5e46a8f14b63f4239b",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -161,14 +161,14 @@
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\CVApiHelper.cls",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\CVApiHelper.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 4443,
             "modifiedTime": 1543596564794,
             "changeTime": 1543596564794,
-            "contentHash": "d076da2978bff5e4651096e1efafb87c04855ea8"
+            "contentHash": "d076da2978bff5e4651096e1efafb87c04855ea8",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -223,10 +223,10 @@
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementApiHelper.cls",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 4857,
-            "modifiedTime": 1543596564783,
-            "changeTime": 1543596564783,
-            "contentHash": "70b540ac340c9790a9fca3d64b666d10630aa88f"
+            "size": 5010,
+            "modifiedTime": 1543600907565,
+            "changeTime": 1543600907565,
+            "contentHash": "f875d6a842a126ac4a302e462ec4e0d2a138c057"
         }
     ],
     [
@@ -251,10 +251,10 @@
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementApiHelperTest.cls",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 6595,
-            "modifiedTime": 1543596564778,
-            "changeTime": 1543596564778,
-            "contentHash": "8e2d9ca359e90855795f35bb0cee3843b4934cf4"
+            "size": 6639,
+            "modifiedTime": 1543600907561,
+            "changeTime": 1543600907561,
+            "contentHash": "6c926e20261622f3305936efc977c9a01da44e74"
         }
     ],
     [
@@ -365,14 +365,14 @@
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementsWrapper.cls",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementsWrapper.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 3049,
             "modifiedTime": 1543596564723,
             "changeTime": 1543596564723,
-            "contentHash": "28b908d257f497807eba74883a1035e2778df615"
+            "contentHash": "28b908d257f497807eba74883a1035e2778df615",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -423,14 +423,14 @@
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementTriggerHelper.cls",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementTriggerHelper.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 2410,
             "modifiedTime": 1543596564764,
             "changeTime": 1543596564764,
-            "contentHash": "a9900fa26a05d4d55de669b501d9c48fd88a4cb5"
+            "contentHash": "a9900fa26a05d4d55de669b501d9c48fd88a4cb5",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -451,14 +451,14 @@
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementTriggerHelperTest.cls",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementTriggerHelperTest.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 1327,
             "modifiedTime": 1543596564730,
             "changeTime": 1543596564730,
-            "contentHash": "ebabe94eb11bbccb8e9923a4b6069354ea14c14e"
+            "contentHash": "ebabe94eb11bbccb8e9923a4b6069354ea14c14e",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -479,14 +479,14 @@
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertismentRecord.cls",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertismentRecord.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 3078,
             "modifiedTime": 1543596564878,
             "changeTime": 1543596564878,
-            "contentHash": "266b01a095a8c28739d46191d7b98e1f2b74e007"
+            "contentHash": "266b01a095a8c28739d46191d7b98e1f2b74e007",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -507,14 +507,14 @@
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertismentRecordTest.cls",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertismentRecordTest.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 8681,
             "modifiedTime": 1543596564840,
             "changeTime": 1543596564840,
-            "contentHash": "21ccd55c247d3a2085df86a06be566465f680dac"
+            "contentHash": "21ccd55c247d3a2085df86a06be566465f680dac",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -599,10 +599,10 @@
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\Task9Controller.cls",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 10499,
-            "modifiedTime": 1543596564820,
-            "changeTime": 1543596564820,
-            "contentHash": "352f9e80d55b8df072d988fba52090fd04a98813"
+            "size": 10503,
+            "modifiedTime": 1543600907569,
+            "changeTime": 1543600907569,
+            "contentHash": "a347f631e41667d91421ae8f67320a7b49b3096e"
         }
     ],
     [
@@ -623,14 +623,14 @@
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\Task9ControllerHelper.cls",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\Task9ControllerHelper.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 7898,
             "modifiedTime": 1543596564804,
             "changeTime": 1543596564804,
-            "contentHash": "459a10fb0930dc124a2fa987e5a01d39ec83b5dc"
+            "contentHash": "459a10fb0930dc124a2fa987e5a01d39ec83b5dc",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -1991,14 +1991,14 @@
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\triggers\\JobAdvertisementTrigger.trigger",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\triggers\\JobAdvertisementTrigger.trigger",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 688,
             "modifiedTime": 1543596564909,
             "changeTime": 1543596564909,
-            "contentHash": "bd06ba50858ec0ffe22f926106ee3be6bbdc48da"
+            "contentHash": "bd06ba50858ec0ffe22f926106ee3be6bbdc48da",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [

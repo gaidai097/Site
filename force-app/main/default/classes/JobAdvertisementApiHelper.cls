@@ -96,8 +96,12 @@ global with sharing class JobAdvertisementApiHelper {
             this.operation = operation;
         }
         public void execute(QueueableContext context) { 
-            if(operation == 'update') update jobs;
-            if(operation == 'delete') delete jobs;            
+            try{
+                if(operation == 'update') update jobs;
+                if(operation == 'delete') delete jobs;
+            }catch( Exception e ){
+                System.debug(' JobAdvertisements were not ' + operation + 'd');
+            }           
         }
     }
     

@@ -51,17 +51,18 @@ global class JobAdvertisementApiHelperTest {
         
         // try to delete row two times
         JobAdvertisementApiHelper.deleteJobAdvertisement(jA.id); 
-        Test.stopTest();
-        Integer emptySize = [SELECT ID from Job_Advertisement__c].size();
-        System.assertEquals(0, emptySize);
-        
-        
-         /*  
         try{
             JobAdvertisementApiHelper.deleteJobAdvertisement(jA.id);
         }catch(Exception e ){
             exceptionMsg = e.getMessage();
         } 
+        Test.stopTest();
+        Integer emptySize = [SELECT ID from Job_Advertisement__c].size();
+        System.assertEquals(0, emptySize);
+        System.debug(' exceptionMsg ' + exceptionMsg);
+       
+        
+ /*
         Test.stopTest();
         System.assertEquals(0, emptySize);
         System.assertEquals('DML exception, record was not deleted !', exceptionMsg);
