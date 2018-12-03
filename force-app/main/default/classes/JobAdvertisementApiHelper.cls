@@ -24,14 +24,11 @@ global with sharing class JobAdvertisementApiHelper {
     public static void deleteJobAdvertisement(String idToDelete){
         System.debug('deleteJobAdvertisement ' + idToDelete);
         if( idToDelete == null || idToDelete == '') throw new Task6Exception('There is no ID for deleting'); 
-        try{
-            List <Job_Advertisement__c> jobs = [Select ID, Status__c From Job_Advertisement__c WHERE ID = :idToDelete];
-            System.debug('jobs for removing ===> ' +jobs);
-            System.enqueueJob(new JobQueueable(jobs, 'delete')); 
-        }catch(DMLException e){
-            System.debug('False deleting : e ' + e );
-            throw new Task6Exception('DML exception, record was not deleted !');
-        }    	
+        
+        List <Job_Advertisement__c> jobs = [Select ID, Status__c From Job_Advertisement__c WHERE ID = :idToDelete];
+        System.debug('jobs for removing ===> ' +jobs);
+        System.enqueueJob(new JobQueueable(jobs, 'delete'));  
+            	
     }
     public static void archivateJobAdvertisementFromJSON( String json ){
         System.debug('json archivation :  ' + json );
@@ -96,11 +93,13 @@ global with sharing class JobAdvertisementApiHelper {
             this.operation = operation;
         }
         public void execute(QueueableContext context) { 
+            System.debug('execute ' );
             try{
                 if(operation == 'update') update jobs;
                 if(operation == 'delete') delete jobs;
-            }catch( Exception e ){
-                System.debug(' JobAdvertisements were not ' + operation + 'd');
+            }catch( DMLException e ){
+                System.debug('execute e ===>' + e);
+                System.debug('DMLException JobAdvertisements were not ' + operation + 'd');
             }           
         }
     }

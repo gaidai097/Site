@@ -63,7 +63,7 @@
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1543596564878,
+            "modifiedTime": 1543600907567,
             "changeTime": 1543415901013,
             "contentHash": "a3c2c22b912614fb2af54a58ee61eb7fc904298e",
             "isMetadataFile": false,
@@ -223,10 +223,10 @@
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementApiHelper.cls",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 5010,
-            "modifiedTime": 1543600907565,
-            "changeTime": 1543600907565,
-            "contentHash": "f875d6a842a126ac4a302e462ec4e0d2a138c057"
+            "size": 4933,
+            "modifiedTime": 1543848817305,
+            "changeTime": 1543848817305,
+            "contentHash": "8778cb18ebd08cb9a42ad76a077e92091a590823"
         }
     ],
     [
@@ -251,10 +251,10 @@
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementApiHelperTest.cls",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 6639,
-            "modifiedTime": 1543600907561,
-            "changeTime": 1543600907561,
-            "contentHash": "6c926e20261622f3305936efc977c9a01da44e74"
+            "size": 6798,
+            "modifiedTime": 1543848817289,
+            "changeTime": 1543848817289,
+            "contentHash": "4fbcdc167a91bb23a41a75ffc60b2b15316aadaf"
         }
     ],
     [
@@ -599,10 +599,10 @@
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\Task9Controller.cls",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 10503,
-            "modifiedTime": 1543600907569,
-            "changeTime": 1543600907569,
-            "contentHash": "a347f631e41667d91421ae8f67320a7b49b3096e"
+            "size": 10992,
+            "modifiedTime": 1543848817352,
+            "changeTime": 1543848817352,
+            "contentHash": "1e967b96d35af6d3c6027338ab2fb2fd1d38cff5"
         }
     ],
     [
@@ -623,14 +623,14 @@
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\Task9ControllerHelper.cls",
         {
+            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\Task9ControllerHelper.cls",
             "isDirectory": false,
-            "size": 7898,
-            "modifiedTime": 1543596564804,
-            "changeTime": 1543596564804,
-            "contentHash": "459a10fb0930dc124a2fa987e5a01d39ec83b5dc",
             "isMetadataFile": false,
-            "state": "u"
+            "size": 8007,
+            "modifiedTime": 1543848817336,
+            "changeTime": 1543848817336,
+            "contentHash": "fc2acc59c96b73d80e34109c5e4eda0b4be4df5e"
         }
     ],
     [
@@ -651,16 +651,14 @@
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\Task9ControllerHelperTest.cls",
         {
+            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\Task9ControllerHelperTest.cls",
             "isDirectory": false,
-            "size": 899,
-            "modifiedTime": 1543253409289,
-            "changeTime": 1543253409289,
-            "contentHash": "53e643e63650f76c6b77e74685c06b7aa1321167",
             "isMetadataFile": false,
-            "state": "n",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "size": 900,
+            "modifiedTime": 1543848817320,
+            "changeTime": 1543848817320,
+            "contentHash": "c5569d4f9869498dcdc0f4d579c23c7f4021ffa1"
         }
     ],
     [
@@ -1427,16 +1425,14 @@
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\Task9.page",
         {
+            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\Task9.page",
             "isDirectory": false,
-            "size": 31533,
-            "modifiedTime": 1543253409493,
-            "changeTime": 1543253409493,
-            "contentHash": "dca869a86bdbb910e98c67324e9b1262a50def2f",
             "isMetadataFile": false,
-            "state": "n",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "size": 33592,
+            "modifiedTime": 1543848817273,
+            "changeTime": 1543848817273,
+            "contentHash": "dd557d31b2083547bb59526b35e6a0cbe070dcbc"
         }
     ],
     [

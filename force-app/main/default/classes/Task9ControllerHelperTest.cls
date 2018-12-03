@@ -4,7 +4,7 @@ public class Task9ControllerHelperTest {
     public static void insertCVJsInvalidTest(){
         Test.startTest();
         Map<Id, Job_Advertisement__c> jobsMap = new Map<Id, Job_Advertisement__c>();
-        jobsMap.put(null, new Job_Advertisement__c());
+        jobsMap.put( null, new Job_Advertisement__c());
         boolean isException = false;
         try{
             Task9ControllerHelper.insertCVJs(null, jobsMap);

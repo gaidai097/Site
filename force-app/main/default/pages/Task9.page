@@ -2,16 +2,48 @@
    
     <script src="{!$Resource.jquery}" type="text/javascript" crossorigin="anonymous"></script>
     <apex:stylesheet value="{!URLFOR($Resource.Bootstrap_4_1_3, 'css/bootstrap.min.css')}" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous"></link>
     <apex:stylesheet value="{!URLFOR($Resource.Task9Style)}" />
-    <script src="{!$Resource.jquery}" type="text/javascript" crossorigin="anonymous">
-    </script>
+    <script src="{!$Resource.jquery}" type="text/javascript" crossorigin="anonymous"/>
     <script src="{!$Resource.task9js}" type="text/javascript" crossorigin="anonymous">
     </script>
                     
     <div class="container main_container">
         <apex:actionRegion >
             <apex:pageBlock id="main_block">
+                <apex:form >
+                    <apex:actionFunction name="clearMSGs" action="{!clearMSGs}" oncomplete="enableButton()" />              
+                </apex:form>
+                <div id="messages" >
+                    <apex:outputPanel styleClass="messagesInfo" rendered="{! !ISBLANK(msgInfo)}">
+                        <div class="alert alert-success alert-dismissible fade show" role="alert">
+                            <strong>Successful</strong> {!msgInfo}
+                            <button type="button" class="close" onclick="clearMSGs()" data-dismiss="alert" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            <script> setTimeout(removeInfo, 10000);
+                                function removeInfo(){
+                                    clearMSGs();
+                                    document.getElementById('messages').remove();
+                                }
+                            </script>
+                        </div>
+                    </apex:outputPanel>
+                    <apex:outputPanel styleClass="messagesDanger" rendered="{! !ISBLANK(msgError)}">
+                        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                            <strong>Error!</strong> {!msgError}
+                            <button type="button" class="close" onclick="clearMSGs()" data-dismiss="alert" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            <script> setTimeout(removeDanger, 10000);
+                                function removeDanger(){
+                                    clearMSGs();
+                                    document.getElementById('messages').remove();
+                                }
+                            </script>
+                        </div>
+                    </apex:outputPanel>
+                </div>
                 
                 <div class="row ">
                     <div class="col-lg-9 col-sm-9">
@@ -238,7 +270,7 @@
                                             <p>{!sj.id}</p>
                                             <p>{!FLOOR(sj.SalaryMin__c)  }  {!IF(ISNULL(sj.SalaryMax__c), '  +',' ~ ')}{!IF(!ISNULL(sj.SalaryMax__c), FLOOR(sj.SalaryMax__c),  '' )}</p>                                 
                                             <button type="button" onclick="removeByIndex({!indexSelected});" class="close" data-dismiss="alert" aria-label="Close">
-                                                <h3><span aria-hidden="true">&times;</span></h3>
+                                                <h3><i class="fas fa-times fa-sm"></i></h3>
                                             </button>
                                             <apex:variable var="indexSelected" value="{!indexSelected+1}"/>
                                         </div>
@@ -253,7 +285,7 @@
                                     <apex:form >
                                         <apex:commandLink action="{!ssc.first}"  styleClass="btn btn-info" rendered="{!ssc.hasPrevious}" ><i class="fa  fa-angle-double-left"></i></apex:commandLink>
                                         <apex:outputPanel rendered="{!!ssc.hasPrevious}">
-                                            <button class="btn btn-default" disabled>
+                                            <button class="btn btn-default" disabled='true'>
                                                 <i class="fa  fa-angle-double-left"></i>
                                             </button>
                                         </apex:outputPanel>
@@ -261,7 +293,7 @@
                                     <apex:form >
                                         <apex:commandLink action="{!ssc.previous}" styleClass="btn btn-info" rendered="{!ssc.hasPrevious}" ><i class="fas  fa-angle-left"></i></apex:commandLink>
                                         <apex:outputPanel rendered="{!!ssc.hasPrevious}">
-                                            <button class="btn btn-default" disabled>
+                                            <button class="btn btn-default" disabled='true'>
                                                 <i class="fas  fa-angle-left"></i>
                                             </button>
                                         </apex:outputPanel>
@@ -269,7 +301,7 @@
                                     <apex:form >
                                         <apex:commandLink action="{!ssc.next}"  styleClass="btn btn-info" rendered="{!ssc.hasNext}" ><i class="fas fa-angle-right "></i></apex:commandLink>
                                         <apex:outputPanel rendered="{!!ssc.hasNext}">
-                                            <button class="btn btn-default" disabled>
+                                            <button class="btn btn-default" disabled='true'>
                                                 <i class="fas fa-angle-right"></i>
                                             </button>
                                         </apex:outputPanel>
@@ -277,7 +309,7 @@
                                     <apex:form >                    
                                         <apex:commandLink action="{!ssc.last}"  styleClass="btn btn-info" rendered="{!ssc.hasNext}" ><i class="fas fa-angle-double-right "></i></apex:commandLink>
                                         <apex:outputPanel rendered="{!!ssc.hasNext}">
-                                            <button class="btn btn-default" disabled>
+                                            <button class="btn btn-default" disabled='true'>
                                                 <i class="fas fa-angle-double-right"></i>
                                             </button>
                                         </apex:outputPanel>
@@ -401,12 +433,12 @@
     <div class="custom_alert">
         <div class="custom_alert_body">
             <div class="custom_alert_title">Title</div>
-            <hr>
+            <hr/>
             <div class="custom_alert_content"></div>
         </div>
         <a class="custom_alert_close"><i class="fas fa-times"></i></a>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-	<script src="{!URLFOR($Resource.Bootstrap_4_1_3, 'js/bootstrap.min.js')}" type="text/javascript" crossorigin="anonymous">
-    </script>
+	<script src="{!URLFOR($Resource.Bootstrap_4_1_3, 'js/bootstrap.min.js')}" type="text/javascript" crossorigin="anonymous"> </script>
+  
 </apex:page>

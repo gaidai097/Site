@@ -1,13 +1,14 @@
 public with sharing class Task9ControllerHelper {
 
-    public static void saveCV(CV__c cv, List <Job_Advertisement__c> jobs , Blob image , String fileName){
+    public static Map<Id,Job_Advertisement__c> saveCV(CV__c cv, List <Job_Advertisement__c> jobs , Blob image , String fileName){
 
         Map<Id,Job_Advertisement__c> jobsMap = filterSelectedJobs(new Map<Id,Job_Advertisement__c>(jobs) , cv.Email__c);
-        if( jobsMap.isEmpty() ) return;    
+        if( jobsMap.isEmpty() ) throw new Task6Exception('All selected Jobs were checked before !');    
         insertCV(cv);
         insertCVJs(cv, jobsMap);
         sendEmailNotification(cv, jobs);
         saveImage( cv, image ,fileName);
+        return jobsMap;
     }
     public static void insertCV( CV__c cv ){
         try{

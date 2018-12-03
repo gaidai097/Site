@@ -48,24 +48,14 @@ global class JobAdvertisementApiHelperTest {
             exceptionMsg = e.getMessage();
         }        
         System.assertEquals('JSON serialization Exception', exceptionMsg);
-        
-        // try to delete row two times
+        exceptionMsg = null;
+       
         JobAdvertisementApiHelper.deleteJobAdvertisement(jA.id); 
-        try{
-            JobAdvertisementApiHelper.deleteJobAdvertisement(jA.id);
-        }catch(Exception e ){
-            exceptionMsg = e.getMessage();
-        } 
+         
         Test.stopTest();
         Integer emptySize = [SELECT ID from Job_Advertisement__c].size();
         System.assertEquals(0, emptySize);
-        System.debug(' exceptionMsg ' + exceptionMsg);
        
-        
- /*
-        Test.stopTest();
-        System.assertEquals(0, emptySize);
-        System.assertEquals('DML exception, record was not deleted !', exceptionMsg);
           
         //remove ID, try to update deleted record        
         JobAdvertisementsWrapper wr = new JobAdvertisementsWrapper();
@@ -77,6 +67,7 @@ global class JobAdvertisementApiHelperTest {
             exceptionMsg = e.getMessage();
         }
         System.assert( exceptionMsg.contains('DMLException ,Record with ID:'));
+        
         //updating with false JSON
         try{
             JobAdvertisementApiHelper.updateJobAdvertisementWithJSON('[ Invalid JSON String } }}');
@@ -86,7 +77,7 @@ global class JobAdvertisementApiHelperTest {
         System.assertEquals('JSON serialization Exception', exceptionMsg);
         // Check that Object is Empty
         System.assertEquals(0, [SELECT ID from Job_Advertisement__c].size());       
-    */
+ 
 	}
     @isTest
     public static void archivateValidTest(){
@@ -123,7 +114,7 @@ global class JobAdvertisementApiHelperTest {
         System.assertEquals(0, createdObj.size());
         System.assertEquals('JSON deserialization Exception', exceptionMsg);
     }
-   // @isTest
+    @isTest
     public static void archivateInvalidIDsTest(){
         integer count = 5;
         List<Job_Advertisement__c> jAs = TestDataFactory.createJobAdvertisement(count);
@@ -134,17 +125,33 @@ global class JobAdvertisementApiHelperTest {
         Test.startTest();
         String json = JSON.serialize( ids );
         String exceptionMsg ;
-        // remove all records for catchinj DMLException
+        // remove all records 
         delete jAs;
         try{
             JobAdvertisementApiHelper.archivateJobAdvertisementFromJSON(json);
-        }catch(Task6Exception e){
+        }catch(Exception e){
             exceptionMsg = e.getMessage();
         }
-        Test.stopTest();
+        System.debug('archivateInvalidIDsTest end : ' + exceptionMsg);
+        
         String newStatus = 'Archived';                 
         List <Job_Advertisement__c> createdObj = [Select ID, Name, Status__c from Job_Advertisement__c Where Status__c = : newStatus];
         System.assertEquals(0, createdObj.size());
-        System.assertEquals('DML exception, record was not archived !', exceptionMsg);
+        System.assertEquals(null, exceptionMsg);
+        Test.stopTest();
+    }
+    @isTest
+    public static void jobQueueableInvalidIDsTest(){
+        JobAdvertisementApiHelper.JobQueueable job = new JobAdvertisementApiHelper.JobQueueable(new List <Job_Advertisement__c>{new Job_Advertisement__c()}, 'update');    
+        Test.startTest();
+        String exceptionMsg ;
+        // update mock collection 
+        try{
+            job.execute(null);
+        }catch(Exception e){
+            exceptionMsg = e.getMessage();
+        }
+        System.assertEquals(null, exceptionMsg);
+        Test.stopTest();
     }
 }

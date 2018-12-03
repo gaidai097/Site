@@ -1,5 +1,6 @@
 public with sharing class Task9Controller {
-    //public String msg {public get; public set;}
+    public String msgInfo {public get; public set;}
+    public String msgError {public get; public set;}
     public String salaryFilter {public get; public set;}
     public Integer salaryParam {public get; public set;}
     public String nameFilter;
@@ -65,7 +66,10 @@ public with sharing class Task9Controller {
         cv = new CV__c();
         if(ssc == null) refreshSSC();               
     }
-    
+    public void clearMSGs(){
+        this.msgInfo = null ;
+        this.msgError = null ;
+    }
     public void doChecked(){
         
         List <Job_Advertisement__c> recordsOnPage = currentList;        
@@ -100,6 +104,7 @@ public with sharing class Task9Controller {
     }
   
     public void refreshSSC(){
+        clearMSGs();
         System.debug('refreshSSC() ');
         String queryString = Task9ControllerHelper.formQuery(this);
         ssc = new ApexPages.StandardSetController(Database.getQueryLocator(queryString));
@@ -107,35 +112,45 @@ public with sharing class Task9Controller {
         noOfRecords = ssc.getResultSize();
     }
     public void saveCV(){
-       /* 
+        
         cv.Name = cvFirstName + ' ' + cvLastName ;
         System.debug('saveCV');
-        //String emailBasic =  cv.Email__c ;
         if(image != null && image.size() < 1024*128){
             
             try{
-                //msg = Task9ControllerHelper.echo(image, fileName);
-            	//sendInfo( msg );
-            	
-                Task9ControllerHelper.saveCV( cv , selectedJobs, image ,fileName);
-                           
+                Map<Id,Job_Advertisement__c> filteredJobsMap = Task9ControllerHelper.saveCV( cv , selectedJobs, image ,fileName);
+                // Form result msg
+                List <String> approvedJobs = new List <String> ();
+                List <String> removedJobs = new List <String> ();
+                for(Job_Advertisement__c selected: selectedJobs){
+                    if( filteredJobsMap.containsKey(selected.id)){
+                        approvedJobs.add(selected.Name);
+                    }else{
+                        removedJobs.add(selected.Name);
+                    }
+                }
+                if(approvedJobs.size() == selectedJobs.size()){
+                    msgInfo = 'CV successfully saved for all jobs';
+                }else{
+                    msgInfo ='CV was posted for ' + approvedJobs + '/n' + 'Removed jobs, which were selected before ' + removedJobs;
+                }
                 cv.Salary__c = null;
                 cv.id = null;
-                sendInfo('CV successfully saved');
+                selectedJobs.clear();
             }catch( Task6Exception e ){
                 System.debug( ' saving => ' +  e.getCause() + ' ' + e.getLineNumber() +' ' + e.getMessage() );
-                sendError( e.getCause() + ' ' + e.getLineNumber() +' ' + e.getMessage());
+                msgError = e.getMessage();
             }
         }else{
-            sendError('File is too big! Select a file less than 128K');
+            msgError = 'File is too big! Select a file less than 128K';
             this.image = null;
             return ; 
         }
-	*/
+	
        // cloneCVS();
-        duplicateCloning(); 
+       // duplicateCloning(); 
     }
-  
+  /*
     public void duplicateCloning(){
           
         cvLastName= cvLastName + 'o';
@@ -144,7 +159,7 @@ public with sharing class Task9Controller {
         cvLastName= cvLastName + 'f';
         cv.Email__c = 'f'+ cv.Email__c;
         cloneCVS(); 
-        /*
+        
         cv.Email__c = 'k'+ cv.Email__c;
         cloneCVS();
         cv.Email__c = 'b'+ cv.Email__c;
@@ -170,7 +185,7 @@ public with sharing class Task9Controller {
         cloneCVS();
         cv.Email__c = 's'+ cv.Email__c;
         cloneCVS();
-		*/
+	
     }
     
     public void cloneCVS() {
@@ -198,7 +213,7 @@ public with sharing class Task9Controller {
             cvjas.add( new CVJA__c(Job_Advertisement__c = selectedJobs[0].id, Email__c = cvVar.Email__c, CV__c = cvVar.id) );
         }
         insert cvjas;
-       /*
+      
         for(CV__c cvVar : cvs){
             images.add( 
                 new ContentVersion(
@@ -218,10 +233,10 @@ public with sharing class Task9Controller {
         }
         insert links;
         insert cvjas;
-		*/
+		
         
     }
-
+*/
     public void refresh() {
         nameFilter = null;
         salaryFilter = 'EQUAL';
@@ -249,12 +264,6 @@ public with sharing class Task9Controller {
     }
     public void onSalaryFilterChange(){
         if( salaryParam != null && salaryParam != 0 ) refreshSSC();
-    }
-    public void sendError(String msg){
-        ApexPages.addMessage(new ApexPages.message(ApexPages.severity.ERROR, msg));
-    }
-    public void sendInfo(String msg){
-        ApexPages.addMessage(new ApexPages.message(ApexPages.severity.INFO, msg));
     }
     public class VacancyWrapper{
         public Job_Advertisement__c job {public get; public set;}
