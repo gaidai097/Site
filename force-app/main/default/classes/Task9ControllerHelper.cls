@@ -1,21 +1,32 @@
 public with sharing class Task9ControllerHelper {
 
     public static Map<Id,Job_Advertisement__c> saveCV(CV__c cv, List <Job_Advertisement__c> jobs , Blob image , String fileName){
-
+		validateCV(cv);
         Map<Id,Job_Advertisement__c> jobsMap = filterSelectedJobs(new Map<Id,Job_Advertisement__c>(jobs) , cv.Email__c);
-        if( jobsMap.isEmpty() ) throw new Task6Exception('All selected Jobs were checked before !');    
+        if( jobsMap.isEmpty() ) throw new Task6Exception(Label.All_selected_Jobs_were_checked);
         insertCV(cv);
         insertCVJs(cv, jobsMap);
         sendEmailNotification(cv, jobs);
-        saveImage( cv, image ,fileName);
+        saveImage( cv, image, fileName);
         return jobsMap;
+    }
+    public static void validateCV(CV__c cv){
+        if( !Pattern.matches('[1-9]{1}[0-9]{1}', cv.age__c) || Integer.valueOf(cv.age__c) < 18 ){
+            throw new Task6Exception(Label.Incorrect_Age);
+        }
+        if( !Pattern.matches('^[a-zA-Z0-9._|\\\\%#~`=?&/$^*!}{+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,4}$', cv.Email__c)){
+            throw new Task6Exception(Label.Incorrect_Email);
+        }
+        if( !Pattern.matches('([0-9\\(\\)\\/\\+ \\-]){7,20}', cv.Phone__c)){
+            throw new Task6Exception(Label.Incorrect_Phone_number);
+        }
     }
     public static void insertCV( CV__c cv ){
         try{
             insert cv;
         }catch(Exception e){
             System.debug('Exception inserting e ' + e.getCause() + ' ' + e.getLineNumber() +' ' + e.getMessage());
-            throw new Task6Exception( ' Your CV was not saved successfully, contact the site administrator!');
+            throw new Task6Exception( Label.Your_CV_was_not_saved_successfully);
         }
     }
     public static void insertCVJs( CV__c cv, Map<Id, Job_Advertisement__c> jobsMap){
@@ -27,7 +38,7 @@ public with sharing class Task9ControllerHelper {
             insert cvjas;
         }catch(Exception e){
             System.debug('Exception inserting e ' + e.getCause() + ' ' + e.getLineNumber() +' ' + e.getMessage());
-            throw new Task6Exception( ' Your CVJAs were not saved successfully, contact the site administrator!');
+            throw new Task6Exception( Label.CVJAs_were_not_saved_successfully);
         }
     }
     
@@ -42,9 +53,8 @@ public with sharing class Task9ControllerHelper {
         }
         body += ' . ' ;
         email.setPlainTextBody( body );
-       // Messaging.sendEmail( new Messaging.SingleEmailMessage[] { email });
+        Messaging.sendEmail( new Messaging.SingleEmailMessage[] { email });
     }
-
     public static Map <Id,Job_Advertisement__c> filterSelectedJobs(Map <Id,Job_Advertisement__c> jobsMap, String email){
         Map <Id,Job_Advertisement__c> filteredJobsMap = jobsMap;
         for(CVJA__c cvja: [SELECT ID, Job_Advertisement__c FROM CVJA__c WHERE Email__c =:email]){
@@ -56,18 +66,9 @@ public with sharing class Task9ControllerHelper {
         return filteredJobsMap;
     }
     public static void saveImage( CV__c cv, Blob image ,String fileName){
-        ContentVersion conVer = createContentVersion(  cv, image , fileName);
-        saveContentVersion( cv, conVer);
-    }
-    public static ContentVersion createContentVersion( CV__c cv, Blob image, String fileName){
-        // bind image with created CV 
-        System.debug(' fileName ' + fileName);
-        System.debug(' createContentVersion size  ' + image.size());
         ContentVersion conVer = new ContentVersion( CV__c = cv.id, SharingOption = 'A',SharingPrivacy = 'N',                                                   
                                                    VersionData = image, title = fileName, PathOnClient = fileName , Description = 'CVImage');
-        System.debug('cv.Id ' + cv.Id );
-        System.debug('image size ' + image.size() );
-        return conVer;
+        saveContentVersion( cv, conVer);
     }
     public static void saveContentVersion( CV__c cv, ContentVersion conVer){
         try {
@@ -124,22 +125,4 @@ public with sharing class Task9ControllerHelper {
         queryString += ' ORDER BY Name ';
         return queryString;
     }
-/*
-    public static String echo(Blob image,String fileName){
-        ContentVersion conVer = new ContentVersion( //IsMajorVersion = true,SharingPrivacy = '',
-                                                   //UserInfo.getUserId() 0051t000000aSBNAA2,
-                                                   VersionData = image, title = fileName, PathOnClient = fileName );
-        //conVer.SharingPrivacy
-        //conVer.OwnerId = '0051t000000aSBNAA2';
-        insert conVer;
-        ID idcon = conVer.id;
-        ID docId = [ SELECT ID FROM ContentDocument where LatestPublishedVersionId = :idcon][0].id;
-        
-        ContentDocumentLink link = new ContentDocumentLink(LinkedEntityId = '0051t000000aSBNAA2', ShareType = 'C', ContentDocumentId = docId );
-        
-        insert link;
-
-        return image.size() + ' ' + conVer.id + ' ' + docId;
-    }
-*/
 }

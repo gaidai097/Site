@@ -5,7 +5,8 @@ public class TestDataFactory {
         for(integer i = 0; i < count; i++){
             cvs.add( 
                 new CV__c( Name = 'Test CVName '+ i, Status__c = 'Employeed',
-                          Phone__c = '0584545450'+ i, Age__c = 45, Salary__c = 450+i ,
+                          Phone__c = '0584545450'+ i, Salary__c = 450+i ,
+                          Age__c = '45',
                           Additional_info__c = 'info' +i, Email__c = i +'test@gmail.com'
                 )
             );

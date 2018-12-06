@@ -63,13 +63,13 @@ public class Task9ControllerTest {
         List <Job_Advertisement__c> createdJobs = TestDataFactory.createDifferentJobAdvertisements( count );
         Test.startTest();
         Task9Controller tct = new Task9Controller();
-        tct.cvFirstName = 'FirstNameTest';
-        tct.cvLastName = 'LastNameTest';
+        tct.cvFirstName = 'Firstname';
+        tct.cvLastName = 'Lastname';
         tct.fileName = 'TestFileName';
         CV__c cv = new CV__c();
         cv.Email__c = 'test@gmail.com';
-        cv.Age__c = 25;
-        cv.Phone__c = '454545454243';
+        cv.Age__c = '25';
+        cv.Phone__c = '4545454542';
         cv.Salary__c = 250;
         cv.Additional_info__c = 'Test Info';
         cv.Status__c = 'true';
@@ -79,8 +79,24 @@ public class Task9ControllerTest {
         tct.saveCV();
         // save again with the same List of selected Jobs
         tct.cv.Salary__c = 2500 ;
-        tct.saveCV();
+        tct.saveCV();  
+        System.assertEquals(1, [Select ID from CV__c].size());
+        System.assertEquals(3, [Select ID from CVJA__c].size());
+        // save again with the different List of selected Jobs
+        cv = new CV__c();
+        cv.Email__c = 'test@gmail.com';
+        cv.Age__c = '25';
+        cv.Phone__c = '4545454542';
+        cv.Salary__c = 250;
+        cv.Additional_info__c = 'Test Info';
+        cv.Status__c = 'true';
+        tct.selectedJobs = new List <Job_Advertisement__c>{ createdJobs[0], createdJobs[1], createdJobs[5], createdJobs[6] };
+        tct.image = Blob.valueOf('TestData for Image');
+        tct.cv = cv ;
+        tct.saveCV();  
         Test.stopTest();
+        System.assertEquals(2, [Select ID from CV__c].size());
+        System.assertEquals(5, [Select ID from CVJA__c].size());
     }
     @isTest
     public static void cvSavingInvalidTest(){
@@ -94,21 +110,34 @@ public class Task9ControllerTest {
         tct.fileName = 'TestFileName';
         CV__c cv = new CV__c();
         cv.Email__c = 'test@gmail.com';
-        cv.Age__c = 25;
+        cv.Age__c = '25';
         cv.Phone__c = '454545454243';
         cv.Salary__c = 250;
         cv.Additional_info__c = 'Test Info';
         cv.Status__c = 'true';
         tct.selectedJobs = new List <Job_Advertisement__c>{ createdJobs[0], createdJobs[1], createdJobs[2] };
-
         tct.image = null;
         tct.cv = cv ;
         tct.saveCV();
-     
         tct.cv.Email__c = null;
         tct.image = Blob.valueOf('TestData for Image');
         tct.saveCV();
-        
         Test.stopTest();
+        System.assertEquals( 0, [Select ID from CV__c].size());
+    }
+    @isTest
+    public static void formResultMsgTest(){
+        Integer count = 5;
+        List <Job_Advertisement__c> createdJobs = TestDataFactory.createDifferentJobAdvertisements( count );
+        Test.startTest();
+        Task9Controller tct = new Task9Controller();
+        tct.selectedJobs = new  List <Job_Advertisement__c>();
+        tct.selectedJobs.addAll(createdJobs);
+        Map<Id,Job_Advertisement__c> filteredJobsMap  = new Map<Id,Job_Advertisement__c>(new List<Job_Advertisement__c>{createdJobs[0],createdJobs[1],createdJobs[2]});
+        tct.formResultMsg( filteredJobsMap );
+        Test.stopTest();
+        for(Job_Advertisement__c job : createdJobs){
+            System.assert(tct.msgInfo.contains(job.Name));
+        }
     }
 }

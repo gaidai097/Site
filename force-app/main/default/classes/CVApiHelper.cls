@@ -71,7 +71,7 @@ public class CVApiHelper {
         public String email;
         public String phone;
         public String cvId;
-        public Decimal age;
+        public String age;
         public Decimal salary;
         public String name;
         public String status;

@@ -1,0 +1,3482 @@
+[
+    [
+        "C:\\JAsSite\\site\\Site\\force-app",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1543253210608,
+            "changeTime": 1543253210608,
+            "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1543253210608,
+            "changeTime": 1543253210608,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1543415901079,
+            "changeTime": 1543415901079,
+            "contentHash": "2b5b83408862b8e19c4e21209f51bd48a6e65019",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1543253210608,
+            "changeTime": 1543253210608,
+            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1543848817352,
+            "changeTime": 1543848817352,
+            "contentHash": "a3c2c22b912614fb2af54a58ee61eb7fc904298e",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\ArchivateJobAdvertisement.cls",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\ArchivateJobAdvertisement.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 850,
+            "modifiedTime": 1543253409154,
+            "changeTime": 1543253409154,
+            "contentHash": "47ca36e7159f12b75635f9654465b9a96e51eb85",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\ArchivateJobAdvertisement.cls-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\ArchivateJobAdvertisement.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1543253409154,
+            "changeTime": 1543253409154,
+            "contentHash": "0bfc8bc49e53c8f0f6b207cf675766c0d6546ee5",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\ArchivateJobAdvertisementTest.cls",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\ArchivateJobAdvertisementTest.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 3593,
+            "modifiedTime": 1543596564829,
+            "changeTime": 1543596564829,
+            "contentHash": "14f76bed1333d0b2341fcf5e46a8f14b63f4239b",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\ArchivateJobAdvertisementTest.cls-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\ArchivateJobAdvertisementTest.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1543253409187,
+            "changeTime": 1543253432559,
+            "contentHash": "0bfc8bc49e53c8f0f6b207cf675766c0d6546ee5",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\ChangePasswordController.cls",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\ChangePasswordController.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 467,
+            "modifiedTime": 1543415901004,
+            "changeTime": 1543415901004,
+            "contentHash": "769eaed52f3c934b7ad9b57adcb55a922c257168",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\ChangePasswordController.cls-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\ChangePasswordController.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1543415901002,
+            "changeTime": 1543415901002,
+            "contentHash": "acdd80366dfee192a19331bfa686b269d836d68a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\ChangePasswordControllerTest.cls",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\ChangePasswordControllerTest.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 642,
+            "modifiedTime": 1543415901000,
+            "changeTime": 1543415901000,
+            "contentHash": "0bb3c4ec096aa5dd33d79abbb693eb98b3e899a0",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\ChangePasswordControllerTest.cls-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\ChangePasswordControllerTest.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1543415900999,
+            "changeTime": 1543415900999,
+            "contentHash": "acdd80366dfee192a19331bfa686b269d836d68a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\CVApi.cls",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\CVApi.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1412,
+            "modifiedTime": 1543253409192,
+            "changeTime": 1543253409192,
+            "contentHash": "c04db8481f85c8a15268c90d7b7326d0bc5e8b5f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\CVApi.cls-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\CVApi.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1543253409191,
+            "changeTime": 1543253409191,
+            "contentHash": "acdd80366dfee192a19331bfa686b269d836d68a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\CVApiHelper.cls",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\CVApiHelper.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 4443,
+            "modifiedTime": 1543596564794,
+            "changeTime": 1543596564794,
+            "contentHash": "d076da2978bff5e4651096e1efafb87c04855ea8",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\CVApiHelper.cls-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\CVApiHelper.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1543253409194,
+            "changeTime": 1543253409194,
+            "contentHash": "acdd80366dfee192a19331bfa686b269d836d68a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\CVApiTest.cls",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\CVApiTest.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2954,
+            "modifiedTime": 1543253409198,
+            "changeTime": 1543253409198,
+            "contentHash": "8261d014469cd56d22c9adfef1fcdbdfb23e479e",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\CVApiTest.cls-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\CVApiTest.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1543253409197,
+            "changeTime": 1543253409197,
+            "contentHash": "acdd80366dfee192a19331bfa686b269d836d68a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\ForgotPasswordController.cls",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\ForgotPasswordController.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 480,
+            "modifiedTime": 1543415900991,
+            "changeTime": 1543415900991,
+            "contentHash": "f90081d88c1b56f4db006bf0c9022a1b23126145",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\ForgotPasswordController.cls-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\ForgotPasswordController.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1543415900990,
+            "changeTime": 1543415900990,
+            "contentHash": "acdd80366dfee192a19331bfa686b269d836d68a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\ForgotPasswordControllerTest.cls",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\ForgotPasswordControllerTest.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 506,
+            "modifiedTime": 1543415900978,
+            "changeTime": 1543415900978,
+            "contentHash": "66dcdb35e263e3858438516c272143f39594ab6b",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\ForgotPasswordControllerTest.cls-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\ForgotPasswordControllerTest.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1543415900977,
+            "changeTime": 1543415900977,
+            "contentHash": "acdd80366dfee192a19331bfa686b269d836d68a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementApiHelper.cls",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementApiHelper.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 4933,
+            "modifiedTime": 1543848817305,
+            "changeTime": 1543848817305,
+            "contentHash": "8778cb18ebd08cb9a42ad76a077e92091a590823",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementApiHelper.cls-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementApiHelper.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1543253409200,
+            "changeTime": 1543253409200,
+            "contentHash": "0bfc8bc49e53c8f0f6b207cf675766c0d6546ee5",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementApiHelperTest.cls",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementApiHelperTest.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 6798,
+            "modifiedTime": 1543848817289,
+            "changeTime": 1543848817289,
+            "contentHash": "4fbcdc167a91bb23a41a75ffc60b2b15316aadaf",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementApiHelperTest.cls-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementApiHelperTest.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1543253409205,
+            "changeTime": 1543253409205,
+            "contentHash": "0bfc8bc49e53c8f0f6b207cf675766c0d6546ee5",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementsController.cls",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementsController.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 4140,
+            "modifiedTime": 1543253409211,
+            "changeTime": 1543253409211,
+            "contentHash": "03f50d8a29f2dd4ef5ceb9d167ec499e736a3310",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementsController.cls-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementsController.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1543253409211,
+            "changeTime": 1543253409211,
+            "contentHash": "0bfc8bc49e53c8f0f6b207cf675766c0d6546ee5",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementsControllerTest.cls",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementsControllerTest.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 4014,
+            "modifiedTime": 1543253409227,
+            "changeTime": 1543253409227,
+            "contentHash": "715ac3c1ddacd0cf6b407784723d03915dd500d2",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementsControllerTest.cls-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementsControllerTest.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1543253409227,
+            "changeTime": 1543253409227,
+            "contentHash": "0bfc8bc49e53c8f0f6b207cf675766c0d6546ee5",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementsHelper.cls",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementsHelper.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 5459,
+            "modifiedTime": 1543253409227,
+            "changeTime": 1543253409227,
+            "contentHash": "d0c57566e1485873c23e3ec842667f6ebc070ec9",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementsHelper.cls-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementsHelper.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1543253409227,
+            "changeTime": 1543253409227,
+            "contentHash": "0bfc8bc49e53c8f0f6b207cf675766c0d6546ee5",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementsWrapper.cls",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementsWrapper.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 3049,
+            "modifiedTime": 1543596564723,
+            "changeTime": 1543596564723,
+            "contentHash": "28b908d257f497807eba74883a1035e2778df615",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementsWrapper.cls-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementsWrapper.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1543253409243,
+            "changeTime": 1543253409243,
+            "contentHash": "0bfc8bc49e53c8f0f6b207cf675766c0d6546ee5",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementsWrapperTest.cls",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementsWrapperTest.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1736,
+            "modifiedTime": 1543253409258,
+            "changeTime": 1543253409258,
+            "contentHash": "a9f6900b7856255a01f9ff00ba4621d7aeea3929",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementsWrapperTest.cls-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementsWrapperTest.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1543253409258,
+            "changeTime": 1543253409258,
+            "contentHash": "0bfc8bc49e53c8f0f6b207cf675766c0d6546ee5",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementTriggerHelper.cls",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementTriggerHelper.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2410,
+            "modifiedTime": 1543596564764,
+            "changeTime": 1543596564764,
+            "contentHash": "a9900fa26a05d4d55de669b501d9c48fd88a4cb5",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementTriggerHelper.cls-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementTriggerHelper.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1543253409208,
+            "changeTime": 1543253409208,
+            "contentHash": "acdd80366dfee192a19331bfa686b269d836d68a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementTriggerHelperTest.cls",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementTriggerHelperTest.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1327,
+            "modifiedTime": 1543596564730,
+            "changeTime": 1543596564730,
+            "contentHash": "ebabe94eb11bbccb8e9923a4b6069354ea14c14e",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementTriggerHelperTest.cls-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementTriggerHelperTest.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1543253409211,
+            "changeTime": 1543253409211,
+            "contentHash": "acdd80366dfee192a19331bfa686b269d836d68a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertismentRecord.cls",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertismentRecord.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 3078,
+            "modifiedTime": 1543596564878,
+            "changeTime": 1543596564878,
+            "contentHash": "266b01a095a8c28739d46191d7b98e1f2b74e007",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertismentRecord.cls-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertismentRecord.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1543253409258,
+            "changeTime": 1543253409258,
+            "contentHash": "0bfc8bc49e53c8f0f6b207cf675766c0d6546ee5",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertismentRecordTest.cls",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertismentRecordTest.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 8681,
+            "modifiedTime": 1543596564840,
+            "changeTime": 1543596564840,
+            "contentHash": "21ccd55c247d3a2085df86a06be566465f680dac",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertismentRecordTest.cls-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertismentRecordTest.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1543253409258,
+            "changeTime": 1543253409258,
+            "contentHash": "0bfc8bc49e53c8f0f6b207cf675766c0d6546ee5",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\MyProfilePageController.cls",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\MyProfilePageController.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1584,
+            "modifiedTime": 1543415900975,
+            "changeTime": 1543415900975,
+            "contentHash": "2e72ea98db541366419984e2a8878f467de5a3e5",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\MyProfilePageController.cls-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\MyProfilePageController.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1543415900974,
+            "changeTime": 1543415900974,
+            "contentHash": "acdd80366dfee192a19331bfa686b269d836d68a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\MyProfilePageControllerTest.cls",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\MyProfilePageControllerTest.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2792,
+            "modifiedTime": 1543415900972,
+            "changeTime": 1543415900972,
+            "contentHash": "3dad7650b8dd8e6e57710fec687bf1bb5eff80bd",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\MyProfilePageControllerTest.cls-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\MyProfilePageControllerTest.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1543415900971,
+            "changeTime": 1543415900971,
+            "contentHash": "acdd80366dfee192a19331bfa686b269d836d68a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\PageListWrapper.cls",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\PageListWrapper.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 308,
+            "modifiedTime": 1543253409258,
+            "changeTime": 1543253409258,
+            "contentHash": "d6d455cd44738482ca7edfc50acad656d9833c33",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\PageListWrapper.cls-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\PageListWrapper.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1543253409258,
+            "changeTime": 1543253409258,
+            "contentHash": "0bfc8bc49e53c8f0f6b207cf675766c0d6546ee5",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\SiteLoginController.cls",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\SiteLoginController.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 434,
+            "modifiedTime": 1543415900985,
+            "changeTime": 1543415900985,
+            "contentHash": "45bce0841ca7e53e9891170118879727980b051a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\SiteLoginController.cls-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\SiteLoginController.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1543415900984,
+            "changeTime": 1543415900984,
+            "contentHash": "acdd80366dfee192a19331bfa686b269d836d68a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\SiteLoginControllerTest.cls",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\SiteLoginControllerTest.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 558,
+            "modifiedTime": 1543415901013,
+            "changeTime": 1543415901013,
+            "contentHash": "676ee62c09240e726b685da56266e2201bf46664",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\SiteLoginControllerTest.cls-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\SiteLoginControllerTest.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1543415901012,
+            "changeTime": 1543415901012,
+            "contentHash": "acdd80366dfee192a19331bfa686b269d836d68a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\SiteRegisterController.cls",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\SiteRegisterController.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2077,
+            "modifiedTime": 1543415901010,
+            "changeTime": 1543415901010,
+            "contentHash": "19e473741cd0e4047e59345c952d815aa05e1ac2",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\SiteRegisterController.cls-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\SiteRegisterController.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1543415901009,
+            "changeTime": 1543415901009,
+            "contentHash": "acdd80366dfee192a19331bfa686b269d836d68a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\SiteRegisterControllerTest.cls",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\SiteRegisterControllerTest.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 721,
+            "modifiedTime": 1543415901007,
+            "changeTime": 1543415901007,
+            "contentHash": "00a06a0620a60d0ee0118431a169b4ec3ba79891",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\SiteRegisterControllerTest.cls-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\SiteRegisterControllerTest.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1543415901005,
+            "changeTime": 1543415901005,
+            "contentHash": "acdd80366dfee192a19331bfa686b269d836d68a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\Task6Exception.cls",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\Task6Exception.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 51,
+            "modifiedTime": 1543253409274,
+            "changeTime": 1543253409274,
+            "contentHash": "65d82db80877f68a54def5723866566ed97668b0",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\Task6Exception.cls-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\Task6Exception.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1543253409274,
+            "changeTime": 1543253409274,
+            "contentHash": "0bfc8bc49e53c8f0f6b207cf675766c0d6546ee5",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\Task9Controller.cls",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\Task9Controller.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 10992,
+            "modifiedTime": 1543848817352,
+            "changeTime": 1543848817352,
+            "contentHash": "1e967b96d35af6d3c6027338ab2fb2fd1d38cff5",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\Task9Controller.cls-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\Task9Controller.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1543253409289,
+            "changeTime": 1543253409289,
+            "contentHash": "acdd80366dfee192a19331bfa686b269d836d68a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\Task9ControllerHelper.cls",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\Task9ControllerHelper.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 8007,
+            "modifiedTime": 1543848817336,
+            "changeTime": 1543848817336,
+            "contentHash": "fc2acc59c96b73d80e34109c5e4eda0b4be4df5e",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\Task9ControllerHelper.cls-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\Task9ControllerHelper.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1543253409289,
+            "changeTime": 1543253409289,
+            "contentHash": "acdd80366dfee192a19331bfa686b269d836d68a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\Task9ControllerHelperTest.cls",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\Task9ControllerHelperTest.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 900,
+            "modifiedTime": 1543848817320,
+            "changeTime": 1543848817320,
+            "contentHash": "c5569d4f9869498dcdc0f4d579c23c7f4021ffa1",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\Task9ControllerHelperTest.cls-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\Task9ControllerHelperTest.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1543253409289,
+            "changeTime": 1543253409289,
+            "contentHash": "acdd80366dfee192a19331bfa686b269d836d68a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\Task9ControllerTest.cls",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\Task9ControllerTest.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 4211,
+            "modifiedTime": 1543415900989,
+            "changeTime": 1543415900989,
+            "contentHash": "71eacb45b5ba9abd7bb8afc5c73fd865b1a574a6",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\Task9ControllerTest.cls-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\Task9ControllerTest.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1543253409336,
+            "changeTime": 1543253409336,
+            "contentHash": "acdd80366dfee192a19331bfa686b269d836d68a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\TestDataFactory.cls",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\TestDataFactory.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 3781,
+            "modifiedTime": 1543253409336,
+            "changeTime": 1543253409336,
+            "contentHash": "99b2d05fc54bdecf9d62c1d2aa814474832225c4",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\TestDataFactory.cls-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\TestDataFactory.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1543253409336,
+            "changeTime": 1543253409336,
+            "contentHash": "0bfc8bc49e53c8f0f6b207cf675766c0d6546ee5",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\components",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\components",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1543415900903,
+            "changeTime": 1543415900903,
+            "contentHash": "7e3b47b6f015d41da2682d23c08c6bd410b8f4bb",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\components\\SiteFooter.component",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\components\\SiteFooter.component",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 77,
+            "modifiedTime": 1543415900899,
+            "changeTime": 1543415900899,
+            "contentHash": "8c9f2b97bbfa52fdef76795bfea4a72ea95d3258",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\components\\SiteFooter.component-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\components\\SiteFooter.component-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 264,
+            "modifiedTime": 1543415900897,
+            "changeTime": 1543415900897,
+            "contentHash": "35acee77693af777265d8a62abc9f96cf3c072a9",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\components\\SiteHeader.component",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\components\\SiteHeader.component",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1214,
+            "modifiedTime": 1543415900887,
+            "changeTime": 1543415900887,
+            "contentHash": "0a710387c2669b94a3224b8016f37d0a3fc20948",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\components\\SiteHeader.component-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\components\\SiteHeader.component-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 264,
+            "modifiedTime": 1543415900885,
+            "changeTime": 1543415900885,
+            "contentHash": "20335bdf7dcc08d077e270d634c104b47c6a5c52",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\components\\SiteLogin.component",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\components\\SiteLogin.component",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1254,
+            "modifiedTime": 1543415900904,
+            "changeTime": 1543415900904,
+            "contentHash": "bc708781ea43467adf9e0efda09caf0e4abc96ba",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\components\\SiteLogin.component-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\components\\SiteLogin.component-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 255,
+            "modifiedTime": 1543415900902,
+            "changeTime": 1543415900902,
+            "contentHash": "497192abef94827c33be02e404c1d3bfb4d42d69",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\components\\SitePoweredBy.component",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\components\\SitePoweredBy.component",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 532,
+            "modifiedTime": 1543415900882,
+            "changeTime": 1543415900882,
+            "contentHash": "353f26acfff5ff089406bc9b6029fec483f8360f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\components\\SitePoweredBy.component-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\components\\SitePoweredBy.component-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 271,
+            "modifiedTime": 1543415900880,
+            "changeTime": 1543415900880,
+            "contentHash": "e16e55c17764af0e8b1b36e85575a2baef54deef",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\connectedApps",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\connectedApps",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1543415901080,
+            "changeTime": 1543415901080,
+            "contentHash": "cde0c710f04d318a2f6c2209f2b7f463094e1421",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\connectedApps\\SiteScratch.connectedApp-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\connectedApps\\SiteScratch.connectedApp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 574,
+            "modifiedTime": 1543415901080,
+            "changeTime": 1543415901080,
+            "contentHash": "1a18396ae9366b29f8bec1eba205caeaa75aea2b",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\labels",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\labels",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1543253409336,
+            "changeTime": 1543253409336,
+            "contentHash": "c3835cc038e1e9f66a66938c26f39887d32c77d8",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\labels\\CustomLabels.labels-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\labels\\CustomLabels.labels-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 380,
+            "modifiedTime": 1543253409336,
+            "changeTime": 1543253409336,
+            "contentHash": "5e9ee18e0c8b8ffc9a1614aee17eee81420bf68b",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\layouts",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\layouts",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1543253409368,
+            "changeTime": 1543253409368,
+            "contentHash": "69c0b2195d673feef96dc1f9c6e42868d34e1549",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\layouts\\CVJA__c-CVJA Layout.layout-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\layouts\\CVJA__c-CVJA Layout.layout-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 2922,
+            "modifiedTime": 1543253409336,
+            "changeTime": 1543253409336,
+            "contentHash": "c33fe225828fe20aa10f3480f28ac5bba0daee4a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\layouts\\CV__c-CV Layout.layout-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\layouts\\CV__c-CV Layout.layout-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 4374,
+            "modifiedTime": 1543253409352,
+            "changeTime": 1543253409352,
+            "contentHash": "b512ebd707216d237615192568adcd47c433a2c8",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\layouts\\Job_Advertisement__c-Job Advertisement Layout.layout-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\layouts\\Job_Advertisement__c-Job Advertisement Layout.layout-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 4454,
+            "modifiedTime": 1543253409368,
+            "changeTime": 1543253409368,
+            "contentHash": "8ba8dd981be8fa776839d47e826f692ff99a5f26",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1543253409446,
+            "changeTime": 1543253409446,
+            "contentHash": "563eea8c93c6d888c447e6917ea5e95ab7c2f48f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\ContentVersion",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\ContentVersion",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1543253409430,
+            "changeTime": 1543253409430,
+            "contentHash": "70f132fe13e692866a539996a6b9a05b46076a07",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\ContentVersion\\fields",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\ContentVersion\\fields",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1543253409430,
+            "changeTime": 1543253409430,
+            "contentHash": "fc0192cd76da078a0e6f9b1d0ab93265240ff3ac",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\ContentVersion\\fields\\CV__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\ContentVersion\\fields\\CV__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 502,
+            "modifiedTime": 1543253409430,
+            "changeTime": 1543253409430,
+            "contentHash": "4fbf071e7a5fbe71691e4243c5bb06fb82d1d195",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\CVJA__c",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\CVJA__c",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1543253409383,
+            "changeTime": 1543253409383,
+            "contentHash": "7234872e78fdb40d02ec907fab6d662246967efa",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\CVJA__c\\CVJA__c.object-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\CVJA__c\\CVJA__c.object-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 2155,
+            "modifiedTime": 1543253409383,
+            "changeTime": 1543253409383,
+            "contentHash": "cbf09fc523782d639431c6eb0de3d3a89c1db898",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\CVJA__c\\fields",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\CVJA__c\\fields",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1543253409383,
+            "changeTime": 1543253409383,
+            "contentHash": "0b53bfb1cc77b53ff81074f6fcadb05ccc08608e",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\CVJA__c\\fields\\CV__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\CVJA__c\\fields\\CV__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 577,
+            "modifiedTime": 1543253409383,
+            "changeTime": 1543253409383,
+            "contentHash": "843b54ba81f356e792dd5b4fe440673d8554de73",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\CVJA__c\\fields\\Email__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\CVJA__c\\fields\\Email__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 331,
+            "modifiedTime": 1543253409383,
+            "changeTime": 1543253409383,
+            "contentHash": "dd9fa51166357520843f7f56f308b3bbf5a39359",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\CVJA__c\\fields\\Job_Advertisement__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\CVJA__c\\fields\\Job_Advertisement__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 622,
+            "modifiedTime": 1543253409383,
+            "changeTime": 1543253409383,
+            "contentHash": "299881b32c3d5d5a194e185acfea254256c4d0d8",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\CV__c",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\CV__c",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1543253409414,
+            "changeTime": 1543253409414,
+            "contentHash": "f72c7b57efbd2cab6504035e42951d2d70b66f07",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\CV__c\\CV__c.object-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\CV__c\\CV__c.object-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 2161,
+            "modifiedTime": 1543253409399,
+            "changeTime": 1543253409399,
+            "contentHash": "2ccf04b717146f196893806eaa23678806024535",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\CV__c\\fields",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\CV__c\\fields",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1543253409414,
+            "changeTime": 1543253409414,
+            "contentHash": "9ec25ab241c9515518cf7ebee63966bc5b80cccb",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\CV__c\\fields\\Additional_info__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\CV__c\\fields\\Additional_info__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 402,
+            "modifiedTime": 1543253409399,
+            "changeTime": 1543253409399,
+            "contentHash": "c3aca90f2d1b6fa050d1439c672997e74b7f65ad",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\CV__c\\fields\\Age__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\CV__c\\fields\\Age__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 417,
+            "modifiedTime": 1543253409399,
+            "changeTime": 1543253409399,
+            "contentHash": "93bb6f3f862aa4322f786f85f9bea168ec4789b3",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\CV__c\\fields\\Email__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\CV__c\\fields\\Email__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 370,
+            "modifiedTime": 1543253409414,
+            "changeTime": 1543253409414,
+            "contentHash": "6ed581fad84c4d439fdf13656f8b910d95fb2a2f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\CV__c\\fields\\Phone__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\CV__c\\fields\\Phone__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 343,
+            "modifiedTime": 1543253409414,
+            "changeTime": 1543253409414,
+            "contentHash": "2f4c51f3edce140c77924b6de6f29a034dda9c49",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\CV__c\\fields\\Posted__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\CV__c\\fields\\Posted__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 833,
+            "modifiedTime": 1543253409414,
+            "changeTime": 1543253409414,
+            "contentHash": "7a69ce3240252bdbb13348b190479657b56d1316",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\CV__c\\fields\\Salary__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\CV__c\\fields\\Salary__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 455,
+            "modifiedTime": 1543253409414,
+            "changeTime": 1543253409414,
+            "contentHash": "e5d5a6d2b447095d1fbba97cbd454d903d0aeec5",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\CV__c\\fields\\Status__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\CV__c\\fields\\Status__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 395,
+            "modifiedTime": 1543253409414,
+            "changeTime": 1543253409414,
+            "contentHash": "6416982ac642d4bfdb9c4c68a50580aec061961d",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\CV__c\\listViews",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\CV__c\\listViews",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1543253409414,
+            "changeTime": 1543253409414,
+            "contentHash": "0b3931647b535802350a588b8bf16d4ae6cc2ed6",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\CV__c\\listViews\\All.listView-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\CV__c\\listViews\\All.listView-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 463,
+            "modifiedTime": 1543253409414,
+            "changeTime": 1543253409414,
+            "contentHash": "a49a21ea24784c411d9341fbdabddebc1c4b915a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\Job_Advertisement__c",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\Job_Advertisement__c",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1543253409477,
+            "changeTime": 1543253409477,
+            "contentHash": "1a58d2db6004b0bd7dec8ea91a28e8a6b7d40b51",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\Job_Advertisement__c\\fields",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\Job_Advertisement__c\\fields",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1543253409461,
+            "changeTime": 1543253409461,
+            "contentHash": "8eab1c4fe524cfca33271989b7175f056b91d57c",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\Job_Advertisement__c\\fields\\Description__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\Job_Advertisement__c\\fields\\Description__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 355,
+            "modifiedTime": 1543253409446,
+            "changeTime": 1543253409446,
+            "contentHash": "1632eaf535bf9133413fd6e74a6ff027fba36c0d",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\Job_Advertisement__c\\fields\\Education__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\Job_Advertisement__c\\fields\\Education__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 364,
+            "modifiedTime": 1543253409446,
+            "changeTime": 1543253409446,
+            "contentHash": "4502f931b07829d9256747588cbc14388e1fc94b",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\Job_Advertisement__c\\fields\\email__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\Job_Advertisement__c\\fields\\email__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 332,
+            "modifiedTime": 1543253409461,
+            "changeTime": 1543253409461,
+            "contentHash": "c73e4925e972fd5e44af4910e717000374308722",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\Job_Advertisement__c\\fields\\Location__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\Job_Advertisement__c\\fields\\Location__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 361,
+            "modifiedTime": 1543253409461,
+            "changeTime": 1543253409461,
+            "contentHash": "1d7f27be2a6b2ecbbac0a20a1f8313c67d27d986",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\Job_Advertisement__c\\fields\\Manager_name__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\Job_Advertisement__c\\fields\\Manager_name__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 369,
+            "modifiedTime": 1543253409461,
+            "changeTime": 1543253409461,
+            "contentHash": "6a240956ee2816111c6d4053ac35ad4ef31747a8",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\Job_Advertisement__c\\fields\\phone__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\Job_Advertisement__c\\fields\\phone__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 362,
+            "modifiedTime": 1543253409461,
+            "changeTime": 1543253409461,
+            "contentHash": "0f26619d2e7d2b16088702335b2e62fc7ab771d7",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\Job_Advertisement__c\\fields\\SalaryMax__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\Job_Advertisement__c\\fields\\SalaryMax__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 392,
+            "modifiedTime": 1543253409461,
+            "changeTime": 1543253409461,
+            "contentHash": "0bdeee74f7c9a1a3606579a199d2994c44233958",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\Job_Advertisement__c\\fields\\SalaryMin__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\Job_Advertisement__c\\fields\\SalaryMin__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 392,
+            "modifiedTime": 1543253409461,
+            "changeTime": 1543253409461,
+            "contentHash": "55799c0cb46288508878839aedcbc5a8830baf1a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\Job_Advertisement__c\\fields\\Skills_Required__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\Job_Advertisement__c\\fields\\Skills_Required__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 362,
+            "modifiedTime": 1543253409461,
+            "changeTime": 1543253409461,
+            "contentHash": "11bddb2b46b120c63565aba06406fe6759d55fc4",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\Job_Advertisement__c\\fields\\Status__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\Job_Advertisement__c\\fields\\Status__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 970,
+            "modifiedTime": 1543253409461,
+            "changeTime": 1543253409461,
+            "contentHash": "fb031673f9e364c977c9421aa685840b5e409ec6",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\Job_Advertisement__c\\Job_Advertisement__c.object-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\Job_Advertisement__c\\Job_Advertisement__c.object-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 2145,
+            "modifiedTime": 1543253409446,
+            "changeTime": 1543253409446,
+            "contentHash": "5a9d3be2013603644629a5c7bb183b81ae5dfea0",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\Job_Advertisement__c\\listViews",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\Job_Advertisement__c\\listViews",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1543253409477,
+            "changeTime": 1543253409477,
+            "contentHash": "0b3931647b535802350a588b8bf16d4ae6cc2ed6",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\Job_Advertisement__c\\listViews\\All.listView-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\objects\\Job_Advertisement__c\\listViews\\All.listView-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 475,
+            "modifiedTime": 1543253409477,
+            "changeTime": 1543253409477,
+            "contentHash": "197b60e11d2bc90de2783ef3be3db83bc2750c5f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1543848817273,
+            "changeTime": 1543848817273,
+            "contentHash": "0765d6f81f0bf706d49d0650c6257477aa3af0c3",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\AnswersHome.page",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\AnswersHome.page",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 61,
+            "modifiedTime": 1543415900907,
+            "changeTime": 1543415900907,
+            "contentHash": "a82a578935f0381f7ce194fc36f422775d6ab707",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\AnswersHome.page-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\AnswersHome.page-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 373,
+            "modifiedTime": 1543415900906,
+            "changeTime": 1543415900906,
+            "contentHash": "0737b4def4660ce12213c392263c21cb0a05209a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\BandwidthExceeded.page",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\BandwidthExceeded.page",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 746,
+            "modifiedTime": 1543415900962,
+            "changeTime": 1543415900962,
+            "contentHash": "af8b65b80f92aa12ee84f138858b6b1253dde9f8",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\BandwidthExceeded.page-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\BandwidthExceeded.page-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 371,
+            "modifiedTime": 1543415900960,
+            "changeTime": 1543415900960,
+            "contentHash": "2acb27d3d5fcc642953f028d06b9703355a1c7ab",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\ChangePassword.page",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\ChangePassword.page",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2253,
+            "modifiedTime": 1543415900948,
+            "changeTime": 1543415900948,
+            "contentHash": "ef99757f7f329769d4297658a07069ba6479259a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\ChangePassword.page-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\ChangePassword.page-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 367,
+            "modifiedTime": 1543415900947,
+            "changeTime": 1543415900947,
+            "contentHash": "72a201fc1954c47f85131bb144afbc5d10568fbc",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\Exception.page",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\Exception.page",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1716,
+            "modifiedTime": 1543415900939,
+            "changeTime": 1543415900939,
+            "contentHash": "830bc42abae82f60204235bc55bb4e817329b8db",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\Exception.page-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\Exception.page-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 380,
+            "modifiedTime": 1543415900937,
+            "changeTime": 1543415900937,
+            "contentHash": "1a8aa9050a377f456fbb4f57a13f08f61aa028d2",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\FileNotFound.page",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\FileNotFound.page",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1667,
+            "modifiedTime": 1543415900965,
+            "changeTime": 1543415900965,
+            "contentHash": "5e6c03f7313422001a3df2c492db52fabdc10212",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\FileNotFound.page-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\FileNotFound.page-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 371,
+            "modifiedTime": 1543415900964,
+            "changeTime": 1543415900964,
+            "contentHash": "4fbd62c32ddb38bdc3f869bcb03208db2c281d9f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\ForgotPassword.page",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\ForgotPassword.page",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1734,
+            "modifiedTime": 1543415900942,
+            "changeTime": 1543415900942,
+            "contentHash": "d08010b952d7bc3b249a76a840810bef066c56e8",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\ForgotPassword.page-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\ForgotPassword.page-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 380,
+            "modifiedTime": 1543415900941,
+            "changeTime": 1543415900941,
+            "contentHash": "a9e2e40fc6957137a9c8c111a3db2d6d688c9542",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\ForgotPasswordConfirm.page",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\ForgotPasswordConfirm.page",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1315,
+            "modifiedTime": 1543415900911,
+            "changeTime": 1543415900911,
+            "contentHash": "b36e48b39e4d3b8b31a82c9c5eee2ffffc194ee3",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\ForgotPasswordConfirm.page-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\ForgotPasswordConfirm.page-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 387,
+            "modifiedTime": 1543415900910,
+            "changeTime": 1543415900910,
+            "contentHash": "78a4c81a2d6fbcce7170090bd70a164e8fb6c109",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\IdeasHome.page",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\IdeasHome.page",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 56,
+            "modifiedTime": 1543415900915,
+            "changeTime": 1543415900915,
+            "contentHash": "321994aef1dc6905bd2f9ea1275cef640575796a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\IdeasHome.page-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\IdeasHome.page-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 369,
+            "modifiedTime": 1543415900914,
+            "changeTime": 1543415900914,
+            "contentHash": "934b078664a5ab7b8a4844feb24e85396289022f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\InMaintenance.page",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\InMaintenance.page",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 854,
+            "modifiedTime": 1543415900931,
+            "changeTime": 1543415900931,
+            "contentHash": "660848468f184da3bdb013f9fdf96c6104ec33d6",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\InMaintenance.page-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\InMaintenance.page-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 367,
+            "modifiedTime": 1543415900930,
+            "changeTime": 1543415900930,
+            "contentHash": "1d86404a46c25b24e5ef94881225cbff0b2b1d51",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\JobAdvertisements.page",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\JobAdvertisements.page",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 9414,
+            "modifiedTime": 1543253409477,
+            "changeTime": 1543253409477,
+            "contentHash": "25a273e137ee3325e1fb688bfbd03a048be8a38b",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\JobAdvertisements.page-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\JobAdvertisements.page-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 293,
+            "modifiedTime": 1543253409477,
+            "changeTime": 1543253409477,
+            "contentHash": "513d5cf059bdf28e969a3022768c08396571c50d",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\MyProfilePage.page",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\MyProfilePage.page",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 5352,
+            "modifiedTime": 1543415900923,
+            "changeTime": 1543415900923,
+            "contentHash": "620edf5c2c314699cb5acd8a29ee2897a7f4be9c",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\MyProfilePage.page-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\MyProfilePage.page-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 361,
+            "modifiedTime": 1543415900922,
+            "changeTime": 1543415900922,
+            "contentHash": "6e0370f7cd8906b75832c663c149f8058f244ad0",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\SiteLogin.page",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\SiteLogin.page",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1178,
+            "modifiedTime": 1543415900920,
+            "changeTime": 1543415900920,
+            "contentHash": "cbc0628ee0ca131ce53c251ae3221ba5048f2020",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\SiteLogin.page-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\SiteLogin.page-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 352,
+            "modifiedTime": 1543415900918,
+            "changeTime": 1543415900918,
+            "contentHash": "4fbd256d596dd79a4395693aef74dd314e919c80",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\SiteRegister.page",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\SiteRegister.page",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2535,
+            "modifiedTime": 1543415900934,
+            "changeTime": 1543415900934,
+            "contentHash": "41ff51ebecfc21b5b03567851586edbc5fefc6bf",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\SiteRegister.page-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\SiteRegister.page-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 367,
+            "modifiedTime": 1543415900933,
+            "changeTime": 1543415900933,
+            "contentHash": "83edbba47bbb7cbf7b4b0567481f28a1d02aa4d0",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\SiteRegisterConfirm.page",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\SiteRegisterConfirm.page",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1336,
+            "modifiedTime": 1543415900927,
+            "changeTime": 1543415900927,
+            "contentHash": "e1c4950e6f20b5744e83b77652be25196945a53b",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\SiteRegisterConfirm.page-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\SiteRegisterConfirm.page-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 387,
+            "modifiedTime": 1543415900926,
+            "changeTime": 1543415900926,
+            "contentHash": "4ce12f4358d78649635ada66fdd9fef3365db504",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\SiteTemplate.page",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\SiteTemplate.page",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 363,
+            "modifiedTime": 1543415900954,
+            "changeTime": 1543415900954,
+            "contentHash": "0795cba97d90e8e6f4511bdc6845b4f6ba593a49",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\SiteTemplate.page-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\SiteTemplate.page-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 370,
+            "modifiedTime": 1543415900953,
+            "changeTime": 1543415900953,
+            "contentHash": "beb96f8be809c9faa9cac8caf9143d1216eb7237",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\StdExceptionTemplate.page",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\StdExceptionTemplate.page",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 918,
+            "modifiedTime": 1543415900958,
+            "changeTime": 1543415900958,
+            "contentHash": "ee21ef14d08dc898cc2f7c14b009b44e39843047",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\StdExceptionTemplate.page-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\StdExceptionTemplate.page-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 392,
+            "modifiedTime": 1543415900957,
+            "changeTime": 1543415900957,
+            "contentHash": "d8b5c6f467db8b22f512aef9252ed0a8f84e423d",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\Task9.page",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\Task9.page",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 33592,
+            "modifiedTime": 1543848817273,
+            "changeTime": 1543848817273,
+            "contentHash": "dd557d31b2083547bb59526b35e6a0cbe070dcbc",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\Task9.page-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\Task9.page-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 280,
+            "modifiedTime": 1543253409493,
+            "changeTime": 1543253409493,
+            "contentHash": "de589ce112aeb2bd41e1fd2f0ac50fec3c732013",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\Unauthorized.page",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\Unauthorized.page",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1728,
+            "modifiedTime": 1543415900951,
+            "changeTime": 1543415900951,
+            "contentHash": "e2d900a0e0685865732acee0c84539a31cb8638e",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\Unauthorized.page-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\Unauthorized.page-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 374,
+            "modifiedTime": 1543415900950,
+            "changeTime": 1543415900950,
+            "contentHash": "9a2c50ae89cb14f6c9edbe1abf32e6a73ffd640d",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\UnderConstruction.page",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\UnderConstruction.page",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 819,
+            "modifiedTime": 1543415900945,
+            "changeTime": 1543415900945,
+            "contentHash": "7e44e8eff2115cba3f9494ac0ebac64ba628e919",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\UnderConstruction.page-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\UnderConstruction.page-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 375,
+            "modifiedTime": 1543415900944,
+            "changeTime": 1543415900944,
+            "contentHash": "00842aa53642efec919cdd458f5c1fd5802a98f2",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\profilePasswordPolicies",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\profilePasswordPolicies",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1543415901069,
+            "changeTime": 1543415901069,
+            "contentHash": "16773865e2499fcc687effaaf482ff0fe47afffe",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\profilePasswordPolicies\\Task9_Profile_profilePasswordPolicy1543310353365.profilePasswordPolicy-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\profilePasswordPolicies\\Task9_Profile_profilePasswordPolicy1543310353365.profilePasswordPolicy-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 640,
+            "modifiedTime": 1543415901069,
+            "changeTime": 1543415901069,
+            "contentHash": "6ff9059e848fb5feb443089bbe06c5b6d1ca4c42",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\profiles",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\profiles",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1543415901066,
+            "changeTime": 1543415901066,
+            "contentHash": "57093a0254ae4a9bcfbf267c725965c4d0a70858",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\profiles\\Admin.profile-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\profiles\\Admin.profile-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 21944,
+            "modifiedTime": 1543415901056,
+            "changeTime": 1543415901056,
+            "contentHash": "985144384e28051c14ed3bc94d052f67c81c8af0",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\profiles\\API Only.profile-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\profiles\\API Only.profile-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 28498,
+            "modifiedTime": 1543253409508,
+            "changeTime": 1543253409508,
+            "contentHash": "6bff7415f9f314df72a75fbf772195951d1a91b8",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\profiles\\Custom%3A Marketing Profile.profile-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\profiles\\Custom%3A Marketing Profile.profile-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 8435,
+            "modifiedTime": 1543415901036,
+            "changeTime": 1543415901036,
+            "contentHash": "5749a48eb31d29e07f7991ae436a69f9bfb6aa36",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\profiles\\Custom%3A Sales Profile.profile-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\profiles\\Custom%3A Sales Profile.profile-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 8435,
+            "modifiedTime": 1543415901030,
+            "changeTime": 1543415901030,
+            "contentHash": "5749a48eb31d29e07f7991ae436a69f9bfb6aa36",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\profiles\\Custom%3A Support Profile.profile-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\profiles\\Custom%3A Support Profile.profile-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 8773,
+            "modifiedTime": 1543415901023,
+            "changeTime": 1543415901023,
+            "contentHash": "0e1df78a3a6ec7e5c0879adcf00e872e135a183d",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\profiles\\Task9 Profile.profile-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\profiles\\Task9 Profile.profile-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 4848,
+            "modifiedTime": 1543415901066,
+            "changeTime": 1543415901066,
+            "contentHash": "86d9ded33f7d9e437d270978eb2d619bfc9d8b00",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\profileSessionSettings",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\profileSessionSettings",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1543415901071,
+            "changeTime": 1543415901071,
+            "contentHash": "6fadf99439502b23b32f3ce0e715b797454e78ff",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\profileSessionSettings\\Task9_Profile_profileSessionSetting1543310353486.profileSessionSetting-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\profileSessionSettings\\Task9_Profile_profileSessionSetting1543310353486.profileSessionSetting-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 440,
+            "modifiedTime": 1543415901072,
+            "changeTime": 1543415901072,
+            "contentHash": "4e937adc74293b1970d5eeb0579762ae53ca7335",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\remoteSiteSettings",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\remoteSiteSettings",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1543415901075,
+            "changeTime": 1543415901075,
+            "contentHash": "100bc7cac8d54b09e55f57f48ef3b4632541ed05",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\remoteSiteSettings\\ApexDevNet.remoteSite-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\remoteSiteSettings\\ApexDevNet.remoteSite-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 260,
+            "modifiedTime": 1543253409524,
+            "changeTime": 1543253409524,
+            "contentHash": "57960f0ebf2014c63da0d6e977d3efabd6eabc16",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\remoteSiteSettings\\ApexDevNetstandard.remoteSite-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\remoteSiteSettings\\ApexDevNetstandard.remoteSite-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 260,
+            "modifiedTime": 1543415901075,
+            "changeTime": 1543415901075,
+            "contentHash": "57960f0ebf2014c63da0d6e977d3efabd6eabc16",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\remoteSiteSettings\\RESTDestination.remoteSite-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\remoteSiteSettings\\RESTDestination.remoteSite-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 287,
+            "modifiedTime": 1543415901074,
+            "changeTime": 1543415901074,
+            "contentHash": "f1238367c39e8a1c2d7dbdb17df62a6a10ca3537",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\sites",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\sites",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1543415901078,
+            "changeTime": 1543415901078,
+            "contentHash": "ffecd6593c162ee46ed9637fc624532ce588c5a0",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\sites\\Task9.site-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\sites\\Task9.site-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 1586,
+            "modifiedTime": 1543415901078,
+            "changeTime": 1543415901078,
+            "contentHash": "e13d631ad4a6507724bad13465f84d54b3e467cb",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1543415900858,
+            "changeTime": 1543415900858,
+            "contentHash": "4f3a13f07754ad7a2301b25602ce03dac9dd23c8",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\Bootstrap_4_1_3",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\Bootstrap_4_1_3",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1543253409680,
+            "changeTime": 1543253409680,
+            "contentHash": "cdf89bc3067f8c6f4e8232b900c211e54f6108bd",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\Bootstrap_4_1_3\\css",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\Bootstrap_4_1_3\\css",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1543253409680,
+            "changeTime": 1543253409680,
+            "contentHash": "4bfbd8ab2bae2891c3797805b30d1c1057166c63",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\Bootstrap_4_1_3\\css\\bootstrap-grid.css",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\Bootstrap_4_1_3\\css\\bootstrap-grid.css",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 37644,
+            "modifiedTime": 1543253409680,
+            "changeTime": 1543253409680,
+            "contentHash": "d01f2466cdb09c2869a00933b301d7b3eaa47c88",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\Bootstrap_4_1_3\\css\\bootstrap-grid.css.map",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\Bootstrap_4_1_3\\css\\bootstrap-grid.css.map",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 98559,
+            "modifiedTime": 1543253409680,
+            "changeTime": 1543253409680,
+            "contentHash": "b27578fe8d4d6ac0ad1cfb9889819a82a432214b",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\Bootstrap_4_1_3\\css\\bootstrap-grid.min.css",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\Bootstrap_4_1_3\\css\\bootstrap-grid.min.css",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 28977,
+            "modifiedTime": 1543253409680,
+            "changeTime": 1543253409680,
+            "contentHash": "0560593b3d9210132122afec4bfada6c83d809bc",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\Bootstrap_4_1_3\\css\\bootstrap-grid.min.css.map",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\Bootstrap_4_1_3\\css\\bootstrap-grid.min.css.map",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 68241,
+            "modifiedTime": 1543253409680,
+            "changeTime": 1543253409680,
+            "contentHash": "6b4c8558c6b00fc700168c4166a81ce515928ec5",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\Bootstrap_4_1_3\\css\\bootstrap-reboot.css",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\Bootstrap_4_1_3\\css\\bootstrap-reboot.css",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 4896,
+            "modifiedTime": 1543253409680,
+            "changeTime": 1543253409680,
+            "contentHash": "625343aa5211458b8c936a397beee92e9714256b",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\Bootstrap_4_1_3\\css\\bootstrap-reboot.css.map",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\Bootstrap_4_1_3\\css\\bootstrap-reboot.css.map",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 60752,
+            "modifiedTime": 1543253409680,
+            "changeTime": 1543253409680,
+            "contentHash": "63405d8b28d6e93c640488a6bbe12ca0df2363b0",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\Bootstrap_4_1_3\\css\\bootstrap-reboot.min.css",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\Bootstrap_4_1_3\\css\\bootstrap-reboot.min.css",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 4019,
+            "modifiedTime": 1543253409680,
+            "changeTime": 1543253409680,
+            "contentHash": "e106d138af12e0006eb148d02112e1f7cd2609bd",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\Bootstrap_4_1_3\\css\\bootstrap-reboot.min.css.map",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\Bootstrap_4_1_3\\css\\bootstrap-reboot.min.css.map",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 26084,
+            "modifiedTime": 1543253409680,
+            "changeTime": 1543253409680,
+            "contentHash": "531ee48ef3c8f401a78ef235a68054376ff19e6a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\Bootstrap_4_1_3\\css\\bootstrap.css",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\Bootstrap_4_1_3\\css\\bootstrap.css",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 173597,
+            "modifiedTime": 1543253409680,
+            "changeTime": 1543253409680,
+            "contentHash": "eb513f44232e0854b251fc2b499bdbf9ad59e3e7",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\Bootstrap_4_1_3\\css\\bootstrap.css.map",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\Bootstrap_4_1_3\\css\\bootstrap.css.map",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 430003,
+            "modifiedTime": 1543253409680,
+            "changeTime": 1543253409680,
+            "contentHash": "7b8868b78570b112775e9192baeaf5059761eb41",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\Bootstrap_4_1_3\\css\\bootstrap.min.css",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\Bootstrap_4_1_3\\css\\bootstrap.min.css",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 140936,
+            "modifiedTime": 1543253409680,
+            "changeTime": 1543253409680,
+            "contentHash": "675fcf28f9fbf37139d3b2c0b676f96f601a4203",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\Bootstrap_4_1_3\\css\\bootstrap.min.css.map",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\Bootstrap_4_1_3\\css\\bootstrap.min.css.map",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 562427,
+            "modifiedTime": 1543253409680,
+            "changeTime": 1543253409680,
+            "contentHash": "331c4c24aae7596194038808de5fd5890a58b97c",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\Bootstrap_4_1_3\\js",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\Bootstrap_4_1_3\\js",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1543253409711,
+            "changeTime": 1543253409711,
+            "contentHash": "a2208f9605d1e894c0ba525fd688b874ad2659ac",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\Bootstrap_4_1_3\\js\\bootstrap.bundle.js",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\Bootstrap_4_1_3\\js\\bootstrap.bundle.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 212345,
+            "modifiedTime": 1543253409680,
+            "changeTime": 1543253409680,
+            "contentHash": "56368d3745a9fb9e81628db25dd5995bc3c31add",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\Bootstrap_4_1_3\\js\\bootstrap.bundle.js.map",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\Bootstrap_4_1_3\\js\\bootstrap.bundle.js.map",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 358832,
+            "modifiedTime": 1543253409680,
+            "changeTime": 1543253409680,
+            "contentHash": "221781d5c60e8ea152edd22d0c87785a876bff31",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\Bootstrap_4_1_3\\js\\bootstrap.bundle.min.js",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\Bootstrap_4_1_3\\js\\bootstrap.bundle.min.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 70966,
+            "modifiedTime": 1543253409696,
+            "changeTime": 1543253409696,
+            "contentHash": "41a4836fc0253324e7e583905f47ba7194bac91d",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\Bootstrap_4_1_3\\js\\bootstrap.bundle.min.js.map",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\Bootstrap_4_1_3\\js\\bootstrap.bundle.min.js.map",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 294126,
+            "modifiedTime": 1543253409696,
+            "changeTime": 1543253409696,
+            "contentHash": "ee000a27df352ddf24555390b90d6ffffb7a3d79",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\Bootstrap_4_1_3\\js\\bootstrap.js",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\Bootstrap_4_1_3\\js\\bootstrap.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 123765,
+            "modifiedTime": 1543253409696,
+            "changeTime": 1543253409696,
+            "contentHash": "096f4af97b2968cf43f08d5a39b8dbae7c74c7ae",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\Bootstrap_4_1_3\\js\\bootstrap.js.map",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\Bootstrap_4_1_3\\js\\bootstrap.js.map",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 211967,
+            "modifiedTime": 1543253409696,
+            "changeTime": 1543253409696,
+            "contentHash": "de4463011ed8fbe90374f94b165c6c9811b8db0e",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\Bootstrap_4_1_3\\js\\bootstrap.min.js",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\Bootstrap_4_1_3\\js\\bootstrap.min.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 51039,
+            "modifiedTime": 1543253409711,
+            "changeTime": 1543253409711,
+            "contentHash": "27a71b00383d61ef3c489326b3564d698fc1227c",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\Bootstrap_4_1_3\\js\\bootstrap.min.js.map",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\Bootstrap_4_1_3\\js\\bootstrap.min.js.map",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 176087,
+            "modifiedTime": 1543253409711,
+            "changeTime": 1543253409711,
+            "contentHash": "0c489167cf0fa7d59ea27d3ec6f09099ed568159",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\Bootstrap_4_1_3.resource-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\Bootstrap_4_1_3.resource-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 222,
+            "modifiedTime": 1543253409524,
+            "changeTime": 1543253409524,
+            "contentHash": "2a135e336ba8b6bc150d4e94f6abb174d496a0f4",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\jquery.js",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\jquery.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 86708,
+            "modifiedTime": 1543253409727,
+            "changeTime": 1543253409727,
+            "contentHash": "aabcbfcd1332e741704318fede8e4c6893245266",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\jquery.resource-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\jquery.resource-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 216,
+            "modifiedTime": 1543253409727,
+            "changeTime": 1543253409727,
+            "contentHash": "0343c8773a885c11d045b85ae1304bed7a07cab6",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\SiteSamples",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\SiteSamples",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1543415900873,
+            "changeTime": 1543415900873,
+            "contentHash": "bfc7b578cefd1230c8d14deafa0e6ea3053edc7e",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\SiteSamples\\img",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\SiteSamples\\img",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1543415900872,
+            "changeTime": 1543415900872,
+            "contentHash": "ca36f65b7f8888bd595c26bba98c091a986284ab",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\clock.png",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\clock.png",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 4681,
+            "modifiedTime": 1543415900861,
+            "changeTime": 1543415900861,
+            "contentHash": "6f2f8d42808b3c04c1a2e7d9b6ba37ea7f862ba7",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\construction.png",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\construction.png",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 15051,
+            "modifiedTime": 1543415900864,
+            "changeTime": 1543415900864,
+            "contentHash": "322851d6d1ef8caf107caf445de1b6c05caef6bc",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\force_logo.png",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\force_logo.png",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1728,
+            "modifiedTime": 1543415900868,
+            "changeTime": 1543415900868,
+            "contentHash": "40bb27e6354b88edcd694651e69ac817cc859541",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\maintenance.png",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\maintenance.png",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 12247,
+            "modifiedTime": 1543415900869,
+            "changeTime": 1543415900869,
+            "contentHash": "3eae4032e6c554a7c44ec277b10f9fa92de2d6cf",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\poweredby.png",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\poweredby.png",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 984,
+            "modifiedTime": 1543415900870,
+            "changeTime": 1543415900870,
+            "contentHash": "a29fa078df1fc18309a8fa02d5941312e4e41344",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\tools.png",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\tools.png",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2136,
+            "modifiedTime": 1543415900871,
+            "changeTime": 1543415900871,
+            "contentHash": "06ee26032a159736878decef296cba66ec8d8e25",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\unauthorized.png",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\unauthorized.png",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2076,
+            "modifiedTime": 1543415900872,
+            "changeTime": 1543415900872,
+            "contentHash": "74dc855d72862a1f62d1c9ec0535f43a229fb1a4",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\warning.png",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\warning.png",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1767,
+            "modifiedTime": 1543415900873,
+            "changeTime": 1543415900873,
+            "contentHash": "90ef2806b042926ca428c19654b9306555b53429",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\SiteSamples\\SiteStyles.css",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\SiteSamples\\SiteStyles.css",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 402,
+            "modifiedTime": 1543415900874,
+            "changeTime": 1543415900874,
+            "contentHash": "acbb17c79c96e91d9c04ae4c847b7241ccde01de",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\SiteSamples.resource-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\SiteSamples.resource-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 279,
+            "modifiedTime": 1543415900826,
+            "changeTime": 1543415900826,
+            "contentHash": "d631b8484f7cf65ecbe56127a65e4ec278d8657d",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\task9js.js",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\task9js.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 10723,
+            "modifiedTime": 1543253409727,
+            "changeTime": 1543253409727,
+            "contentHash": "d861cb6eea23d512faecb60f6f23118458fa86d0",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\task9js.resource-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\task9js.resource-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 216,
+            "modifiedTime": 1543253409727,
+            "changeTime": 1543253409727,
+            "contentHash": "0343c8773a885c11d045b85ae1304bed7a07cab6",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\Task9Style.css",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\Task9Style.css",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 10900,
+            "modifiedTime": 1543253409727,
+            "changeTime": 1543253409727,
+            "contentHash": "626e545b30111b0e30eca00521c760f6d49f8c09",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\Task9Style.resource-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\staticresources\\Task9Style.resource-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 202,
+            "modifiedTime": 1543253409727,
+            "changeTime": 1543253409727,
+            "contentHash": "685dbf4de5497a270ef119672a6f2f9aa4074ff2",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\tabs",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\tabs",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1543415900970,
+            "changeTime": 1543415900970,
+            "contentHash": "3935a908582f83baa236f7b400c37ce8a94da83b",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\tabs\\CVJA__c.tab-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\tabs\\CVJA__c.tab-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 221,
+            "modifiedTime": 1543415900970,
+            "changeTime": 1543415900970,
+            "contentHash": "69912039ef5c0feb96853dc7b54eb8684c066c13",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\tabs\\CV__c.tab-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\tabs\\CV__c.tab-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 223,
+            "modifiedTime": 1543415900967,
+            "changeTime": 1543415900967,
+            "contentHash": "27c1eace60dd656aade6bb15821f7413f18887ef",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\tabs\\Job_Advertisement__c.tab-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\tabs\\Job_Advertisement__c.tab-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 225,
+            "modifiedTime": 1543415900969,
+            "changeTime": 1543415900969,
+            "contentHash": "02af176c2b3fe640302ea93f03571c71708827e2",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\triggers",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\triggers",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1543596564909,
+            "changeTime": 1543596564909,
+            "contentHash": "0ce27469d34abea57b99d9c20bb143a3beb548ce",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\triggers\\JobAdvertisementTrigger.trigger",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\triggers\\JobAdvertisementTrigger.trigger",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 688,
+            "modifiedTime": 1543596564909,
+            "changeTime": 1543596564909,
+            "contentHash": "bd06ba50858ec0ffe22f926106ee3be6bbdc48da",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\triggers\\JobAdvertisementTrigger.trigger-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\triggers\\JobAdvertisementTrigger.trigger-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 178,
+            "modifiedTime": 1543253409743,
+            "changeTime": 1543253409743,
+            "contentHash": "12d084f642d1a7ac8faa5952932bd3dba75c8c9d",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site",
+        {
+            "state": "n",
+            "sourcePath": "C:\\JAsSite\\site\\Site",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1543254181764,
+            "changeTime": 1543254181764,
+            "contentHash": "a8105cf82ea4e0f814370b0f3043fde42403ac9b",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ]
+]

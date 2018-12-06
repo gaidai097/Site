@@ -2,24 +2,24 @@ public with sharing class Task9Controller {
     public String msgInfo {public get; public set;}
     public String msgError {public get; public set;}
     public String salaryFilter {public get; public set;}
-    public Integer salaryParam {public get; public set;}
     public String nameFilter;
     public String dateFilter {public get; public set;}
-    public Date publishedDate ;
-    public Integer rowIndex {get; set;}
-    public Blob image {get; set;}
-    public Integer noOfRecords {get; set;}
-    public Integer size;
-    public List <VacancyWrapper> jobs ;
-    public List <Job_Advertisement__c> selectedJobs ;
-    public ApexPages.StandardSetController ssc { get; set; }
-    public Set <ID> checkedIDs = new Set <ID>();
-    public List<Job_Advertisement__c> currentList = new List<Job_Advertisement__c>();
-    public CV__c cv {get;set;}
     public String cvFirstName {public get; public set;}
     public String cvLastName {public get; public set;}
     public String fileName {public get; public set;}
-    
+    public Integer salaryParam {public get; public set;}
+    public Integer noOfRecords {get; set;}
+    public Integer size;
+    public Integer rowIndex {get; set;}
+    public Date publishedDate ;
+    public Blob image {get; set;}
+    public List <VacancyWrapper> jobs ;
+    public List <Job_Advertisement__c> selectedJobs ;
+    public List<Job_Advertisement__c> currentList = new List<Job_Advertisement__c>();
+    public ApexPages.StandardSetController ssc { get; set; }
+    public Set <ID> checkedIDs = new Set <ID>();    
+    public CV__c cv {get;set;}
+        
     public List <Job_Advertisement__c> getSelectedJobs(){
         return selectedJobs;
     }
@@ -112,43 +112,53 @@ public with sharing class Task9Controller {
         noOfRecords = ssc.getResultSize();
     }
     public void saveCV(){
-        
-        cv.Name = cvFirstName + ' ' + cvLastName ;
-        System.debug('saveCV');
-        if(image != null && image.size() < 1024*128){
             
-            try{
-                Map<Id,Job_Advertisement__c> filteredJobsMap = Task9ControllerHelper.saveCV( cv , selectedJobs, image ,fileName);
-                // Form result msg
-                List <String> approvedJobs = new List <String> ();
-                List <String> removedJobs = new List <String> ();
-                for(Job_Advertisement__c selected: selectedJobs){
-                    if( filteredJobsMap.containsKey(selected.id)){
-                        approvedJobs.add(selected.Name);
-                    }else{
-                        removedJobs.add(selected.Name);
-                    }
-                }
-                if(approvedJobs.size() == selectedJobs.size()){
-                    msgInfo = 'CV successfully saved for all jobs';
-                }else{
-                    msgInfo ='CV was posted for ' + approvedJobs + '/n' + 'Removed jobs, which were selected before ' + removedJobs;
-                }
-                cv.Salary__c = null;
-                cv.id = null;
-                selectedJobs.clear();
-            }catch( Task6Exception e ){
-                System.debug( ' saving => ' +  e.getCause() + ' ' + e.getLineNumber() +' ' + e.getMessage() );
-                msgError = e.getMessage();
-            }
-        }else{
-            msgError = 'File is too big! Select a file less than 128K';
+        try{
+            filterImage();
+            filterName();            
+            Map<Id,Job_Advertisement__c> filteredJobsMap = Task9ControllerHelper.saveCV( cv , selectedJobs, image ,fileName);
+            formResultMsg(filteredJobsMap);
+            clearFields();  
+        }catch( Task6Exception e ){
             this.image = null;
-            return ; 
+            System.debug( ' saving => ' +  e.getCause() + ' ' + e.getLineNumber() +' ' + e.getMessage() );
+            msgError = e.getMessage();
         }
-	
        // cloneCVS();
        // duplicateCloning(); 
+    }
+    public void filterImage(){
+        if(image == null || image.size() > 1024*128){
+            throw new Task6Exception( 'File is too big! Select a file less than 128K');            
+        }
+    }
+    public void filterName(){
+        if( !Pattern.matches('[A-Z]{1}[a-z]{1,12}', cvFirstName) || !Pattern.matches('[A-Z]{1}[a-z]{1,12}', cvLastName)){               
+            throw new Task6Exception( 'Incorrect Name !');                    
+        }
+        cv.Name = cvFirstName + ' ' + cvLastName ;
+    }
+    public void formResultMsg( Map<Id,Job_Advertisement__c> filteredJobsMap ){
+        List <String> approvedJobs = new List <String> ();
+        List <String> removedJobs = new List <String> ();
+        for(Job_Advertisement__c selected: selectedJobs){
+            if( filteredJobsMap.containsKey(selected.id)){
+                approvedJobs.add(selected.Name);
+            }else{
+                removedJobs.add(selected.Name);
+            }
+        }
+        if(approvedJobs.size() == selectedJobs.size()){
+            msgInfo = 'CV successfully saved for all jobs';
+        }else{
+            msgInfo ='CV was posted for ' + approvedJobs + '\n ' + 'Removed jobs, which were selected before ' + removedJobs;
+        }
+    }
+    public void clearFields(){
+        cv.Salary__c = null;
+        cv.id = null;
+        checkedIDs.clear();
+        selectedJobs.clear();
     }
   /*
     public void duplicateCloning(){

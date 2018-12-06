@@ -63,7 +63,7 @@
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1543600907567,
+            "modifiedTime": 1543848817352,
             "changeTime": 1543415901013,
             "contentHash": "a3c2c22b912614fb2af54a58ee61eb7fc904298e",
             "isMetadataFile": false,
@@ -219,14 +219,14 @@
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementApiHelper.cls",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementApiHelper.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 4933,
             "modifiedTime": 1543848817305,
             "changeTime": 1543848817305,
-            "contentHash": "8778cb18ebd08cb9a42ad76a077e92091a590823"
+            "contentHash": "8778cb18ebd08cb9a42ad76a077e92091a590823",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -247,14 +247,14 @@
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementApiHelperTest.cls",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobAdvertisementApiHelperTest.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 6798,
             "modifiedTime": 1543848817289,
             "changeTime": 1543848817289,
-            "contentHash": "4fbcdc167a91bb23a41a75ffc60b2b15316aadaf"
+            "contentHash": "4fbcdc167a91bb23a41a75ffc60b2b15316aadaf",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -595,14 +595,14 @@
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\Task9Controller.cls",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\Task9Controller.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 10992,
             "modifiedTime": 1543848817352,
             "changeTime": 1543848817352,
-            "contentHash": "1e967b96d35af6d3c6027338ab2fb2fd1d38cff5"
+            "contentHash": "1e967b96d35af6d3c6027338ab2fb2fd1d38cff5",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -627,10 +627,10 @@
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\Task9ControllerHelper.cls",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 8007,
-            "modifiedTime": 1543848817336,
-            "changeTime": 1543848817336,
-            "contentHash": "fc2acc59c96b73d80e34109c5e4eda0b4be4df5e"
+            "size": 8086,
+            "modifiedTime": 1543853134863,
+            "changeTime": 1543853134863,
+            "contentHash": "ab61fcfe431cc38086dc57052659d8b5e8fb38e6"
         }
     ],
     [
@@ -651,14 +651,14 @@
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\Task9ControllerHelperTest.cls",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\Task9ControllerHelperTest.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 900,
             "modifiedTime": 1543848817320,
             "changeTime": 1543848817320,
-            "contentHash": "c5569d4f9869498dcdc0f4d579c23c7f4021ffa1"
+            "contentHash": "c5569d4f9869498dcdc0f4d579c23c7f4021ffa1",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -1385,7 +1385,7 @@
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1543415900965,
+            "modifiedTime": 1543848817273,
             "changeTime": 1543415900965,
             "contentHash": "0765d6f81f0bf706d49d0650c6257477aa3af0c3",
             "isMetadataFile": false,
@@ -1425,14 +1425,14 @@
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\Task9.page",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\pages\\Task9.page",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 33592,
             "modifiedTime": 1543848817273,
             "changeTime": 1543848817273,
-            "contentHash": "dd557d31b2083547bb59526b35e6a0cbe070dcbc"
+            "contentHash": "dd557d31b2083547bb59526b35e6a0cbe070dcbc",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
