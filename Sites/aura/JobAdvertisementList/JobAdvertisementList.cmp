@@ -1,0 +1,17 @@
+<aura:component controller="JobsLController">
+    <aura:attribute name="jobs" type="Job_Advertisement__c[]"/>
+    <aura:attribute name="selectedJobs" type="Job_Advertisement__c[]"/>
+    <aura:attribute name="testMsg" type="String"
+         default="SomeTest"/>
+    <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
+    
+    
+    
+    <p> {!v.testMsg} </p>
+    <lightning:accordion class="slds-m-top_large" aura:id="accordion" activeSectionName="B">          
+        <aura:iteration items="{!v.jobs}" var="job">               
+            <c:JobCard job="{!job}"/>
+        </aura:iteration>
+    </lightning:accordion>
+    
+</aura:component>

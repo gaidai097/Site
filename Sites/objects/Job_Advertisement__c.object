@@ -45,6 +45,7 @@
     <deploymentStatus>Deployed</deploymentStatus>
     <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableReports>true</enableReports>
@@ -52,15 +53,6 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ReadWrite</externalSharingModel>
-    <label>Job Advertisement</label>
-    <nameField>
-        <label>Title</label>
-        <type>Text</type>
-    </nameField>
-    <pluralLabel>Job Advertisements</pluralLabel>
-    <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
-    <visibility>Public</visibility>
     <fields>
         <fullName>Description__c</fullName>
         <externalId>false</externalId>
@@ -78,15 +70,6 @@
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>email__c</fullName>
-        <externalId>false</externalId>
-        <label>email</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Email</type>
         <unique>false</unique>
     </fields>
     <fields>
@@ -108,15 +91,6 @@
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>phone__c</fullName>
-        <externalId>false</externalId>
-        <inlineHelpText>Manager&#39;s phone</inlineHelpText>
-        <label>phone</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Phone</type>
     </fields>
     <fields>
         <fullName>SalaryMax__c</fullName>
@@ -178,6 +152,25 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
+    <fields>
+        <fullName>email__c</fullName>
+        <externalId>false</externalId>
+        <label>email</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>phone__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Manager&apos;s phone</inlineHelpText>
+        <label>phone</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <label>Job Advertisement</label>
     <listViews>
         <fullName>All</fullName>
         <columns>NAME</columns>
@@ -191,4 +184,12 @@
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>
+    <nameField>
+        <label>Title</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Job Advertisements</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
 </CustomObject>

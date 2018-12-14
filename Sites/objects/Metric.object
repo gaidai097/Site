@@ -3,7 +3,7 @@
     <recordTypes>
         <fullName>Completion</fullName>
         <active>true</active>
-        <description>Measure achievement based on whether or not the metric is finished. Ideal for tracking milestones, or when you don&#39;t have metrics based on hard numbers. For example: Become Salesforce Certified.</description>
+        <description>Measure achievement based on whether or not the metric is finished. Ideal for tracking milestones, or when you don&apos;t have metrics based on hard numbers. For example: Become Salesforce Certified.</description>
         <label>Completion</label>
     </recordTypes>
     <recordTypes>

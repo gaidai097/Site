@@ -45,6 +45,7 @@
     <deploymentStatus>Deployed</deploymentStatus>
     <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
     <enableFeeds>false</enableFeeds>
     <enableHistory>true</enableHistory>
     <enableReports>true</enableReports>
@@ -52,16 +53,6 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ReadWrite</externalSharingModel>
-    <label>CV</label>
-    <nameField>
-        <label>Full Name</label>
-        <trackHistory>false</trackHistory>
-        <type>Text</type>
-    </nameField>
-    <pluralLabel>CVs</pluralLabel>
-    <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
-    <visibility>Public</visibility>
     <fields>
         <fullName>Additional_info__c</fullName>
         <externalId>false</externalId>
@@ -129,7 +120,7 @@
     </fields>
     <fields>
         <fullName>Salary__c</fullName>
-        <description>Thousands  $ &#39;k&#39;</description>
+        <description>Thousands  $ &apos;k&apos;</description>
         <externalId>false</externalId>
         <label>Salary</label>
         <precision>10</precision>
@@ -150,6 +141,7 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
+    <label>CV</label>
     <listViews>
         <fullName>All</fullName>
         <columns>NAME</columns>
@@ -163,4 +155,13 @@
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>
+    <nameField>
+        <label>Full Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>CVs</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
 </CustomObject>

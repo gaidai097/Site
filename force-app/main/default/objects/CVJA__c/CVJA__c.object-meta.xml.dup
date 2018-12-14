@@ -53,41 +53,6 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ControlledByParent</externalSharingModel>
-    <fields>
-        <fullName>CV__c</fullName>
-        <externalId>false</externalId>
-        <label>CV</label>
-        <referenceTo>CV__c</referenceTo>
-        <relationshipLabel>CVJAs</relationshipLabel>
-        <relationshipName>CVJAs</relationshipName>
-        <relationshipOrder>0</relationshipOrder>
-        <reparentableMasterDetail>false</reparentableMasterDetail>
-        <trackTrending>false</trackTrending>
-        <type>MasterDetail</type>
-        <writeRequiresMasterRead>false</writeRequiresMasterRead>
-    </fields>
-    <fields>
-        <fullName>Email__c</fullName>
-        <externalId>false</externalId>
-        <label>Email</label>
-        <required>true</required>
-        <trackTrending>false</trackTrending>
-        <type>Email</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Job_Advertisement__c</fullName>
-        <externalId>false</externalId>
-        <label>Job Advertisement</label>
-        <referenceTo>Job_Advertisement__c</referenceTo>
-        <relationshipLabel>CVJAs</relationshipLabel>
-        <relationshipName>CVJAs</relationshipName>
-        <relationshipOrder>1</relationshipOrder>
-        <reparentableMasterDetail>false</reparentableMasterDetail>
-        <trackTrending>false</trackTrending>
-        <type>MasterDetail</type>
-        <writeRequiresMasterRead>false</writeRequiresMasterRead>
-    </fields>
     <label>CVJA</label>
     <nameField>
         <label>CVJobAdvertisement Name</label>
