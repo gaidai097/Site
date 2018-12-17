@@ -1,4 +1,4 @@
-<aura:component controller="JobsLController">
+<aura:component controller="JobsLController"> 
     <aura:attribute name="jobs" type="Job_Advertisement__c[]"/>
     <aura:attribute name="selectedJobs" type="Job_Advertisement__c[]"/>
     <aura:attribute name="testMsg" type="String"
@@ -7,7 +7,7 @@
     
     
     
-    <p> {!v.testMsg} </p>
+    <br/>
     <lightning:accordion class="slds-m-top_large" aura:id="accordion" activeSectionName="B">          
         <aura:iteration items="{!v.jobs}" var="job">               
             <c:JobCard job="{!job}"/>

@@ -1,0 +1,16 @@
+<aura:component >
+    <aura:attribute name="pageSizeValue" type="string" default="10"/>
+    <div class="slds-grid slds-box"> 
+        
+        
+        <div class="row">
+            <div class="slds-col slds-size_6-of-12">
+                <lightning:buttonMenu aura:id="pageSize" label="{! v.pageSizeValue}" onselect="{! c.handleSelect }" value="10" alternativeText="Show menu">
+                    <lightning:menuItem value="5" label="5" />
+                    <lightning:menuItem value="10" label="10" />
+                    <lightning:menuItem value="20" label="20" />
+                </lightning:buttonMenu>
+            </div>
+        </div>
+    </div>
+</aura:component>

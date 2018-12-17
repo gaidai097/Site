@@ -1,11 +1,11 @@
-<aura:component >
+<aura:component > 
 	<aura:attribute name="job" type="Job_Advertisement__c"/>
     
     <lightning:accordionSection name="{!v.job.Id}" label="{!v.job.Name}" class="slds-card">
        
         <aura:set attribute="body">
             <div class="slds-grid">
-                <div class="slds-col slds-size_1-of-12">
+                <div class="slds-col slds-size_3-of-12">
                     <p>ID : </p>
                 </div>
                 <div class="slds-col slds-size_6-of-12">
@@ -13,7 +13,7 @@
                 </div>
             </div>  
             <div class="slds-grid">
-                <div class="slds-col slds-size_1-of-12">
+                <div class="slds-col slds-size_3-of-12">
                     <p>Name : </p>
                 </div>
                 <div class="slds-col slds-size_6-of-12">
@@ -21,7 +21,7 @@
                 </div>
             </div> 
             <div class="slds-grid">
-                <div class="slds-col slds-size_1-of-12">
+                <div class="slds-col slds-size_3-of-12">
                     <p>CreatedDate : </p>
                 </div>
                 <div class="slds-col slds-size_6-of-12">
@@ -30,7 +30,7 @@
             </div> 
             <aura:renderIf isTrue="{!v.job.email__c != NULL }">
                 <div class="slds-grid">
-                    <div class="slds-col slds-size_1-of-12">
+                    <div class="slds-col slds-size_3-of-12">
                         <p>Status : </p>
                     </div>
                     <div class="slds-col slds-size_6-of-12">
@@ -40,7 +40,7 @@
             </aura:renderIf>
             <aura:renderIf isTrue="{!v.job.Location__c != NULL }">
                 <div class="slds-grid">
-                    <div class="slds-col slds-size_1-of-12">
+                    <div class="slds-col slds-size_3-of-12">
                         <p>Location : </p>
                     </div>
                     <div class="slds-col slds-size_6-of-12">
@@ -49,7 +49,7 @@
                 </div>
             </aura:renderIf>
             <div class="slds-grid">
-                <div class="slds-col slds-size_1-of-12">
+                <div class="slds-col slds-size_3-of-12">
                     <p>Salary : </p>
                 </div>
                 <div class="slds-col slds-size_6-of-12">
