@@ -1,17 +1,18 @@
 ({
-	handleClick : function(component, event, helper) {
+	refilter : function(component, event, helper) {
         
-        var nameFilter = component.find('nameFilter').get("v.value");
-        var dateFilter = component.find('dateFilter').get("v.value");
-        var salaryFilter = component.find('salaryFilter').get("v.value");
-		helper.helperSubmit(nameFilter,dateFilter, salaryFilter );
+        helper.refilterPage(component );
 	},
     handleSubmit : function(component, event, helper) {        
         if (event.keyCode === 13) {
-            var nameFilter = component.find('nameFilter').get("v.value");
-            var dateFilter = component.find('dateFilter').get("v.value");
-            var salaryFilter = component.find('salaryFilter').get("v.value");
-            helper.helperSubmit(nameFilter,dateFilter, salaryFilter );
+            helper.refilterPage(component );
         }
+	},
+    clearFilters : function(component, event, helper) {
+        
+        component.find('nameFilter').set("v.value", null);
+        component.find('dateFilter').set("v.value", null);
+        component.find('salaryFilter').set("v.value", null);
+        helper.refilterPage(component );
 	}
 })

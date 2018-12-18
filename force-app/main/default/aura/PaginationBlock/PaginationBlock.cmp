@@ -1,9 +1,10 @@
-<aura:component >
+<aura:component controller="JobsLController">    
     <aura:attribute name="pageSizeValue" type="string" default="10"/>
+    <aura:attribute name="totalCount" type="Integer" default="0"/>
+    <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
+    <aura:registerEvent name="pageUpdate" type="c:pageUpdate"/>
     <div class="slds-grid slds-box"> 
         
-        
-        <div class="row">
             <div class="slds-col slds-size_6-of-12">
                 <lightning:buttonMenu aura:id="pageSize" label="{! v.pageSizeValue}" onselect="{! c.handleSelect }" value="10" alternativeText="Show menu">
                     <lightning:menuItem value="5" label="5" />
@@ -11,6 +12,11 @@
                     <lightning:menuItem value="20" label="20" />
                 </lightning:buttonMenu>
             </div>
-        </div>
+        
+       
+            <div class="slds-col slds-size_6-of-12">
+                <p> {!v.totalCount}</p>
+            </div>
+        
     </div>
 </aura:component>

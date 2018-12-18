@@ -1,12 +1,18 @@
 <aura:component controller="JobsLController"> 
     <aura:attribute name="jobs" type="Job_Advertisement__c[]"/>
     <aura:attribute name="selectedJobs" type="Job_Advertisement__c[]"/>
-    <aura:attribute name="testMsg" type="String"
-         default="SomeTest"/>
+    <aura:attribute name="testMsg" type="String" default="SomeTest"/>
+    <aura:attribute name="pageSize" type="String" default="10"/>
+    <aura:attribute name="publishedDate" type="String" default=""/>    
+    <aura:attribute name="dateFilter" type="String" default=""/>
+    <aura:attribute name="nameFilter" type="String" default=""/>
+    <aura:attribute name="salaryFilter" type="String" default=""/>
+    <aura:attribute name="salaryParam" type="String" default=""/>
+    <aura:attribute name="pageNumber" type="String" default="0"/>
     <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
-    
-    
-    
+    <aura:handler  event="c:pageUpdate" action="{!c.handlePageSizeUpdate}"/>
+    <aura:handler  event="c:filterUpdate" action="{!c.handleFilterEvent}"/>
+
     <br/>
     <lightning:accordion class="slds-m-top_large" aura:id="accordion" activeSectionName="B">          
         <aura:iteration items="{!v.jobs}" var="job">               

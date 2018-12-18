@@ -1,4 +1,10 @@
 <aura:component > 
+    
+    <aura:attribute name="nameFilter" type="String" default=""/>
+    <aura:attribute name="dateFilter" type="String" default=""/>
+    <aura:attribute name="salaryFilter" type="String" default=""/>
+    <aura:registerEvent name="refilter" type="c:filterUpdate"/>
+    
     <form onkeyup="{!c.handleSubmit}">
         <div class="slds-grid">
             <div class="slds-col slds-size_3-of-12">
@@ -11,10 +17,10 @@
                 <lightning:input aura:id="salaryFilter" type="number" name="salaryFilter" value="" label="Select Salary range :" />
             </div>
             <div class="slds-col slds-size_1-of-12 slds-is-relative">
-                <lightning:button variant="brand" label="Filter" onclick="{! c.handleClick }" />
+                <lightning:button variant="brand" label="Filter" onclick="{! c.refilter }" />
             </div>
             <div class="slds-col slds-size_1-of-12 slds-is-relative">
-                <lightning:button variant="success" label="Clear" onclick="{! c.handleClick }" />
+                <lightning:button variant="success" label="Clear" onclick="{! c.clearFilters }" />
             </div>
         </div>
     </form>
