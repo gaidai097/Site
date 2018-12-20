@@ -1,5 +1,5 @@
 public class JobsLController {
- // STERN LECTURE ABOUT WHAT'S MISSING HERE COMING SOON
+   
     @AuraEnabled
     public static List<Job_Advertisement__c> getJobs(Map<String, Object> params){        
         System.debug(params);
@@ -15,8 +15,15 @@ public class JobsLController {
         return result;
     }
     @AuraEnabled
-    public static Integer getTotalCount(String pageNumber, String pageSize, String nameFilter, String dateFilter, String salaryFilter){
-        Integer totalCount = [SELECT COUNT() FROM Job_Advertisement__c];
+    public static Integer getTotalCount(Map<String, Object> params){
+        System.debug(params);
+        Integer totalCount = JobsLControllerHelper.getTotalRecordsCount(
+            (String)params.get('nameFilter'),
+            (String)params.get('publishedDate'),
+            (String)params.get('dateFilter'),
+            (String)params.get('salaryFilter'),
+            (String)params.get('salaryParam')
+        ); 
         return totalCount;
     }
 }

@@ -12,6 +12,11 @@
             </div>
             <div class="slds-col slds-size_4-of-12">
                 <lightning:input aura:id="dateFilter" type="date" name="dateFilter" label="Date :" placeholder="Choose Date"/>
+                <lightning:buttonMenu aura:id="pageSize" label="{! v.pageSizeValue}" onselect="{! c.handleSelect }" value="10" alternativeText="Show menu">
+                    <lightning:menuItem value="5" label="5" />
+                    <lightning:menuItem value="10" label="10" />
+                    <lightning:menuItem value="20" label="20" />
+                </lightning:buttonMenu>
             </div>
             <div class="slds-col slds-size_3-of-12">
                 <lightning:input aura:id="salaryFilter" type="number" name="salaryFilter" value="" label="Select Salary range :" />

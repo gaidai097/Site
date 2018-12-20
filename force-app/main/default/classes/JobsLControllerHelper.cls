@@ -2,7 +2,7 @@ public class JobsLControllerHelper {
     
     public static List <Job_Advertisement__c> getPageRecords(String pageNumber, String pageSize, String nameFilter,String publishedDateString, String dateFilter, String salaryFilter, String salaryParamString){
         
-        String queryString = formQuery( pageSize, nameFilter, publishedDateString, dateFilter, salaryFilter, salaryParamString);
+        String queryString = formQuery(  nameFilter, publishedDateString, dateFilter, salaryFilter, salaryParamString);
         // String queryString = 'SELECT ID, CreatedDate from Job_Advertisement__c';
         ApexPages.StandardSetController ssc = new ApexPages.StandardSetController(Database.getQueryLocator(queryString));
         
@@ -13,10 +13,19 @@ public class JobsLControllerHelper {
         
         return jAs;
     }
+    public static Integer getTotalRecordsCount( String nameFilter, String publishedDateString, String dateFilter, String salaryFilter, String salaryParamString){
+        
+        String queryString = formQuery( nameFilter, publishedDateString, dateFilter, salaryFilter, salaryParamString);
+        // String queryString = 'SELECT ID, CreatedDate from Job_Advertisement__c';
+        ApexPages.StandardSetController ssc = new ApexPages.StandardSetController(Database.getQueryLocator(queryString));
+        
+        Integer noOfRecords = ssc.getResultSize();
+        
+        return noOfRecords;
+    }
 	
-    public static String formQuery( String pageSize, String nameFilter,String publishedDateString, String dateFilter, String salaryFilter, String salaryParamString){
-        Integer pageSizeInteger = Integer.valueOf(pageSize);
-        if( pageSizeInteger == null || pageSizeInteger == 0) pageSizeInteger = 10;
+    public static String formQuery( String nameFilter,String publishedDateString, String dateFilter, String salaryFilter, String salaryParamString){
+       
         String queryString = 'Select Name,ID, Location__c, Status__c,Phone__c, Email__c,Education__c, Manager_name__c, SalaryMax__c, CreatedDate, SalaryMin__c from Job_Advertisement__c WHERE Status__c != \'Archived\'';
         List <String> paramsRows = new List <String>();
         if( nameFilter != null && nameFilter != '' ){
