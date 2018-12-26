@@ -5,28 +5,40 @@
     <aura:attribute name="salaryFilter" type="String" default=""/>
     <aura:registerEvent name="refilter" type="c:filterUpdate"/>
     
-    <form onkeyup="{!c.handleSubmit}">
+    <!--<form onkeyup="{!c.handleSubmit}">    -->
         <div class="slds-grid">
             <div class="slds-col slds-size_3-of-12">
                 <lightning:input aura:id="nameFilter" name="nameFilter" placeholder="Empty" label="Name :" />
             </div>
-            <div class="slds-col slds-size_4-of-12">
-                <lightning:input aura:id="dateFilter" type="date" name="dateFilter" label="Date :" placeholder="Choose Date"/>
-                <lightning:buttonMenu aura:id="pageSize" label="{! v.pageSizeValue}" onselect="{! c.handleSelect }" value="10" alternativeText="Show menu">
-                    <lightning:menuItem value="5" label="5" />
-                    <lightning:menuItem value="10" label="10" />
-                    <lightning:menuItem value="20" label="20" />
-                </lightning:buttonMenu>
+            <div class="slds-col slds-size_4-of-12 slds-grid">
+                <div class="slds-col slds-size_7-of-12">
+                    <lightning:input aura:id="dateFilter" type="date" name="dateFilter" label="Date :" placeholder="Choose Date"/>
+                </div>
+                <div class="slds-col slds-size_5-of-12 slds-is-relative">
+                    <div class="dropdown_bottom">
+                        <lightning:buttonMenu aura:id="dataFilter" label="MORE" value="10" alternativeText="Show menu">
+                            <lightning:menuItem value="MORE" label="MORE" />
+                            <lightning:menuItem value="LESS" label="LESS" />
+                            <lightning:menuItem value="EQUEALS" label="EQUEALS" />
+                        </lightning:buttonMenu>
+                    </div>                    
+                </div>
             </div>
             <div class="slds-col slds-size_3-of-12">
-                <lightning:input aura:id="salaryFilter" type="number" name="salaryFilter" value="" label="Select Salary range :" />
+                <span onkeypress="{!c.handleSubmit}" >
+                    <lightning:input aura:id="salaryFilter" type="number" name="salaryFilter" value="" label="Select Salary range :" />
+                </span>
             </div>
             <div class="slds-col slds-size_1-of-12 slds-is-relative">
-                <lightning:button variant="brand" label="Filter" onclick="{! c.refilter }" />
+                <span onkeypress="{!c.handleSubmit}" >
+                    <lightning:button variant="brand" label="Filter" onclick="{! c.refilter }" />
+                </span>
             </div>
             <div class="slds-col slds-size_1-of-12 slds-is-relative">
-                <lightning:button variant="success" label="Clear" onclick="{! c.clearFilters }" />
+                <span onkeypress="{!c.handleSubmit}" >
+                    <lightning:button variant="success" label="Clear" onclick="{! c.clearFilters }" />
+                </span>
             </div>
         </div>
-    </form>
+    
 </aura:component>

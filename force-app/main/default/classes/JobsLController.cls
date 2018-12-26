@@ -3,27 +3,25 @@ public class JobsLController {
     @AuraEnabled
     public static List<Job_Advertisement__c> getJobs(Map<String, Object> params){        
         System.debug(params);
-        List <Job_Advertisement__c> result = JobsLControllerHelper.getPageRecords(
-            (String)params.get('pageNumber'),
-            (String)params.get('pageSize'),
-            (String)params.get('nameFilter'),
-            (String)params.get('publishedDate'),
-            (String)params.get('dateFilter'),
-            (String)params.get('salaryFilter'),
-            (String)params.get('salaryParam')
-        );   
+        Map <String, String> stringParams = transformParamsMap(params);
+        List <Job_Advertisement__c> result = JobsLControllerHelper.getPageRecords(stringParams);   
         return result;
     }
     @AuraEnabled
     public static Integer getTotalCount(Map<String, Object> params){
         System.debug(params);
-        Integer totalCount = JobsLControllerHelper.getTotalRecordsCount(
-            (String)params.get('nameFilter'),
-            (String)params.get('publishedDate'),
-            (String)params.get('dateFilter'),
-            (String)params.get('salaryFilter'),
-            (String)params.get('salaryParam')
-        ); 
+        Map <String, String> stringParams = transformParamsMap(params);
+        Integer totalCount = JobsLControllerHelper.getTotalRecordsCount(stringParams); 
+        System.debug( 'totalCount ' + totalCount  );
         return totalCount;
+    }
+    
+    public static Map <String, String> transformParamsMap(Map<String, Object> params){
+        if( params == null || params.isEmpty()) return new Map <String, String> ();
+        Map <String, String> stringParams = new Map <String, String> ();
+        for(String key : params.keySet() ){
+            stringParams.put(key, (String) params.get(key));
+        }
+        return stringParams;        
     }
 }

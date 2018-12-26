@@ -1,40 +1,39 @@
 public class JobsLControllerHelper {
     
-    public static List <Job_Advertisement__c> getPageRecords(String pageNumber, String pageSize, String nameFilter,String publishedDateString, String dateFilter, String salaryFilter, String salaryParamString){
+    public static List <Job_Advertisement__c> getPageRecords(Map<String, String> params){
         
-        String queryString = formQuery(  nameFilter, publishedDateString, dateFilter, salaryFilter, salaryParamString);
+        String queryString = formQuery(  params);
         // String queryString = 'SELECT ID, CreatedDate from Job_Advertisement__c';
         ApexPages.StandardSetController ssc = new ApexPages.StandardSetController(Database.getQueryLocator(queryString));
-        
-        ssc.setPageSize( Integer.valueOf(pageSize) );
-        ssc.setPageNumber(Integer.valueOf(pageNumber));
+        ssc.setPageSize( Integer.valueOf( params.get( 'pageSize' )));
+        ssc.setPageNumber(Integer.valueOf( params.get( 'pageNumber' )));
         //Integer noOfRecords = ssc.getResultSize();
         List <Job_Advertisement__c> jAs = ssc.getRecords();
         
         return jAs;
     }
-    public static Integer getTotalRecordsCount( String nameFilter, String publishedDateString, String dateFilter, String salaryFilter, String salaryParamString){
+    public static Integer getTotalRecordsCount( Map<String, String> params){
         
-        String queryString = formQuery( nameFilter, publishedDateString, dateFilter, salaryFilter, salaryParamString);
-        // String queryString = 'SELECT ID, CreatedDate from Job_Advertisement__c';
+        String queryString = formQuery( params);
         ApexPages.StandardSetController ssc = new ApexPages.StandardSetController(Database.getQueryLocator(queryString));
-        
         Integer noOfRecords = ssc.getResultSize();
         
         return noOfRecords;
     }
 	
-    public static String formQuery( String nameFilter,String publishedDateString, String dateFilter, String salaryFilter, String salaryParamString){
+    public static String formQuery( Map<String, String> params ){
        
         String queryString = 'Select Name,ID, Location__c, Status__c,Phone__c, Email__c,Education__c, Manager_name__c, SalaryMax__c, CreatedDate, SalaryMin__c from Job_Advertisement__c WHERE Status__c != \'Archived\'';
         List <String> paramsRows = new List <String>();
+        String nameFilter = params.get('nameFilter');
         if( nameFilter != null && nameFilter != '' ){
             paramsRows.add(' Name LIKE ' + '\'%' + nameFilter + '%\'');
         }
-        
+        String publishedDateString = params.get('publishedDate');
         if(publishedDateString != '' && publishedDateString != null){
             Date publishedDate = Date.valueOf(publishedDateString);
             if(publishedDate != null && publishedDate <= System.today()){
+                String dateFilter = params.get('dateFilter');
                 if( dateFilter != 'ALL' || dateFilter != null || dateFilter!=''){
                     if( dateFilter == 'DAY' || dateFilter == null || dateFilter=='')paramsRows.add(' DAY_ONLY(convertTimezone(CreatedDate)) = :publishedDate' );
                     if( dateFilter == 'BEFORE' ) paramsRows.add(' DAY_ONLY(convertTimezone(CreatedDate)) <= :publishedDate' );
@@ -43,7 +42,8 @@ public class JobsLControllerHelper {
             }
         }
         
-        
+        String salaryParamString = params.get('salaryParam');
+        String salaryFilter = params.get('salaryFilter');
         if(salaryParamString != '' && salaryParamString != null){
             Integer salaryParam = Integer.valueOf(salaryParamString) ;
             if(salaryParam != null && salaryParam != 0 && salaryFilter != null){
@@ -57,7 +57,7 @@ public class JobsLControllerHelper {
                         paramsRows.add(' (SalaryMax__c >= :salaryParam OR (SalaryMin__c !=null AND SalaryMax__c = null)) ');
                     }
                 }
-            }            
+            }
         }
         
         if(paramsRows != null && !paramsRows.isEmpty()){

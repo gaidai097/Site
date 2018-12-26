@@ -3,10 +3,13 @@
         
         helper.refilterPage(component );
 	},
-    handleSubmit : function(component, event, helper) {        
+    handleSubmit : function(component, event, helper) {  
+        console.log('event.keyCode => ' + event.keyCode );
         if (event.keyCode === 13) {
+          
             helper.refilterPage(component );
         }
+        event.stopPropagation();
 	},
     clearFilters : function(component, event, helper) {
         
