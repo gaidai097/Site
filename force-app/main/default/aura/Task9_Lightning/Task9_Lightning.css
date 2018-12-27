@@ -1,2 +1,6 @@
-.THIS {
+.THIS.slds-p-top_large {
+    background-color: #fcfcf9;
+}
+.THIS >.slds-size_6-of-12{
+    background-color: white;
 }

@@ -1,5 +1,7 @@
 <aura:event type="APPLICATION"  >
 	<aura:attribute name="nameFilter" type="String"/>
     <aura:attribute name="dateFilter" type="String"/>
+    <aura:attribute name="salaryParam" type="Integer"/>
     <aura:attribute name="salaryFilter" type="String"/>
+    <aura:attribute name="publishedDate" type="Date"/>
 </aura:event>

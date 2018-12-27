@@ -2,8 +2,10 @@
     <aura:attribute name="pageSizeValue" type="string" default="10"/>
     <aura:attribute name="totalCount" type="Integer" default="0"/>
     <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
+    <aura:handler  event="c:filterUpdate" action="{!c.handleRefreshCount}"/>
     <aura:registerEvent name="pageUpdate" type="c:pageUpdate"/>
-    <div class="slds-grid slds-box"> 
+    
+    <div class="slds-grid slds-box pagination_bar"> 
         
             <div class="slds-col slds-size_6-of-12">
                 <lightning:buttonMenu aura:id="pageSize" label="{! v.pageSizeValue}" onselect="{! c.handleSelect }" value="10" alternativeText="Show menu">
@@ -15,7 +17,7 @@
         
        
             <div class="slds-col slds-size_6-of-12">
-                <p> {!v.totalCount}</p>
+                <p> <span class="slds-badge">{!v.totalCount}</span></p>
             </div>
         
     </div>

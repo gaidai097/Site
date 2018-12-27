@@ -13,7 +13,8 @@ public class JobsLControllerHelper {
         return jAs;
     }
     public static Integer getTotalRecordsCount( Map<String, String> params){
-        
+        System.debug('getTotalRecordsCount =>>>>');
+        System.debug(params);
         String queryString = formQuery( params);
         ApexPages.StandardSetController ssc = new ApexPages.StandardSetController(Database.getQueryLocator(queryString));
         Integer noOfRecords = ssc.getResultSize();
@@ -22,7 +23,7 @@ public class JobsLControllerHelper {
     }
 	
     public static String formQuery( Map<String, String> params ){
-       
+        System.debug('params =>>>> ' + params);
         String queryString = 'Select Name,ID, Location__c, Status__c,Phone__c, Email__c,Education__c, Manager_name__c, SalaryMax__c, CreatedDate, SalaryMin__c from Job_Advertisement__c WHERE Status__c != \'Archived\'';
         List <String> paramsRows = new List <String>();
         String nameFilter = params.get('nameFilter');
@@ -35,26 +36,29 @@ public class JobsLControllerHelper {
             if(publishedDate != null && publishedDate <= System.today()){
                 String dateFilter = params.get('dateFilter');
                 if( dateFilter != 'ALL' || dateFilter != null || dateFilter!=''){
-                    if( dateFilter == 'DAY' || dateFilter == null || dateFilter=='')paramsRows.add(' DAY_ONLY(convertTimezone(CreatedDate)) = :publishedDate' );
-                    if( dateFilter == 'BEFORE' ) paramsRows.add(' DAY_ONLY(convertTimezone(CreatedDate)) <= :publishedDate' );
-                    if( dateFilter == 'AFTER' ) paramsRows.add(' DAY_ONLY(convertTimezone(CreatedDate)) >= :publishedDate' );
+                    if( dateFilter == 'DAY' || dateFilter == null || dateFilter=='')paramsRows.add(' DAY_ONLY(convertTimezone(CreatedDate)) = '+ publishedDate );
+                    if( dateFilter == 'BEFORE' ) paramsRows.add(' DAY_ONLY(convertTimezone(CreatedDate)) <= ' + publishedDate );
+                    if( dateFilter == 'AFTER' ) paramsRows.add(' DAY_ONLY(convertTimezone(CreatedDate)) >= '+ publishedDate );
                 }
             }
         }
         
         String salaryParamString = params.get('salaryParam');
         String salaryFilter = params.get('salaryFilter');
+        Integer salaryParam ;
+        system.debug('salaryParamString ' + salaryParamString );
         if(salaryParamString != '' && salaryParamString != null){
-            Integer salaryParam = Integer.valueOf(salaryParamString) ;
+            salaryParam = Integer.valueOf(salaryParamString) ;
+             system.debug('salaryParam ' + salaryParam );
             if(salaryParam != null && salaryParam != 0 && salaryFilter != null){
                 switch on salaryFilter{
-                    when 'LESS' { paramsRows.add(' SalaryMin__c < :salaryParam '); }
-                    when 'MORE' {paramsRows.add(' (SalaryMax__c > :salaryParam OR (SalaryMin__c !=null AND SalaryMax__c = null)) ');}
-                    when 'EQUAL' { paramsRows.add(' SalaryMin__c <= :salaryParam AND (SalaryMax__c >= :salaryParam OR SalaryMax__c = null )');}
-                    when 'NOTEQUAL' {paramsRows.add(' ((SalaryMin__c > :salaryParam OR SalaryMax__c < :salaryParam) OR SalaryMin__c = null)');}
-                    when 'LESSOREQUAL' { paramsRows.add(' SalaryMin__c <= :salaryParam '); }
+                    when 'LESS' { paramsRows.add(' SalaryMin__c < ' + salaryParam + ' '); }
+                    when 'MORE' {paramsRows.add(' (SalaryMax__c > ' + salaryParam + ' OR (SalaryMin__c !=null AND SalaryMax__c = null)) ');}
+                    when 'EQUAL' { paramsRows.add(' SalaryMin__c <= ' + salaryParam + ' AND (SalaryMax__c >= ' + salaryParam + ' OR SalaryMax__c = null )');}
+                    when 'NOTEQUAL' {paramsRows.add(' ((SalaryMin__c > ' + salaryParam + ' OR SalaryMax__c < ' + salaryParam + ') OR SalaryMin__c = null)');}
+                    when 'LESSOREQUAL' { paramsRows.add(' SalaryMin__c <= ' + salaryParam + ' '); }
                     when 'MOREOREQUAL' {
-                        paramsRows.add(' (SalaryMax__c >= :salaryParam OR (SalaryMin__c !=null AND SalaryMax__c = null)) ');
+                        paramsRows.add(' (SalaryMax__c >= ' + salaryParam + ' OR (SalaryMin__c !=null AND SalaryMax__c = null)) ');
                     }
                 }
             }
@@ -69,7 +73,8 @@ public class JobsLControllerHelper {
         }
         System.debug('queryString => ' + queryString);
         queryString += ' ORDER BY Name ';
-        return queryString;
+        String r = '' + queryString;
+        return r;
         
     }
 }

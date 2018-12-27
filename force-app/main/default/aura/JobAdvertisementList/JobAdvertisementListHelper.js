@@ -1,16 +1,18 @@
 ({
-	fetchNewList : function( component) {
+	fetchNewList : function( component, event) {
         
+        var salaryParam = event.getParam("salaryParam");
+        console.log('JALH ' + salaryParam);
         var pageSize = component.get("v.pageSize");
         var pageNumber = component.get("v.pageNumber");        
         var nameFilter = component.get("v.nameFilter");
         var dateFilter = component.get("v.dateFilter");
         var publishedDate = component.get("v.publishedDate");
         var salaryFilter = component.get("v.salaryFilter");
-        var salaryParam = component.get("v.salaryParam");
         var action = component.get("c.getJobs");
         console.log('pageSize = ' + pageSize + ' ; ' + 'pageNumber = ' + pageNumber + ' ; ' + 'nameFilter = ' + nameFilter + ' ; ' +
-                    'dateFilter = ' + dateFilter + ' ; ' + 'salaryFilter = ' + salaryFilter
+                    'dateFilter = ' + dateFilter + ' ; ' + 'salaryFilter = ' + salaryFilter + ' ; ' + 'salaryParam = ' + salaryParam + ' ; '
+                    + 'publishedDate = ' + publishedDate
                    );
         
         // Create the action
@@ -26,16 +28,7 @@
                     "salaryParam": salaryParam,
                 }
             }
-        );
-        
-        /*
-        action.setParams({ pageSize : pageSize, pageNumber : pageNumber, nameFilter : nameFilter, dateFilter : dateFilter,
-                          publishedDate : publishedDate, salaryFilter : salaryFilter,salaryParam : salaryParam
-                         
-                         });
-        
-        */
-        
+        );        
         
         // Add callback behavior for when response is received
         action.setCallback(this, function(response) {

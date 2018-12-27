@@ -1,33 +1,56 @@
 <aura:component > 
     
     <aura:attribute name="nameFilter" type="String" default=""/>
-    <aura:attribute name="dateFilter" type="String" default=""/>
-    <aura:attribute name="salaryFilter" type="String" default=""/>
+    <aura:attribute name="publishedDate" type="Date" default=""/>
+    <aura:attribute name="dateFilter" type="String" default="MORE"/>
+    <aura:attribute name="salaryFilter" type="String" default="MORE"/>
+    <aura:attribute name="salaryParam" type="String" default=""/>
     <aura:registerEvent name="refilter" type="c:filterUpdate"/>
     
     <!--<form onkeyup="{!c.handleSubmit}">    -->
         <div class="slds-grid">
             <div class="slds-col slds-size_3-of-12">
-                <lightning:input aura:id="nameFilter" name="nameFilter" placeholder="Empty" label="Name :" />
+                <span onkeypress="{!c.handleSubmit}" >
+                    <lightning:input aura:id="nameFilter" name="nameFilter" placeholder="Empty" label="Name :" />
+                </span>
             </div>
-            <div class="slds-col slds-size_4-of-12 slds-grid">
+            <div class="slds-col slds-size_4-of-12 slds-grid">                
                 <div class="slds-col slds-size_7-of-12">
-                    <lightning:input aura:id="dateFilter" type="date" name="dateFilter" label="Date :" placeholder="Choose Date"/>
-                </div>
+                    <span onkeypress="{!c.handleSubmit}" >
+                        <lightning:input aura:id="publishedDate" type="date" name="publishedDate" label="{!v.dateFilter}" placeholder="Choose Date"/>
+                    </span>
+                </div>                
                 <div class="slds-col slds-size_5-of-12 slds-is-relative">
                     <div class="dropdown_bottom">
-                        <lightning:buttonMenu aura:id="dataFilter" label="MORE" value="10" alternativeText="Show menu">
+                        <lightning:buttonMenu aura:id="dateFilter" label="Range" title="{!v.dateFilter}" onselect="{! c.selectDateFilter }" value="MORE" alternativeText="Show menu">
                             <lightning:menuItem value="MORE" label="MORE" />
                             <lightning:menuItem value="LESS" label="LESS" />
-                            <lightning:menuItem value="EQUEALS" label="EQUEALS" />
+                            <lightning:menuItem value="EQUAL" label="EQUAL" />
+                            <lightning:menuItem value="MOREOREQUAL" label="MOREOREQUAL" />
+                            <lightning:menuItem value="LESSOREQUAL" label="LESSOREQUAL" />
+                            <lightning:menuItem value="NOTEQUAL" label="NOTEQUAL" />
                         </lightning:buttonMenu>
                     </div>                    
                 </div>
             </div>
-            <div class="slds-col slds-size_3-of-12">
-                <span onkeypress="{!c.handleSubmit}" >
-                    <lightning:input aura:id="salaryFilter" type="number" name="salaryFilter" value="" label="Select Salary range :" />
-                </span>
+            <div class="slds-col slds-size_3-of-12 slds-grid">
+                <div class="slds-col slds-size_7-of-12">
+                    <span onkeypress="{!c.handleSubmit}" >
+                        <lightning:input aura:id="salaryParam" type="number" name="salaryParam" label="{!v.salaryFilter}"  />
+                    </span>
+                </div>
+                <div class="slds-col slds-size_5-of-12 slds-is-relative">
+                    <div class="dropdown_bottom">
+                        <lightning:buttonMenu aura:id="salaryFilter" label="Range" title="{!v.salaryFilter}" onselect="{! c.selectSalaryFilter }" value="MORE" alternativeText="Show menu">
+                            <lightning:menuItem value="MORE" label="MORE" />
+                            <lightning:menuItem value="LESS" label="LESS" />
+                            <lightning:menuItem value="EQUAL" label="EQUAL" />
+                            <lightning:menuItem value="MOREOREQUAL" label="MOREOREQUAL" />
+                            <lightning:menuItem value="LESSOREQUAL" label="LESSOREQUAL" />
+                            <lightning:menuItem value="NOTEQUAL" label="NOTEQUAL" />
+                        </lightning:buttonMenu>
+                    </div>                    
+                </div>
             </div>
             <div class="slds-col slds-size_1-of-12 slds-is-relative">
                 <span onkeypress="{!c.handleSubmit}" >

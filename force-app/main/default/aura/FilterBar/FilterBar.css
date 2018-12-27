@@ -1,6 +1,12 @@
-.THIS button, .THIS .dropdown_bottom{
+.THIS button, .THIS .dropdown_bottom  .slds-dropdown-trigger{
     position: absolute;
     bottom:   0;
     width: 100%;
-    background-color: 
+    
+}
+.THIS .dropdown_bottom .slds-button{
+    width: 100%;
+    font-size: 0.7rem; 
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
 }

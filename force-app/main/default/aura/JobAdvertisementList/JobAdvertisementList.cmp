@@ -3,7 +3,7 @@
     <aura:attribute name="selectedJobs" type="Job_Advertisement__c[]"/>
     <aura:attribute name="testMsg" type="String" default="SomeTest"/>
     <aura:attribute name="pageSize" type="String" default="10"/>
-    <aura:attribute name="publishedDate" type="String" default=""/>    
+    <aura:attribute name="publishedDate" type="Date" default=""/>    
     <aura:attribute name="dateFilter" type="String" default=""/>
     <aura:attribute name="nameFilter" type="String" default=""/>
     <aura:attribute name="salaryFilter" type="String" default=""/>
