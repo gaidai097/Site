@@ -2,7 +2,7 @@
     
     <aura:attribute name="nameFilter" type="String" default=""/>
     <aura:attribute name="publishedDate" type="Date" default=""/>
-    <aura:attribute name="dateFilter" type="String" default="MORE"/>
+    <aura:attribute name="dateFilter" type="String" default="ALL"/>
     <aura:attribute name="salaryFilter" type="String" default="MORE"/>
     <aura:attribute name="salaryParam" type="String" default=""/>
     <aura:registerEvent name="refilter" type="c:filterUpdate"/>
@@ -22,13 +22,11 @@
                 </div>                
                 <div class="slds-col slds-size_5-of-12 slds-is-relative">
                     <div class="dropdown_bottom">
-                        <lightning:buttonMenu aura:id="dateFilter" label="Range" title="{!v.dateFilter}" onselect="{! c.selectDateFilter }" value="MORE" alternativeText="Show menu">
-                            <lightning:menuItem value="MORE" label="MORE" />
-                            <lightning:menuItem value="LESS" label="LESS" />
-                            <lightning:menuItem value="EQUAL" label="EQUAL" />
-                            <lightning:menuItem value="MOREOREQUAL" label="MOREOREQUAL" />
-                            <lightning:menuItem value="LESSOREQUAL" label="LESSOREQUAL" />
-                            <lightning:menuItem value="NOTEQUAL" label="NOTEQUAL" />
+                        <lightning:buttonMenu aura:id="dateFilter" label="Range" title="{!v.dateFilter}" onselect="{! c.selectDateFilter }" value="ALL" alternativeText="Show menu">
+                            <lightning:menuItem value="DAY" label="DAY" />
+                             <lightning:menuItem value="ALL" label="ALL" />
+                            <lightning:menuItem value="BEFORE" label="BEFORE" />
+                            <lightning:menuItem value="AFTER" label="AFTER" />
                         </lightning:buttonMenu>
                     </div>                    
                 </div>

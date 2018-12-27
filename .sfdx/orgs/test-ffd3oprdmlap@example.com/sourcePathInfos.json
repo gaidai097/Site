@@ -80,7 +80,7 @@
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\FilterBar",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1545844388072,
+            "modifiedTime": 1545927697319,
             "changeTime": 1545844388072,
             "contentHash": "847ab9f7548924a12f11ea3a36736f4920beb459",
             "isMetadataFile": false,
@@ -96,10 +96,10 @@
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\FilterBar\\FilterBar.cmp",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 4011,
-            "modifiedTime": 1545927697319,
-            "changeTime": 1545927697319,
-            "contentHash": "e1b20245a1d27f00d7b797d49927051fa9fc7513"
+            "size": 3820,
+            "modifiedTime": 1545931961536,
+            "changeTime": 1545931961536,
+            "contentHash": "9418dc51a44f221d5b36c921a39f3533c7b9e370"
         }
     ],
     [
@@ -120,14 +120,14 @@
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\FilterBar\\FilterBar.css",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\FilterBar\\FilterBar.css",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 259,
             "modifiedTime": 1545927697294,
             "changeTime": 1545927697294,
-            "contentHash": "2cdd977d78ca846e90d0b941eeb409a18a17e1fe"
+            "contentHash": "2cdd977d78ca846e90d0b941eeb409a18a17e1fe",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -137,23 +137,23 @@
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\FilterBar\\FilterBarController.js",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 1431,
-            "modifiedTime": 1545927697307,
-            "changeTime": 1545927697307,
-            "contentHash": "81a56f2cf9e61b43293df22a0134e7104626f5af"
+            "size": 1418,
+            "modifiedTime": 1545931961535,
+            "changeTime": 1545931961535,
+            "contentHash": "8ad1af191f1df2d0ceadd847af58a29ed12b1bb0"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\FilterBar\\FilterBarHelper.js",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\FilterBar\\FilterBarHelper.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 947,
             "modifiedTime": 1545927697318,
             "changeTime": 1545927697318,
-            "contentHash": "327be5bd16d9f24f8ea6b40d63adbab8f610dd28"
+            "contentHash": "327be5bd16d9f24f8ea6b40d63adbab8f610dd28",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -162,7 +162,7 @@
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\filterUpdate",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1545150632321,
+            "modifiedTime": 1545927697336,
             "changeTime": 1545150632321,
             "contentHash": "7de71ce4ec56e64f6719c852465b9ae450e59c36",
             "isMetadataFile": false,
@@ -174,14 +174,14 @@
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\filterUpdate\\filterUpdate.evt",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\filterUpdate\\filterUpdate.evt",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 319,
             "modifiedTime": 1545927697336,
             "changeTime": 1545927697336,
-            "contentHash": "57bf8be42a70f8f5c5ca753d8e2c230ec87fba77"
+            "contentHash": "57bf8be42a70f8f5c5ca753d8e2c230ec87fba77",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -202,14 +202,14 @@
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\JobAdvertisementList",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\JobAdvertisementList",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1545927697278,
             "changeTime": 1545927697278,
-            "contentHash": "c4cefb84a09c49022de03fe58dbb3dc2f3d61896"
+            "contentHash": "c4cefb84a09c49022de03fe58dbb3dc2f3d61896",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -230,14 +230,14 @@
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\JobAdvertisementList\\JobAdvertisementList.cmp",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\JobAdvertisementList\\JobAdvertisementList.cmp",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 1234,
             "modifiedTime": 1545927697277,
             "changeTime": 1545927697277,
-            "contentHash": "e8857c60709bdf81dca477cf4c9977d452df7ff5"
+            "contentHash": "e8857c60709bdf81dca477cf4c9977d452df7ff5",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -288,27 +288,27 @@
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\JobAdvertisementList\\JobAdvertisementListController.js",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\JobAdvertisementList\\JobAdvertisementListController.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 1142,
             "modifiedTime": 1545927697259,
             "changeTime": 1545927697259,
-            "contentHash": "a9eab855cff57f6642b0bba7763b46ca0e9ed496"
+            "contentHash": "a9eab855cff57f6642b0bba7763b46ca0e9ed496",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\JobAdvertisementList\\JobAdvertisementListHelper.js",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\JobAdvertisementList\\JobAdvertisementListHelper.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 1893,
             "modifiedTime": 1545927697276,
             "changeTime": 1545927697276,
-            "contentHash": "65c314cc80aec14e98298049fdad4b78aa390e41"
+            "contentHash": "65c314cc80aec14e98298049fdad4b78aa390e41",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -464,27 +464,27 @@
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\PaginationBlock",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\PaginationBlock",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1545927697333,
             "changeTime": 1545927697333,
-            "contentHash": "f86374fd9d971e34e952aa6b9ef4a80711d66396"
+            "contentHash": "f86374fd9d971e34e952aa6b9ef4a80711d66396",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\PaginationBlock\\PaginationBlock.cmp",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\PaginationBlock\\PaginationBlock.cmp",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 1123,
             "modifiedTime": 1545927697332,
             "changeTime": 1545927697332,
-            "contentHash": "58798fbdeede62bc92bb9ab485f50ad2b9ce3b5b"
+            "contentHash": "58798fbdeede62bc92bb9ab485f50ad2b9ce3b5b",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -505,27 +505,27 @@
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\PaginationBlock\\PaginationBlockController.js",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\PaginationBlock\\PaginationBlockController.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 1587,
             "modifiedTime": 1545927697334,
             "changeTime": 1545927697334,
-            "contentHash": "b4e48fbe684ebbb35d57946eda1f26739dee4429"
+            "contentHash": "b4e48fbe684ebbb35d57946eda1f26739dee4429",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\PaginationBlock\\PaginationBlockHelper.js",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\PaginationBlock\\PaginationBlockHelper.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 1687,
             "modifiedTime": 1545927697324,
             "changeTime": 1545927697324,
-            "contentHash": "f7c17a3165516b6c5d712057c42fc5aca8e9039f"
+            "contentHash": "f7c17a3165516b6c5d712057c42fc5aca8e9039f",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -534,7 +534,7 @@
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\Task9_Lightning",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1545151491138,
+            "modifiedTime": 1545927697291,
             "changeTime": 1545151491138,
             "contentHash": "ba52994d2c38a4de339ced7da2c065f35bb08af0",
             "isMetadataFile": false,
@@ -546,14 +546,14 @@
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\Task9_Lightning\\Task9_Lightning.app",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\Task9_Lightning\\Task9_Lightning.app",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 796,
             "modifiedTime": 1545927697290,
             "changeTime": 1545927697290,
-            "contentHash": "29a6ad357956009877a6649e9e24936273db923f"
+            "contentHash": "29a6ad357956009877a6649e9e24936273db923f",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -574,14 +574,14 @@
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\Task9_Lightning\\Task9_Lightning.css",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\Task9_Lightning\\Task9_Lightning.css",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 115,
             "modifiedTime": 1545927697291,
             "changeTime": 1545927697291,
-            "contentHash": "8320c44eb02d5da1cb32aa1464b16e204286ea25"
+            "contentHash": "8320c44eb02d5da1cb32aa1464b16e204286ea25",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -617,14 +617,14 @@
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1545927697362,
             "changeTime": 1545927697362,
-            "contentHash": "848bcc1a521a741ad432bca10499e650a16b5124"
+            "contentHash": "848bcc1a521a741ad432bca10499e650a16b5124",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -1230,16 +1230,14 @@
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobsLController.cls",
         {
+            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobsLController.cls",
             "isDirectory": false,
-            "size": 1143,
-            "modifiedTime": 1545844388103,
-            "changeTime": 1545844388103,
-            "contentHash": "0e3f0546df87e1789308744ed36518e0b05e403d",
             "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "size": 1237,
+            "modifiedTime": 1545931961561,
+            "changeTime": 1545931961561,
+            "contentHash": "827c99f6c768adcb892dcc71a5e1bc3a789e8dd2"
         }
     ],
     [
@@ -1264,10 +1262,10 @@
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobsLControllerHelper.cls",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 4421,
-            "modifiedTime": 1545927697362,
-            "changeTime": 1545927697362,
-            "contentHash": "8719f942a52da3e4d699b6b04c7a5a9fe132b2bd"
+            "size": 4460,
+            "modifiedTime": 1545931961564,
+            "changeTime": 1545931961564,
+            "contentHash": "923dc0b371ef5485362d29b374319f20fb4f3c85"
         }
     ],
     [
@@ -1588,16 +1586,14 @@
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\Task9ControllerHelper.cls",
         {
+            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\Task9ControllerHelper.cls",
             "isDirectory": false,
-            "size": 7198,
-            "modifiedTime": 1544111726022,
-            "changeTime": 1544111726022,
-            "contentHash": "6ebb1484306b9e903b13e395e2ec51b1bef95f4f",
             "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "size": 7215,
+            "modifiedTime": 1545931961551,
+            "changeTime": 1545931961551,
+            "contentHash": "c5026ae996c8ed434563de60e2bc0f1760c8c6b7"
         }
     ],
     [
@@ -4138,53 +4134,53 @@
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\JobAdvertisementList\\JobAdvertisementList.css",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\JobAdvertisementList\\JobAdvertisementList.css",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 38,
             "modifiedTime": 1545927697278,
             "changeTime": 1545927697278,
-            "contentHash": "3b7b9657aeb8e58ca29b63abc955c9530c0b8bce"
+            "contentHash": "3b7b9657aeb8e58ca29b63abc955c9530c0b8bce",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\PaginationBlock\\PaginationBlock.css",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\PaginationBlock\\PaginationBlock.css",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 54,
             "modifiedTime": 1545927697321,
             "changeTime": 1545927697321,
-            "contentHash": "ad4ea70da76ac107522ff95501f5de870dcc37da"
+            "contentHash": "ad4ea70da76ac107522ff95501f5de870dcc37da",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\DataFactory.cls-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\DataFactory.cls-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 174,
             "modifiedTime": 1545927697338,
             "changeTime": 1545927697338,
-            "contentHash": "acdd80366dfee192a19331bfa686b269d836d68a"
+            "contentHash": "acdd80366dfee192a19331bfa686b269d836d68a",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\DataFactory.cls",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\DataFactory.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 1846,
             "modifiedTime": 1545927697340,
             "changeTime": 1545927697340,
-            "contentHash": "9296014f7adda3ebbb3fc8caf9a662035e2eb1d8"
+            "contentHash": "9296014f7adda3ebbb3fc8caf9a662035e2eb1d8",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ]
 ]

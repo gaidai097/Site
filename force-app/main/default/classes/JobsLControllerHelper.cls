@@ -1,9 +1,9 @@
-public class JobsLControllerHelper {
-    
-    public static List <Job_Advertisement__c> getPageRecords(Map<String, String> params){
+public with sharing  class JobsLControllerHelper {
+    public Date publishedDate;
+    public List <Job_Advertisement__c> getPageRecords(Map<String, String> params){
         
         String queryString = formQuery(  params);
-        // String queryString = 'SELECT ID, CreatedDate from Job_Advertisement__c';
+        System.debug(queryString);
         ApexPages.StandardSetController ssc = new ApexPages.StandardSetController(Database.getQueryLocator(queryString));
         ssc.setPageSize( Integer.valueOf( params.get( 'pageSize' )));
         ssc.setPageNumber(Integer.valueOf( params.get( 'pageNumber' )));
@@ -12,33 +12,36 @@ public class JobsLControllerHelper {
         
         return jAs;
     }
-    public static Integer getTotalRecordsCount( Map<String, String> params){
+    public Integer getTotalRecordsCount( Map<String, String> params){
         System.debug('getTotalRecordsCount =>>>>');
         System.debug(params);
         String queryString = formQuery( params);
+        System.debug(queryString);
         ApexPages.StandardSetController ssc = new ApexPages.StandardSetController(Database.getQueryLocator(queryString));
         Integer noOfRecords = ssc.getResultSize();
         
         return noOfRecords;
     }
 	
-    public static String formQuery( Map<String, String> params ){
+    public String formQuery( Map<String, String> params ){
         System.debug('params =>>>> ' + params);
-        String queryString = 'Select Name,ID, Location__c, Status__c,Phone__c, Email__c,Education__c, Manager_name__c, SalaryMax__c, CreatedDate, SalaryMin__c from Job_Advertisement__c WHERE Status__c != \'Archived\'';
+        String queryString = 'SELECT Name, ID, Location__c, Status__c,Phone__c, Email__c,Education__c, Manager_name__c, SalaryMax__c, CreatedDate, SalaryMin__c FROM Job_Advertisement__c WHERE Status__c != \'Archived\'';
         List <String> paramsRows = new List <String>();
         String nameFilter = params.get('nameFilter');
         if( nameFilter != null && nameFilter != '' ){
             paramsRows.add(' Name LIKE ' + '\'%' + nameFilter + '%\'');
         }
         String publishedDateString = params.get('publishedDate');
+        
         if(publishedDateString != '' && publishedDateString != null){
-            Date publishedDate = Date.valueOf(publishedDateString);
+            publishedDate = Date.valueOf(publishedDateString);
             if(publishedDate != null && publishedDate <= System.today()){
                 String dateFilter = params.get('dateFilter');
                 if( dateFilter != 'ALL' || dateFilter != null || dateFilter!=''){
-                    if( dateFilter == 'DAY' || dateFilter == null || dateFilter=='')paramsRows.add(' DAY_ONLY(convertTimezone(CreatedDate)) = '+ publishedDate );
-                    if( dateFilter == 'BEFORE' ) paramsRows.add(' DAY_ONLY(convertTimezone(CreatedDate)) <= ' + publishedDate );
-                    if( dateFilter == 'AFTER' ) paramsRows.add(' DAY_ONLY(convertTimezone(CreatedDate)) >= '+ publishedDate );
+                    System.debug('publishedDate ' + publishedDate);
+                    if( dateFilter == 'DAY' )paramsRows.add(' DAY_ONLY(convertTimezone(CreatedDate)) = :publishedDate ' );
+                    if( dateFilter == 'BEFORE' ) paramsRows.add(' DAY_ONLY(convertTimezone(CreatedDate)) <= :publishedDate '  );
+                    if( dateFilter == 'AFTER' ) paramsRows.add(' DAY_ONLY(convertTimezone(CreatedDate)) >= :publishedDate ' );
                 }
             }
         }

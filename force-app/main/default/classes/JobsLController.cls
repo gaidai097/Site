@@ -4,14 +4,16 @@ public class JobsLController {
     public static List<Job_Advertisement__c> getJobs(Map<String, Object> params){        
         System.debug(params);
         Map <String, String> stringParams = transformParamsMap(params);
-        List <Job_Advertisement__c> result = JobsLControllerHelper.getPageRecords(stringParams);   
+        JobsLControllerHelper jch = new JobsLControllerHelper();
+        List <Job_Advertisement__c> result = jch.getPageRecords(stringParams);   
         return result;
     }
     @AuraEnabled
     public static Integer getTotalCount(Map<String, Object> params){
         System.debug(params);
         Map <String, String> stringParams = transformParamsMap(params);
-        Integer totalCount = JobsLControllerHelper.getTotalRecordsCount(stringParams); 
+        JobsLControllerHelper jch = new JobsLControllerHelper();
+        Integer totalCount = jch.getTotalRecordsCount(stringParams); 
         System.debug( 'totalCount ' + totalCount  );
         return totalCount;
     }

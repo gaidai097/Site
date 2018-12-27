@@ -95,6 +95,7 @@ public with sharing class Task9ControllerHelper {
             if( con.dateFilter != 'ALL' || con.dateFilter != null || con.dateFilter!=''){
                 String dateFilter = con.dateFilter;
                 Date publishedDate = con.publishedDate;
+                
                 if( con.dateFilter == 'DAY' || con.dateFilter == null || con.dateFilter=='')paramsRows.add(' DAY_ONLY(convertTimezone(CreatedDate)) = :publishedDate' );
                 if( con.dateFilter == 'BEFORE' ) paramsRows.add(' DAY_ONLY(convertTimezone(CreatedDate)) <= :publishedDate'  );
                 if( con.dateFilter == 'AFTER' ) paramsRows.add(' DAY_ONLY(convertTimezone(CreatedDate)) >= :publishedDate'  );
