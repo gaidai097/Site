@@ -1,12 +1,11 @@
 public with sharing  class JobsLControllerHelper {
     public Date publishedDate;
-    public List <Job_Advertisement__c> getPageRecords(Map<String, String> params){
-        
+    public List <Job_Advertisement__c> getPageRecords(Map<String, String> params){        
         String queryString = formQuery(  params);
         System.debug(queryString);
         ApexPages.StandardSetController ssc = new ApexPages.StandardSetController(Database.getQueryLocator(queryString));
         ssc.setPageSize( Integer.valueOf( params.get( 'pageSize' )));
-        ssc.setPageNumber(Integer.valueOf( params.get( 'pageNumber' )));
+        ssc.setPageNumber(Integer.valueOf( params.get( 'pageNumber' )) +1);
         //Integer noOfRecords = ssc.getResultSize();
         List <Job_Advertisement__c> jAs = ssc.getRecords();
         

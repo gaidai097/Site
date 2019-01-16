@@ -1,24 +1,44 @@
 <aura:component controller="JobsLController">    
-    <aura:attribute name="pageSizeValue" type="string" default="10"/>
+    <aura:attribute name="pageNumber" type="Integer" default="0"/>
+    <aura:attribute name="pageSize" type="Integer" default="10"/>
     <aura:attribute name="totalCount" type="Integer" default="0"/>
     <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
-    <aura:handler  event="c:filterUpdate" action="{!c.handleRefreshCount}"/>
+    <aura:handler event="c:RefreshButtons" action="{!c.refreshButtons}"/>
+    <aura:handler event="c:filterUpdate" action="{!c.handleRefreshCount}"/>
     <aura:registerEvent name="pageUpdate" type="c:pageUpdate"/>
     
-    <div class="slds-grid slds-box pagination_bar"> 
-        
-            <div class="slds-col slds-size_6-of-12">
-                <lightning:buttonMenu aura:id="pageSize" label="{! v.pageSizeValue}" onselect="{! c.handleSelect }" value="10" alternativeText="Show menu">
-                    <lightning:menuItem value="5" label="5" />
-                    <lightning:menuItem value="10" label="10" />
-                    <lightning:menuItem value="20" label="20" />
-                </lightning:buttonMenu>
+    <div class="slds-grid pagination_bar slds-wrap"> 
+                
+        <div class="slds-col slds-size_6-of-12">
+            <lightning:buttonMenu aura:id="pageSize" label="{! v.pageSize}" onselect="{! c.handleSelect }" value="10" alternativeText="Show menu">
+                <lightning:menuItem value="5" label="5" />
+                <lightning:menuItem value="10" label="10" />
+                <lightning:menuItem value="20" label="20" />
+            </lightning:buttonMenu>
+        </div>
+        <div class="slds-col slds-size_6-of-12">
+            <p> 
+                <span class="slds-badge">{!v.totalCount}</span>
+                <span class="slds-badge">{!(v.pageNumber + 1)}</span>
+            </p>
+        </div>
+        <div class="slds-col slds-size_12-of-12 ">
+            <div class="nav_buttons slds-align_absolute-center slds-m-vertical_medium" >
+                <lightning:button variant="neutral" aura:id="first" title="First page" disabled="true" class="pointer_cursor slds-m-horizontal_xx-small " >
+                    <lightning:icon size="x-small" iconName="utility:left" alternativeText="Audio file" />
+                </lightning:button>
+                <lightning:button variant="neutral" aura:id="previous" title="Previous page" disabled="true" onclick="{! c.toPreviousPage }" class="pointer_cursor slds-m-horizontal_xx-small" >
+                    <lightning:icon size="x-small" iconName="utility:chevronleft" alternativeText="Audio file" />
+                </lightning:button>    
+                <lightning:button variant="neutral" aura:id="next" title="Next page" onclick="{! c.toNextPage }"  class="pointer_cursor slds-m-horizontal_xx-small" >
+                    <lightning:icon size="x-small" variant="neutral" iconName="utility:chevronright" alternativeText="Audio file" />
+                </lightning:button>                       
+                <lightning:button variant="neutral" aura:id="last" title="last page" class="pointer_cursor slds-m-horizontal_xx-small" >
+                    <lightning:icon size="x-small" iconName="utility:right" alternativeText="Audio file" />
+                </lightning:button>  
             </div>
+        </div>
         
-       
-            <div class="slds-col slds-size_6-of-12">
-                <p> <span class="slds-badge">{!v.totalCount}</span></p>
-            </div>
         
     </div>
 </aura:component>

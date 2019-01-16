@@ -4,4 +4,5 @@
     <aura:attribute name="salaryParam" type="Integer"/>
     <aura:attribute name="salaryFilter" type="String"/>
     <aura:attribute name="publishedDate" type="Date"/>
+    <aura:attribute name="pageNumber" type="String"/>
 </aura:event>

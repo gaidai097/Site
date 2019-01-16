@@ -2,7 +2,6 @@
 	fetchNewList : function( component, event) {
         
         var salaryParam = event.getParam("salaryParam");
-        console.log('JALH ' + salaryParam);
         var pageSize = component.get("v.pageSize");
         var pageNumber = component.get("v.pageNumber");        
         var nameFilter = component.get("v.nameFilter");
@@ -34,7 +33,9 @@
         action.setCallback(this, function(response) {
             var state = response.getState();
             if (state === "SUCCESS") {
-                component.set("v.jobs", response.getReturnValue());
+                component.set("v.jobs", response.getReturnValue());                
+                var event = $A.get("e.c:RefreshButtons");
+                event.fire();                
             }
             else {
                 console.log("Failed with state: " + state);
@@ -42,7 +43,6 @@
         });
         // Send action off to be executed
         $A.enqueueAction(action);
-       
         
 	}
 })

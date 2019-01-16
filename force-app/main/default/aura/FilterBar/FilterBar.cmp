@@ -24,7 +24,7 @@
                     <div class="dropdown_bottom">
                         <lightning:buttonMenu aura:id="dateFilter" label="Range" title="{!v.dateFilter}" onselect="{! c.selectDateFilter }" value="ALL" alternativeText="Show menu">
                             <lightning:menuItem value="DAY" label="DAY" />
-                             <lightning:menuItem value="ALL" label="ALL" />
+                            <lightning:menuItem value="ALL" label="ALL" />
                             <lightning:menuItem value="BEFORE" label="BEFORE" />
                             <lightning:menuItem value="AFTER" label="AFTER" />
                         </lightning:buttonMenu>

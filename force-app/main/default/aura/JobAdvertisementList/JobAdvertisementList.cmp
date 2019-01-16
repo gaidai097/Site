@@ -9,13 +9,15 @@
     <aura:attribute name="salaryFilter" type="String" default=""/>
     <aura:attribute name="salaryParam" type="String" default=""/>
     <aura:attribute name="pageNumber" type="String" default="0"/>
+    <aura:registerEvent name="refreshButtons" type="c:RefreshButtons"/>
     <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
-    <aura:handler  event="c:pageUpdate" action="{!c.handlePageSizeUpdate}"/>
-    <aura:handler  event="c:filterUpdate" action="{!c.handleFilterEvent}"/>
+    <aura:handler event="c:pageUpdate" action="{!c.handlePageSizeUpdate}"/>
+    <aura:handler event="c:filterUpdate" action="{!c.handleFilterEvent}"/>
 
     <br/>
+    
     <lightning:accordion class="slds-m-top_large" aura:id="accordion" activeSectionName="B">          
-        <aura:iteration items="{!v.jobs}" var="job">               
+        <aura:iteration items="{!v.jobs}" var="job">              
             <c:JobCard job="{!job}"/>
         </aura:iteration>
     </lightning:accordion>

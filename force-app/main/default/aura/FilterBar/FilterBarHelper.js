@@ -6,6 +6,7 @@
         filters.dateFilter = component.find('dateFilter').get("v.value");    
         filters.salaryFilter = component.find('salaryFilter').get("v.value");
         filters.salaryParam = component.find('salaryParam').get("v.value");
+        filters.pageNumber = '1';
         this.sendRefilterEvent(component, filters);
 		      
     },
@@ -13,7 +14,7 @@
 		
         var event = $A.get("e.c:filterUpdate");
         event.setParams({ "nameFilter": filters.nameFilter ,"publishedDate": filters.publishedDate, "salaryParam": filters.salaryParam,
-                         "dateFilter": filters.dateFilter , "salaryFilter": filters.salaryFilter });
+                         "dateFilter": filters.dateFilter , "salaryFilter": filters.salaryFilter, "pageNumber": filters.pageNumber  });
         console.log('fire => ' + filters);
         event.fire();
 	}

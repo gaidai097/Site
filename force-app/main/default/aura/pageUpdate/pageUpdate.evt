@@ -1,3 +1,4 @@
 <aura:event type="APPLICATION"  >
-	<aura:attribute name="pageSize" type="String"/>
+	<aura:attribute name="pageSize" type="String" />
+    <aura:attribute name="pageNumber" type="Integer" />
 </aura:event>
