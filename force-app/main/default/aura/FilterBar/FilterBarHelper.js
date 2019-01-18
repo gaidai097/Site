@@ -15,7 +15,7 @@
         var event = $A.get("e.c:filterUpdate");
         event.setParams({ "nameFilter": filters.nameFilter ,"publishedDate": filters.publishedDate, "salaryParam": filters.salaryParam,
                          "dateFilter": filters.dateFilter , "salaryFilter": filters.salaryFilter, "pageNumber": filters.pageNumber  });
-        console.log('fire => ' + filters);
+        
         event.fire();
 	}
 })

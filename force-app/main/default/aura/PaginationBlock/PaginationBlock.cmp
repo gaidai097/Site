@@ -24,7 +24,7 @@
         </div>
         <div class="slds-col slds-size_12-of-12 ">
             <div class="nav_buttons slds-align_absolute-center slds-m-vertical_medium" >
-                <lightning:button variant="neutral" aura:id="first" title="First page" disabled="true" class="pointer_cursor slds-m-horizontal_xx-small " >
+                <lightning:button variant="neutral" aura:id="first" onclick="{! c.toFirstPage }" title="First page" disabled="true" class="pointer_cursor slds-m-horizontal_xx-small " >
                     <lightning:icon size="x-small" iconName="utility:left" alternativeText="Audio file" />
                 </lightning:button>
                 <lightning:button variant="neutral" aura:id="previous" title="Previous page" disabled="true" onclick="{! c.toPreviousPage }" class="pointer_cursor slds-m-horizontal_xx-small" >
@@ -33,7 +33,7 @@
                 <lightning:button variant="neutral" aura:id="next" title="Next page" onclick="{! c.toNextPage }"  class="pointer_cursor slds-m-horizontal_xx-small" >
                     <lightning:icon size="x-small" variant="neutral" iconName="utility:chevronright" alternativeText="Audio file" />
                 </lightning:button>                       
-                <lightning:button variant="neutral" aura:id="last" title="last page" class="pointer_cursor slds-m-horizontal_xx-small" >
+                <lightning:button variant="neutral" onclick="{!c.toLastPage}" aura:id="last" title="last page" class="pointer_cursor slds-m-horizontal_xx-small" >
                     <lightning:icon size="x-small" iconName="utility:right" alternativeText="Audio file" />
                 </lightning:button>  
             </div>

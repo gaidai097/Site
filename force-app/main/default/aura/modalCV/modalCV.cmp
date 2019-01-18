@@ -1,0 +1,86 @@
+<aura:component >
+    <aura:attribute name="cvToSend" type="Job_Advertisement__c" default="{}"/>
+     <aura:attribute name="accept" type="List" default="['.jpg', '.jpeg', '.bmp', '.gif', '.png']"/>
+    <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
+    <aura:handler event="c:openCVModal" action="{!c.show}"/>
+    <div class="demo-only" style="height: 640px;">
+        <section onclick="{!c.hideOutside}" aura:id="cvModalWindow" role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true" 
+                 aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+            <div class="slds-modal__container">
+                <header class="slds-modal__header">
+                    <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse" onclick="{!c.hide}" title="Close">
+                        <lightning:icon size="x-small" class="removeIcon"  iconName="utility:close" alternativeText="Close" />
+                        <span class="slds-assistive-text">Close</span>
+                    </button>
+                    <h2 id="modal-heading-01" class="slds-text-heading_medium slds-hyphenate">
+                        CV
+                    </h2>
+                </header>
+                <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-1">                    
+                    <div class="slds-m-left_small slds-grid">
+                        <div class="slds-col slds-size_3-of-12">
+                            <div class="row">
+                                <lightning:input name="friendly" label="First Name :" placeholder="Enter your First Name"
+                                                 pattern=".{2,12}"
+                                                 messageWhenPatternMismatch="You should enter from 2 to 12 characters!" required="true"                                              
+                                                 />
+                            </div>
+                            <div class="row">
+                                <lightning:input name="friendly" label="Last Name :" placeholder="Enter your Last Name"
+                                                 pattern=".{2,12}"
+                                                 messageWhenPatternMismatch="You should enter from 2 to 12 characters!" required="true"  
+                                                 />
+                            </div>
+                            <div class="row slds-grid">
+                                <div class="slds-col slds-size_6-of-12">
+                                    <lightning:input type="tel" label="Phone number :" name="phone" required="true"  
+                                                     messageWhenPatternMismatch="You should enter from 8 to 11 characters!"
+                                                     pattern="[0-9]{8,15}"/>
+                                </div>
+                                <div class="slds-col slds-size_1-of-12">
+                                </div>
+                                <div class="slds-col slds-size_5-of-12">
+                                    <lightning:input  messageWhenPatternMismatch="Your age should be from 1 to 99!" required="true"  
+                                                     name="age" label="Age :" pattern="[1]{1}[8-9]{1}|[2-9]{1}[0-9]{1}" maxlength="2" minlength="2" onchange="{!c.numberValidation}"
+                                                     />
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class=" slds-col slds-size_1-of-12"></div>
+                        <div class="slds-col slds-size_3-of-12">
+                            <div class="row">
+                                <lightning:input type="email" name="email" required="true" placeholder="lightning@force.com" label="Email :" />
+                            </div>
+                            <div class="row">
+                                <lightning:input  messageWhenPatternMismatch="Your salary can be from 10 to 99999!" required="true"  
+                                                 name="salary" label="Salary :" pattern="[1-9]{1}[0-9]{1,4}" maxlength="5" minlength="2" onchange="{!c.numberValidation}"
+                                                 />                              
+                            </div>
+                            <div class="row">
+                                <lightning:select name="status" label="Status :" required="true">
+                                    <option value="Unemployeed">Unemployeed</option>
+                                    <option value="Employeed">Employeed</option>
+                                </lightning:select>                             
+                            </div>
+                        </div>
+                        <div class=" slds-col slds-size_1-of-12"></div>
+                        <div class="slds-col slds-size_3-of-12">
+                            <lightning:input name="fileInput" type="file" label="Upload your photo: " required="true" onchange="{! c.handleFilesChange }"/>
+                        </div>
+                    </div>
+                    <div class="slds-m-left_small row slds-grid">
+                        <div class="slds-col slds-size_7-of-12">
+                            <lightning:textarea name="input3" label=" Additional info :" placeholder="I am ...."/>
+                        </div>
+                    </div>                    
+                </div>
+                <footer class="slds-modal__footer">
+                    <button class="slds-button slds-button_neutral" onclick="{!c.hide}">Cancel</button>
+                    <button class="slds-button slds-button_brand">Send</button>
+                </footer>
+            </div>
+        </section>
+        <div  aura:id="cvModalMask" class="slds-backdrop slds-backdrop_open" ></div>
+    </div>
+</aura:component>

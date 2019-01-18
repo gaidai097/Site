@@ -1,0 +1,21 @@
+<aura:component >
+    
+	<aura:attribute name="selectedJob" type="Job_Advertisement__c"/>
+    <aura:registerEvent name="removeFromSelectedList" type="c:removeFromSelectedList"/> 
+    
+    
+    <div class="selected_card" >       
+        <button class="slds-button slds-button_icon slds-button_icon-small deselectIcon" onclick="{!c.removeJob}" title="Close">                
+            <lightning:icon size="x-small" class="removeIcon"  iconName="utility:close" alternativeText="Close" />
+            <span class="slds-assistive-text">Close</span>
+        </button>
+        
+        <span class="slds-assistive-text">info</span>        
+        <div ><h2>{!v.selectedJob.Name}</h2></div>
+        
+        <div class="cardBody">
+            <p>{!v.selectedJob.Id}</p>
+        </div>        
+    </div>
+    
+</aura:component>

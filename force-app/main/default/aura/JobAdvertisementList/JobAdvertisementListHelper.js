@@ -8,11 +8,7 @@
         var dateFilter = component.get("v.dateFilter");
         var publishedDate = component.get("v.publishedDate");
         var salaryFilter = component.get("v.salaryFilter");
-        var action = component.get("c.getJobs");
-        console.log('pageSize = ' + pageSize + ' ; ' + 'pageNumber = ' + pageNumber + ' ; ' + 'nameFilter = ' + nameFilter + ' ; ' +
-                    'dateFilter = ' + dateFilter + ' ; ' + 'salaryFilter = ' + salaryFilter + ' ; ' + 'salaryParam = ' + salaryParam + ' ; '
-                    + 'publishedDate = ' + publishedDate
-                   );
+        var action = component.get("c.getJobs");       
         
         // Create the action
         action.setParams(

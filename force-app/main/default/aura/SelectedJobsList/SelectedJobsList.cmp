@@ -1,0 +1,29 @@
+<aura:component >
+    
+    <aura:attribute name="selectedJobs" type="Job_Advertisement__c[]" default="[]"/>
+    <aura:attribute name="selectedCount" type="Integer" default="0"/>
+    <aura:attribute name="isSelected" type="boolean" default="false"/>
+    <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
+    <aura:registerEvent name="openCVModal" type="c:openCVModal"/>
+    <div class="selectedNavigationBlock slds-grid ">
+        <div class="slds-col slds-size_4-of-12 slds-align_absolute-center">
+            <p class="slds-align_absolute-center"> 
+                <span class="slds-align_absolute-center">Selected Jobs</span>
+            </p>
+        </div>
+        <div class="slds-col slds-size_4-of-12 slds-align_absolute-center">
+            <p class="slds-align_absolute-center"> 
+                <span class="slds-badge slds-align_absolute-center">{!v.selectedCount}</span>                
+            </p>
+        </div>
+        <div class="slds-col slds-size_4-of-12 ">
+            <lightning:button label="Apply" disabled="{!!v.isSelected}" aura:id="ApplyBtn" title="Open modal window" onclick="{! c.openModal }"/>
+        </div>
+    </div>
+    <div class="selectedCardsList">
+        <aura:iteration items="{!v.selectedJobs}" var="selectedJob">
+            <c:SelectedJobCard selectedJob="{!selectedJob}"/>        
+        </aura:iteration>
+    </div>
+    
+</aura:component>

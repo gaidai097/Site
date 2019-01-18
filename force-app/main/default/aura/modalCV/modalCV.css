@@ -1,0 +1,18 @@
+.THIS .slds-text-heading_medium.slds-hyphenate {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.THIS .slds-modal__container{
+    max-width: 80%;
+    width: 70%;
+    min-height: 10rem;
+}
+.THIS .slds-modal__content .row{
+    min-height: 5rem;
+}
+
+.THIS .slds-modal__content textarea{
+    resize: vertical;
+    max-height: 20rem;
+    min-height: 4rem;
+}

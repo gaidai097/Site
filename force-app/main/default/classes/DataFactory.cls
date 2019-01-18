@@ -1,5 +1,6 @@
 public class DataFactory {
 	// Use this method to fill new scratch org with Test data
+	//  run :      DataFactory.createJobs();
     public static void createJobs(){
         List <Job_Advertisement__c> jobs = new List <Job_Advertisement__c>();
             

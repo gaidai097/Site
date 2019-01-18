@@ -1,6 +1,6 @@
 <aura:component controller="JobsLController"> 
     <aura:attribute name="jobs" type="Job_Advertisement__c[]"/>
-    <aura:attribute name="selectedJobs" type="Job_Advertisement__c[]"/>
+    <aura:attribute name="selectedJobs" type="Job_Advertisement__c[]" />
     <aura:attribute name="testMsg" type="String" default="SomeTest"/>
     <aura:attribute name="pageSize" type="String" default="10"/>
     <aura:attribute name="publishedDate" type="Date" default=""/>    
@@ -18,7 +18,7 @@
     
     <lightning:accordion class="slds-m-top_large" aura:id="accordion" activeSectionName="B">          
         <aura:iteration items="{!v.jobs}" var="job">              
-            <c:JobCard job="{!job}"/>
+            <c:JobCard job="{!job}" selectedJobs="{!v.selectedJobs}"/>
         </aura:iteration>
     </lightning:accordion>
     

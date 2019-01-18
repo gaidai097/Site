@@ -1,0 +1,3 @@
+<aura:event type="APPLICATION"  >
+	<aura:attribute name="selectedJob" type="Job_Advertisement__c" />
+</aura:event>

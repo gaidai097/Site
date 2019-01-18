@@ -1,0 +1,3 @@
+<aura:event type="APPLICATION" description="Caused by click on card's Cancel btn from SelectedList" >
+	<aura:attribute name="jobToDeselect" type="Job_Advertisement__c" />
+</aura:event>

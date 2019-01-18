@@ -1,22 +1,10 @@
 ({
     updateSelectedPageSize : function(component, newPagesize, pageNumber) {
-       console.log('updateSelectedPageSize newPagesize' + newPagesize);
-        console.log('updateSelectedPageSize pageNumber' + pageNumber);
         var event = $A.get("e.c:pageUpdate");
         event.setParams({ "pageSize": newPagesize + '' });
         event.setParams({ "pageNumber": pageNumber });
-        event.fire();
         component.set("v.pageNumber", pageNumber );
-        
-        var pageSize = component.get("v.pageSize");
-        if(pageNumber == 0){
-            component.find('previous').set('v.disabled', true);
-            component.find('first').set( 'v.disabled', true);
-        };
-        if( (pageNumber+1)*(parseInt(pageSize)) >= component.get("v.totalCount")){                    
-            component.find('next').set('v.disabled', true);
-            component.find('last').set( 'v.disabled', true);
-        }
+        event.fire();
         
     },
     fetchCount: function( component, event){       
@@ -26,11 +14,7 @@
         var salaryFilter = event.getParam("salaryFilter");
         var salaryParam = event.getParam("salaryParam");
         var action = component.get("c.getTotalCount");
-        console.log( 'fetchCount => ' );
-        console.log( 'nameFilter = ' + nameFilter + ' ; ' +
-                    'dateFilter = ' + dateFilter + ' ; ' + 'salaryFilter = ' + salaryFilter + ' ; ' + 'salaryParam = ' + salaryParam + ' ; '
-                    + 'publishedDate = ' + publishedDate
-                   );
+       
         
         // Create the action
         action.setParams(
@@ -48,20 +32,42 @@
             var state = response.getState();
             if (state === "SUCCESS") {
                 component.set("v.totalCount", response.getReturnValue());
-                var pageSize = component.get("v.pageSize");
-                var pageNumber = component.get("v.pageNumber");
-                if(pageNumber == 0){
-                    component.find('previous').set('v.disabled', true);
-                    component.find('first').set( 'v.disabled', true);
-                };
-                if( (pageNumber+1)*(parseInt(pageSize)) >= component.get("v.totalCount")){                    
-                    component.find('next').set('v.disabled', true);
-                    component.find('last').set( 'v.disabled', true);
-                }
+                this.refreshButtons(component);
             }else {
                 console.log("Failed with state: " + state);
             }   
         });        
         $A.enqueueAction(action);
+    },
+    refreshButtons: function( component){
+        var pageSize = component.get("v.pageSize");
+        var pageNumber = component.get("v.pageNumber");
+        
+        if(pageNumber == 0){
+            
+            component.find('previous').set('v.disabled', true);
+            component.find('first').set( 'v.disabled', true);
+            console.log('component.get("v.totalCount") ' + component.get("v.totalCount"));
+            console.log('pageSize ' + pageSize);
+            if( component.get("v.totalCount") > pageSize ){
+                component.find('next').set('v.disabled', false);
+                component.find('last').set( 'v.disabled', false);
+            }else{
+				component.find('next').set('v.disabled', true);
+                component.find('last').set( 'v.disabled', true);                
+            }
+        };
+        if(pageNumber > 0){
+            component.find('previous').set('v.disabled', false);
+            component.find('first').set( 'v.disabled', false);
+            if( (( pageNumber + 1 )*pageSize ) >= component.get("v.totalCount")){
+                
+                component.find('next').set('v.disabled', true);
+                component.find('last').set( 'v.disabled', true);
+            }else{
+                component.find('next').set('v.disabled', false);
+                component.find('last').set( 'v.disabled', false);
+            }            
+        };        
     }    
 })

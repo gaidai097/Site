@@ -1,0 +1,40 @@
+.THIS .deselectIcon{
+
+}
+.THIS.selected_card{
+    background-color: white;
+    color: grey;
+    border: 1px #d8d8d8 solid;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    position:relative;
+    box-shadow: 1px 1px 3px 1px #dbdbdb;
+    transition: background-color 0.2s linear;
+}
+.THIS.selected_card:hover{
+    background-color: #f7fffa;
+}
+.THIS.selected_card button{
+    position:absolute;
+    margin:3px;
+    color:white;
+    right: 0;
+    transition: 0.3s transform ease;
+}
+.THIS.selected_card button:hover{
+    transform: scale(1.4);    
+}
+.THIS.selected_card svg{
+    fill:black;
+}
+.THIS.selected_card h2{
+    margin: 0.5rem 0.5rem 0.25rem 1rem ;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    color: black;
+    overflow: hidden;
+    font-weight: bold;
+}
+.THIS.selected_card .cardBody{
+     margin: 0.5rem 1rem ;
+}
