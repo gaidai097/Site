@@ -111,10 +111,20 @@
                 var reader = new FileReader();                
                 reader.onload = function (e) {
                     var tmppath =  e.target.result;
-                    var div = "<div ><strong>" + imageName + "</strong> -<span> "+ fileSize +"<span></div>";
-                    var content = document.createTextNode(div);
-                    document.getElementById("preview").innerHTML += div + "<img src=\""+tmppath+ "\"></img>";
+                    var removeLink = "<a class=\"removeFile\" href=\"#\" >X</a>";
+
+                    var content = "<span id=\"imageName\"><strong>" + imageName + "</strong> -<span> "+ fileSize +"<span>&nbsp; &nbsp; "+ removeLink + "<img alt='Your image' class='preview_img' src='"+tmppath+"'></img></span>"
+                    document.getElementById("preview").innerHTML += content;
                     component.set('v.cvPhoto', tmppath);
+                    
+                    document.getElementById("imageName").addEventListener("mouseout", function( event ) { 
+                        document.getElementsByClassName("preview_img")[0].style.display = 'none';
+                        console.log('out');
+                    });
+                    document.getElementById("imageName").addEventListener("mouseover", function( event ) { 
+                        console.log('on');
+                        document.getElementsByClassName("preview_img")[0].style.display = 'block'; 
+                    });
                 }
                 reader.readAsDataURL(file);
                 

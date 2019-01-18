@@ -4357,14 +4357,14 @@
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\modalCV\\modalCV.cmp",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\modalCV\\modalCV.cmp",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 6744,
             "modifiedTime": 1547831793860,
             "changeTime": 1547831793860,
-            "contentHash": "29b910f5f7caa8f6e82c5d7d103d162a174a62d0"
+            "contentHash": "29b910f5f7caa8f6e82c5d7d103d162a174a62d0",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -4374,10 +4374,10 @@
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\modalCV\\modalCV.css",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 880,
-            "modifiedTime": 1547831793858,
-            "changeTime": 1547831793858,
-            "contentHash": "c6dbfdef9037031fa967b6722c2c36d2f34d48df"
+            "size": 879,
+            "modifiedTime": 1547833774817,
+            "changeTime": 1547833774817,
+            "contentHash": "fc41cb0476efe162746c4e5f69c0cc2d56e04723"
         }
     ],
     [
@@ -4387,10 +4387,10 @@
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\modalCV\\modalCVController.js",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 5267,
-            "modifiedTime": 1547831793857,
-            "changeTime": 1547831793857,
-            "contentHash": "636a7ab981528632779a84aedb23a903d419dbb9"
+            "size": 5940,
+            "modifiedTime": 1547833774816,
+            "changeTime": 1547833774816,
+            "contentHash": "3a7399c6df181e88002010053d5f2dc935b27988"
         }
     ],
     [
@@ -4607,7 +4607,7 @@
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\modalCV",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1547830613434,
+            "modifiedTime": 1547831793860,
             "changeTime": 1547830613434,
             "contentHash": "82e7580d38680cdfb5999a0e283d81a655f2ba63",
             "isMetadataFile": false,
