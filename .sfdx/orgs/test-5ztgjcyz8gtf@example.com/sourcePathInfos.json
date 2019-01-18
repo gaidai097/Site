@@ -4361,10 +4361,10 @@
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\modalCV\\modalCV.cmp",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 6694,
-            "modifiedTime": 1547830613435,
-            "changeTime": 1547830613435,
-            "contentHash": "72b9e7e8a9e59b04742b0d69abaa926bd6f05c6c"
+            "size": 6744,
+            "modifiedTime": 1547831793860,
+            "changeTime": 1547831793860,
+            "contentHash": "29b910f5f7caa8f6e82c5d7d103d162a174a62d0"
         }
     ],
     [
@@ -4374,10 +4374,10 @@
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\modalCV\\modalCV.css",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 876,
-            "modifiedTime": 1547830613433,
-            "changeTime": 1547830613433,
-            "contentHash": "35bd151060385677531671f29eb6bf7925ebe829"
+            "size": 880,
+            "modifiedTime": 1547831793858,
+            "changeTime": 1547831793858,
+            "contentHash": "c6dbfdef9037031fa967b6722c2c36d2f34d48df"
         }
     ],
     [
@@ -4387,10 +4387,10 @@
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\modalCV\\modalCVController.js",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 5233,
-            "modifiedTime": 1547830613431,
-            "changeTime": 1547830613431,
-            "contentHash": "01a48856fe793dd32f70fa439ed17f71f727e278"
+            "size": 5267,
+            "modifiedTime": 1547831793857,
+            "changeTime": 1547831793857,
+            "contentHash": "636a7ab981528632779a84aedb23a903d419dbb9"
         }
     ],
     [
@@ -4604,14 +4604,14 @@
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\modalCV",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\modalCV",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1547830613434,
             "changeTime": 1547830613434,
-            "contentHash": "82e7580d38680cdfb5999a0e283d81a655f2ba63"
+            "contentHash": "82e7580d38680cdfb5999a0e283d81a655f2ba63",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -4695,14 +4695,14 @@
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\modalCV\\modalCVHelper.js",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\modalCV\\modalCVHelper.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 40,
             "modifiedTime": 1547830613432,
             "changeTime": 1547830613432,
-            "contentHash": "c3c6efda41de64b759982510d6a2c72226aa087f"
+            "contentHash": "c3c6efda41de64b759982510d6a2c72226aa087f",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ]
 ]

@@ -1,5 +1,6 @@
 <aura:component >
     <aura:attribute name="cvToSend" type="Job_Advertisement__c" default="{}"/>
+     <aura:attribute name="cvPhoto" type="Blob" default=""/>
      <aura:attribute name="accept" type="List" default="['.jpg', '.jpeg', '.bmp', '.gif', '.png']"/>
     <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
     <aura:handler event="c:openCVModal" action="{!c.show}"/>
@@ -69,9 +70,8 @@
                             
                             <div class=" validation_message"><span> Choose the image: </span></div>
                             <div aura:id="draggableDiv" class="dragPicture" ondragleave="{!c.onDragLeave}"  ondragenter="{!c.onDragEnter}"  
-                                 ondragover="{!c.onDragOver}" ondrop="{!c.onDrop}">
+                                 ondragover="{!c.onDragOver}" ondrop="{!c.onDrop}">                                
                                 
-                                <p>msg</p>
                             </div>                            
                             
                             <!--

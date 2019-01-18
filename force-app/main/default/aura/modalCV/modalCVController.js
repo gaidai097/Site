@@ -102,7 +102,7 @@
                 if (file.size > 1024 * 1024) {
                     fileSize = (Math.round(file.size*100 / (1024 * 1024)) /100).toString() + ' MB';
                 }else {
-                    fileSize = (Math.round(file.size  / 1024)  ).toString() + ' KB';
+                    fileSize = (Math.round(file.size / 1024) ).toString() + ' KB';
                 };                
    				var imageName = file.name;
                 if(file.name.length >20){
@@ -114,7 +114,7 @@
                     var div = "<div ><strong>" + imageName + "</strong> -<span> "+ fileSize +"<span></div>";
                     var content = document.createTextNode(div);
                     document.getElementById("preview").innerHTML += div + "<img src=\""+tmppath+ "\"></img>";
-                    
+                    component.set('v.cvPhoto', tmppath);
                 }
                 reader.readAsDataURL(file);
                 

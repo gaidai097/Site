@@ -20,12 +20,12 @@
     height: 5rem;
     width: 5rem;
     border-radius: 0.5rem;
-    border: 3px solid grey;
+    border: 3px dashed  grey;
     background-color: blue;
     box-shadow: 0 0 3px 1px grey;
 }
 .THIS .on_drag{
-    border: 3px solid black;
+    border: 3px dashed  black;
     background-color: #dbfce6;
 }
 .THIS img.preview_img{
