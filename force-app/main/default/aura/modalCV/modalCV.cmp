@@ -66,9 +66,22 @@
                         </div>
                         <div class=" slds-col slds-size_1-of-12"></div>
                         <div class="slds-col slds-size_3-of-12">
-                            <lightning:input name="fileInput" type="file" label="Upload your photo: " required="true" onchange="{! c.handleFilesChange }"/>
+                            
+                            <div class=" validation_message"><span> Choose the image: </span></div>
+                            <div aura:id="draggableDiv" class="dragPicture" ondragleave="{!c.onDragLeave}"  ondragenter="{!c.onDragEnter}"  
+                                 ondragover="{!c.onDragOver}" ondrop="{!c.onDrop}">
+                                
+                                <p>msg</p>
+                            </div>                            
+                            
+                            <!--
+ <lightning:input name="fileInput" type="file" label="Upload your photo: " required="true" onchange="{! c.handleFilesChange }"/>
+-->
+                            <div id="preview" >    
+                            </div>
+                        
+                         </div>
                         </div>
-                    </div>
                     <div class="slds-m-left_small row slds-grid">
                         <div class="slds-col slds-size_7-of-12">
                             <lightning:textarea name="input3" label=" Additional info :" placeholder="I am ...."/>

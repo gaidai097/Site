@@ -16,3 +16,26 @@
     max-height: 20rem;
     min-height: 4rem;
 }
+.THIS .dragPicture{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 0.5rem;
+    border: 3px solid grey;
+    background-color: blue;
+    box-shadow: 0 0 3px 1px grey;
+}
+.THIS .on_drag{
+    border: 3px solid black;
+    background-color: #dbfce6;
+}
+.THIS img.preview_img{
+        margin-top: 1rem;
+        margin-left: 1rem;
+        max-height: 7rem;
+        max-width: 6rem;
+        border: 4px solid #D3D3D3;
+        border-radius: 3px;
+        display: block;
+        position : absolute;
+        z-index: 10100;
+    }
