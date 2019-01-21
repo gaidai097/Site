@@ -68,15 +68,16 @@
                         <div class=" slds-col slds-size_1-of-12"></div>
                         <div class="slds-col slds-size_3-of-12">
                             
-                            <div class=" validation_message"><span> Choose the image: </span></div>
-                            <div aura:id="draggableDiv" class="dragPicture" ondragleave="{!c.onDragLeave}"  ondragenter="{!c.onDragEnter}"  
-                                 ondragover="{!c.onDragOver}" ondrop="{!c.onDrop}">                                
+                            
+                            <lightning:input aura:id="inputFile"  multiple="false" name="fileInput" 
+                                                 accept="image/png, image/jpg, image/jpeg, image/bmp, image/gif" 
+                                                 type="file" label="Upload your photo: " required="true" onchange="{! c.handleUploadFinished }"
+                                                 />
+                            <div aura:id="draggableDiv" class="dragPicture " ondragleave="{!c.onDragLeave}"  ondragenter="{!c.onDragEnter}"  
+                                 ondragover="{!c.onDragOver}" ondrop="{!c.onDrop}">                                  
                                 
                             </div>                            
                             
-                            <!--
- <lightning:input name="fileInput" type="file" label="Upload your photo: " required="true" onchange="{! c.handleFilesChange }"/>
--->
                             <div id="preview" >    
                             </div>
                         
