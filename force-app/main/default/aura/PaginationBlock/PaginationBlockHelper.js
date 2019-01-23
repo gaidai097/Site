@@ -6,7 +6,7 @@
         component.set("v.pageNumber", pageNumber );
         event.fire();
         
-    },
+    }, 
     fetchCount: function( component, event){       
         var nameFilter = event.getParam("nameFilter");
         var dateFilter = event.getParam("dateFilter");

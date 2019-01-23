@@ -5,7 +5,7 @@
     <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
     <aura:handler event="c:RefreshButtons" action="{!c.refreshButtons}"/>
     <aura:handler event="c:filterUpdate" action="{!c.handleRefreshCount}"/>
-    <aura:registerEvent name="pageUpdate" type="c:pageUpdate"/>
+    <aura:registerEvent name="pageUpdate" type="c:pageUpdate"/> 
     
     <div class="slds-grid pagination_bar slds-wrap"> 
                 
@@ -37,6 +37,7 @@
                     <lightning:icon size="x-small" iconName="utility:right" alternativeText="Audio file" />
                 </lightning:button>  
             </div>
+
         </div>
         
         

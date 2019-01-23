@@ -1,11 +1,10 @@
-<aura:component >
+<aura:component controller="JobsLController">
     <aura:attribute name="selectedJobs" type="Job_Advertisement__c[]"/>
     <aura:attribute name="selectedCount" type="Integer" default="0"/>
-    <aura:attribute name="isSelected" type="boolean" default="false"/>
+    <aura:attribute name="isSelected" type="boolean" default="false"/> 
     <aura:handler event="c:selectJob" action="{!c.addSelectedJob}"/>
     <aura:handler event="c:removeFromSelectedList" action="{!c.removeFromSelectedList}"/>
     <aura:handler event="c:deselectJob" action="{!c.removeDeselectedJob}"/> 
-    
     <div class="slds-col slds-size_9-of-12 slds-box">
         <c:FilterBar />
         <div class="row">
@@ -20,5 +19,5 @@
             <c:PaginationBlock/>
         </div>
     </div>
-    <c:modalCV />
+    <c:modalCV selectedJobs="{!v.selectedJobs}" />
 </aura:component>

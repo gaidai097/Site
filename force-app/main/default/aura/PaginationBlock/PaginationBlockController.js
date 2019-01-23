@@ -1,5 +1,5 @@
-({
-	handleSelect : function(component,event, helper) {
+({  
+	handleSelect : function(component,event, helper) { 
         var selectedPagesize = event.getParam("value");
         component.set("v.pageSize", selectedPagesize ) ; 
         helper.updateSelectedPageSize( component, selectedPagesize, 0);

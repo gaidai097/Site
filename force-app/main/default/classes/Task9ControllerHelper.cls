@@ -1,25 +1,45 @@
 public with sharing class Task9ControllerHelper {
 
     public static Map<Id,Job_Advertisement__c> saveCV(CV__c cv, List <Job_Advertisement__c> jobs , Blob image , String fileName){
+        System.debug('1');
 		validateCV(cv);
+        System.debug('4');
         Map<Id,Job_Advertisement__c> jobsMap = filterSelectedJobs(new Map<Id,Job_Advertisement__c>(jobs) , cv.Email__c);
+        System.debug('6');
         if( jobsMap.isEmpty() ) throw new Task6Exception(Label.All_selected_Jobs_were_checked);
+        System.debug('7');
         insertCV(cv);
+        System.debug('8');
         insertCVJs(cv, jobsMap);
+        System.debug('9');
         sendEmailNotification(cv, jobs);
+        System.debug('10');
         saveImage( cv, image, fileName);
+        System.debug('11');
         return jobsMap;
     }
     public static void validateCV(CV__c cv){
-        if( !Pattern.matches('[1-9]{1}[0-9]{1}', cv.age__c) || Integer.valueOf(cv.age__c) < 18 ){
+        System.debug('2');  
+        System.debug('cv.Email__c ' + cv.Email__c);
+        System.debug('2');
+         System.debug('2Age__c');
+        System.debug('cv.Age__c ' + cv.Age__c);
+        System.debug('cv.Phone__c ' + cv.Phone__c);
+       
+        
+        if( !Pattern.matches('[1-9]{1}[0-9]{1}', cv.Age__c) || Integer.valueOf(cv.Age__c) < 18 ){
+            System.debug('2-0');
             throw new Task6Exception(Label.Incorrect_Age);
         }
         if( !Pattern.matches('^[a-zA-Z0-9._|\\\\%#~`=?&/$^*!}{+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,4}$', cv.Email__c)){
+            System.debug('2-1');
             throw new Task6Exception(Label.Incorrect_Email);
         }
         if( !Pattern.matches('([0-9\\(\\)\\/\\+ \\-]){7,20}', cv.Phone__c)){
+            System.debug('2-2');
             throw new Task6Exception(Label.Incorrect_Phone_number);
         }
+        System.debug('3');
     }
     public static void insertCV( CV__c cv ){
         try{
@@ -57,6 +77,7 @@ public with sharing class Task9ControllerHelper {
     }
     public static Map <Id,Job_Advertisement__c> filterSelectedJobs(Map <Id,Job_Advertisement__c> jobsMap, String email){
         Map <Id,Job_Advertisement__c> filteredJobsMap = jobsMap;
+        System.debug('5');
         for(CVJA__c cvja: [SELECT ID, Job_Advertisement__c FROM CVJA__c WHERE Email__c =:email]){
             if( filteredJobsMap.keySet().contains(cvja.Job_Advertisement__c )) {
                 filteredJobsMap.remove(cvja.Job_Advertisement__c);
