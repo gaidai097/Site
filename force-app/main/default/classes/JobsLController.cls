@@ -23,9 +23,10 @@ public class JobsLController {
         System.debug('*******-------*******');
         System.debug(selectedIDs.size());
         System.debug(selectedIDs);
-        System.debug('Phone__c '+ cv.Age__c);
-        System.debug('Phone__c '+ cv.Phone__c);
-        System.debug('Phone__c '+ cv.Age__c);
+        System.debug( 'cv.Phone__c ' + cv.Phone__c);
+        Map<String, Schema.SObjectField> fields = Schema.getGlobalDescribe().get('CV__c').getDescribe().fields.getMap();
+        System.debug( fields);
+        System.debug( cv);
         System.debug(cvPhoto.size());
         System.debug(cvPhotoName);
         System.debug('*******=======*******');

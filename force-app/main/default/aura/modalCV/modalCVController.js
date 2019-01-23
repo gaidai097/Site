@@ -92,9 +92,9 @@
     ageValidation  : function (component, event, helper) {
         var numberInput = event.getSource();
         var pasrsedValue = parseInt( numberInput.get('v.value') );       
-        numberInput.set('v.value', isNaN(pasrsedValue) ? '' : pasrsedValue );   
+        numberInput.set('v.value', isNaN(pasrsedValue) ? '' : (pasrsedValue +'') );   
         var cv = component.get('v.cvToSend', true);
-        cv.Age__c = numberInput.checkValidity() ? pasrsedValue : null;
+        cv.Age__c = numberInput.checkValidity() ? (pasrsedValue +'') : null;
         component.set('v.cvToSend', cv ); 
         helper.validateCV( component );
     },
@@ -110,9 +110,9 @@
     phoneValidation: function (component, event, helper) {
         var phoneInput = event.getSource();
         var pasrsedValue = parseInt( phoneInput.get('v.value') );
-        phoneInput.set('v.value', isNaN(pasrsedValue) ? '' : pasrsedValue );
+        phoneInput.set('v.value', isNaN(pasrsedValue) ? '' : (pasrsedValue +'') );
         var cv = component.get('v.cvToSend');
-        cv.Phone__c = phoneInput.checkValidity() ? pasrsedValue : null;
+        cv.Phone__c = phoneInput.checkValidity() ? (pasrsedValue +'') : null;
         component.set('v.cvToSend', cv );               
         helper.validateCV( component );       
     },  
