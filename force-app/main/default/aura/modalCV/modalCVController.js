@@ -48,7 +48,7 @@
         }else{
             cv.Email__c = null ;
             component.set( 'v.cvToSend', cv ); 
-            emailInput.setCustomValidity('please, fix your email!');
+            emailInput.setCustomValidity('Please, fix your Email!');
             emailInput.reportValidity() ;        
         }
         helper.validateCV( component );
@@ -63,28 +63,32 @@
             var cv = component.get('v.cvToSend', true);
             cv.Name = nameInput.checkValidity() ? firstUp : null;
             component.set('v.cvToSend', cv ); 
-            nameInput.showHelpMessageIfInvalid();
+            nameInput.setCustomValidity('');
+            nameInput.reportValidity() ;  
             component.set('v.firstName', firstUp) ;
         }else{
-            nameInput.showHelpMessageIfInvalid();
+            nameInput.setCustomValidity('Please, fix your First Name!');
+            nameInput.reportValidity() ;  
             component.set('v.firstName', null) ;
         }
         helper.validateCV( component );
     },
     lastNameValidate : function (component, event, helper) {
-        var NAME_REGEX = /^[A-Z]{1}[a-z]{1,12}$/;
+        var NAME_REGEX = /^[A-Z]{1}[a-z]{1,12}$/ ;
         var nameInput = event.getSource();
         var nameValue = nameInput.get('v.value');        
         var firstUp =  nameValue.charAt(0).toUpperCase() + nameValue.slice(1) ;
         nameInput.set( 'v.value', firstUp);
-        if(NAME_REGEX.test(firstUp)){
+        if( NAME_REGEX.test(firstUp) ){
             var cv = component.get('v.cvToSend', true);
             cv.Name = nameInput.checkValidity() ? firstUp : null;
             component.set('v.cvToSend', cv );  
-            nameInput.showHelpMessageIfInvalid();
+            nameInput.setCustomValidity('');
+            nameInput.reportValidity() ; 
             component.set('v.lastName', firstUp);
         }else{
-            nameInput.showHelpMessageIfInvalid();
+            nameInput.setCustomValidity('Please, fix your First Name!') ;
+            nameInput.reportValidity() ; 
             component.set('v.lastName', null);
         }
         helper.validateCV( component );
@@ -115,7 +119,7 @@
         cv.Phone__c = phoneInput.checkValidity() ? (pasrsedValue +'') : null;
         component.set('v.cvToSend', cv );               
         helper.validateCV( component );       
-    },  
+    }, 
     
     //standrd Lightning inputFile onchange listener
     handleUploadFinished: function (component, event, helper) {   
@@ -124,7 +128,7 @@
         if (files.length>1) {
             return alert("You can upload only one image");
         }
-        console.log(files[0].name + ' ' + files[0].size);
+   
         helper.validateUploadedfile(component, event, files[0]);
     },
     onDragOver: function(component, event) {

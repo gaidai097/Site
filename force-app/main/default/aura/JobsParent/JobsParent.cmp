@@ -19,5 +19,6 @@
             <c:PaginationBlock/>
         </div>
     </div>
+    <c:alertBlock />
     <c:modalCV selectedJobs="{!v.selectedJobs}" />
 </aura:component>

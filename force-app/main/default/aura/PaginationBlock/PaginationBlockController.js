@@ -41,6 +41,9 @@
         helper.updateSelectedPageSize( component, pageSize, pageNumber); 
 	},
     doInit : function(component, event, helper) {
+        helper.fetchCount( component, event);
+        
+        /*
         var action = component.get("c.getTotalCount");
         //action.setParams({ recordId :expname });        
         action.setCallback(this,function(response) {
@@ -53,6 +56,7 @@
             }   
         });        
         $A.enqueueAction(action);
+        */
     },    
     handleRefreshCount: function( component, event, helper) {
         component.set("v.pageNumber", 0);

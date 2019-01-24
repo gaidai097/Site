@@ -45,16 +45,14 @@
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura",
         {
+            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura",
             "isDirectory": true,
-            "size": 0,
-            "modifiedTime": 1547823110134,
-            "changeTime": 1547823110134,
-            "contentHash": "9cb3169178f988dfbb2c0c01cda0a9e18711add1",
             "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "size": 0,
+            "modifiedTime": 1548349004380,
+            "changeTime": 1548349004380,
+            "contentHash": "a0aaafa4ad19205cc7b91672b4ff35bc747fb700"
         }
     ],
     [
@@ -495,14 +493,14 @@
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\JobsParent\\JobsParent.cmp",
         {
+            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\JobsParent\\JobsParent.cmp",
             "isDirectory": false,
-            "size": 1069,
-            "modifiedTime": 1548260065037,
-            "changeTime": 1548260065037,
-            "contentHash": "f20208112d0503dfc808c6ebb6c0fbedafb68e12",
             "isMetadataFile": false,
-            "state": "u"
+            "size": 1090,
+            "modifiedTime": 1548349004471,
+            "changeTime": 1548349004471,
+            "contentHash": "bc6c8ca8c1547269b797334c3c6150d8610f4982"
         }
     ],
     [
@@ -556,7 +554,7 @@
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\modalCV",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1548260065003,
+            "modifiedTime": 1548264972455,
             "changeTime": 1547833774817,
             "contentHash": "82e7580d38680cdfb5999a0e283d81a655f2ba63",
             "isMetadataFile": false,
@@ -568,14 +566,14 @@
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\modalCV\\modalCV.cmp",
         {
+            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\modalCV\\modalCV.cmp",
             "isDirectory": false,
-            "size": 7725,
-            "modifiedTime": 1548260065003,
-            "changeTime": 1548260065003,
-            "contentHash": "9a27aabdc123ef155df7b7c91f7201cc2822cff2",
             "isMetadataFile": false,
-            "state": "u"
+            "size": 7613,
+            "modifiedTime": 1548349004365,
+            "changeTime": 1548349004365,
+            "contentHash": "bdad372fad5181c41bc5cba397aa368ec94ad00d"
         }
     ],
     [
@@ -613,23 +611,23 @@
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\modalCV\\modalCVController.js",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 7012,
-            "modifiedTime": 1548264972456,
-            "changeTime": 1548264972456,
-            "contentHash": "c68c9091676237836f2b042a004864c11f659454"
+            "size": 7167,
+            "modifiedTime": 1548349004350,
+            "changeTime": 1548349004350,
+            "contentHash": "793562c79f19077ebe5e661db26ddd1145b9390f"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\modalCV\\modalCVHelper.js",
         {
+            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\modalCV\\modalCVHelper.js",
             "isDirectory": false,
-            "size": 7100,
-            "modifiedTime": 1548260064991,
-            "changeTime": 1548260064991,
-            "contentHash": "6627cebffe7588d07f8aa2e2bc9ce7fa4637f9ec",
             "isMetadataFile": false,
-            "state": "u"
+            "size": 7969,
+            "modifiedTime": 1548349004350,
+            "changeTime": 1548349004350,
+            "contentHash": "2d9940f5572f1d77f0671eb7f2ab983aec77a11a"
         }
     ],
     [
@@ -785,14 +783,14 @@
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\PaginationBlock\\PaginationBlock.cmp",
         {
+            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\PaginationBlock\\PaginationBlock.cmp",
             "isDirectory": false,
-            "size": 2833,
-            "modifiedTime": 1548260065022,
-            "changeTime": 1548260065022,
-            "contentHash": "5afc496047ecfcb68205db7950cad69a5c006983",
             "isMetadataFile": false,
-            "state": "u"
+            "size": 3073,
+            "modifiedTime": 1548349004904,
+            "changeTime": 1548349004904,
+            "contentHash": "c1f2e7b7fddd01e80b2ed7e644b58286aac65ffa"
         }
     ],
     [
@@ -828,27 +826,27 @@
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\PaginationBlock\\PaginationBlockController.js",
         {
+            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\PaginationBlock\\PaginationBlockController.js",
             "isDirectory": false,
-            "size": 2516,
-            "modifiedTime": 1548260065019,
-            "changeTime": 1548260065019,
-            "contentHash": "2338b68930ff2ee8b1568e82415de782aaf29869",
             "isMetadataFile": false,
-            "state": "u"
+            "size": 2593,
+            "modifiedTime": 1548349004901,
+            "changeTime": 1548349004901,
+            "contentHash": "f0ec3137ec1149cb9ec59632c2d7580848096409"
         }
     ],
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\PaginationBlock\\PaginationBlockHelper.js",
         {
+            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\PaginationBlock\\PaginationBlockHelper.js",
             "isDirectory": false,
-            "size": 2967,
-            "modifiedTime": 1548260065025,
-            "changeTime": 1548260065025,
-            "contentHash": "03bde21a1734fc8970b9c654f652b8adf04fbb38",
             "isMetadataFile": false,
-            "state": "u"
+            "size": 3569,
+            "modifiedTime": 1548349004658,
+            "changeTime": 1548349004658,
+            "contentHash": "0a9414deb9ae6822cb59d475590ae53ee9288ac8"
         }
     ],
     [
@@ -1232,7 +1230,7 @@
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1548260065111,
+            "modifiedTime": 1548264972472,
             "changeTime": 1547823110157,
             "contentHash": "848bcc1a521a741ad432bca10499e650a16b5124",
             "isMetadataFile": false,
@@ -1878,10 +1876,10 @@
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\JobsLController.cls",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 2527,
-            "modifiedTime": 1548264972468,
-            "changeTime": 1548264972468,
-            "contentHash": "7d4913532042bfc563cd6e4c13962fc52b584683"
+            "size": 3012,
+            "modifiedTime": 1548349005004,
+            "changeTime": 1548349005004,
+            "contentHash": "505753bf3373e2b831a385a420cb30dfab2880f4"
         }
     ],
     [
@@ -2236,10 +2234,10 @@
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\classes\\Task9ControllerHelper.cls",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 7215,
-            "modifiedTime": 1548264972472,
-            "changeTime": 1548264972472,
-            "contentHash": "c5026ae996c8ed434563de60e2bc0f1760c8c6b7"
+            "size": 7362,
+            "modifiedTime": 1548349005053,
+            "changeTime": 1548349005053,
+            "contentHash": "ac379b4a57a9427b0ca998e60373e5d86827b686"
         }
     ],
     [
@@ -4764,14 +4762,14 @@
     [
         "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\profiles\\Admin.profile-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\profiles\\Admin.profile-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 28949,
             "modifiedTime": 1548264972624,
             "changeTime": 1548264972624,
-            "contentHash": "64a8730acf0cda2319088c6f5023c254e57fa964"
+            "contentHash": "64a8730acf0cda2319088c6f5023c254e57fa964",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
@@ -4824,6 +4822,175 @@
             "contentHash": "51fa5b69a460b58fdb3ba914be9d96afa26ec6e4",
             "isMetadataFile": false,
             "state": "u"
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\alertBlock\\alertBlock.cmp-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\alertBlock\\alertBlock.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 228,
+            "modifiedTime": 1548349004370,
+            "changeTime": 1548349004370,
+            "contentHash": "5217b92ebc2fd18b1fa120b9e273319a153146a7"
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\alertBlock\\alertBlockController.js",
+        {
+            "state": "u",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\alertBlock\\alertBlockController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1054,
+            "modifiedTime": 1548349004370,
+            "changeTime": 1548349004370,
+            "contentHash": "878b9b287a4f60b02412c9ed1100725fe6072cde"
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\alertBlock\\alertBlock.cmp",
+        {
+            "state": "u",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\alertBlock\\alertBlock.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1074,
+            "modifiedTime": 1548349004375,
+            "changeTime": 1548349004375,
+            "contentHash": "f68891529839848a8aa68380e26cfcdda8cc1525"
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\alertBlock\\alertBlockHelper.js",
+        {
+            "state": "u",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\alertBlock\\alertBlockHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 40,
+            "modifiedTime": 1548349004375,
+            "changeTime": 1548349004375,
+            "contentHash": "c3c6efda41de64b759982510d6a2c72226aa087f"
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\alertBlock\\alertBlock.css",
+        {
+            "state": "u",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\alertBlock\\alertBlock.css",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 881,
+            "modifiedTime": 1548349004375,
+            "changeTime": 1548349004375,
+            "contentHash": "744842c5099a2241bf14b46e08b4b048225095ac"
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\alertBlock\\alertBlockRenderer.js",
+        {
+            "state": "u",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\alertBlock\\alertBlockRenderer.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 7,
+            "modifiedTime": 1548349004375,
+            "changeTime": 1548349004375,
+            "contentHash": "0ac2efe81645ca790bcb1126d573c9408bdb386e"
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\customAlert\\customAlert.cmp-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\customAlert\\customAlert.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 228,
+            "modifiedTime": 1548349004380,
+            "changeTime": 1548349004380,
+            "contentHash": "5217b92ebc2fd18b1fa120b9e273319a153146a7"
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\customAlert\\customAlert.css",
+        {
+            "state": "u",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\customAlert\\customAlert.css",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 982,
+            "modifiedTime": 1548349004380,
+            "changeTime": 1548349004380,
+            "contentHash": "ea9747d9c0a0be1d8aae2a2d37aff0b3d5bf836d"
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\customAlert\\customAlertHelper.js",
+        {
+            "state": "u",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\customAlert\\customAlertHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 40,
+            "modifiedTime": 1548349004380,
+            "changeTime": 1548349004380,
+            "contentHash": "c3c6efda41de64b759982510d6a2c72226aa087f"
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\customAlert\\customAlert.cmp",
+        {
+            "state": "u",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\customAlert\\customAlert.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1090,
+            "modifiedTime": 1548349004380,
+            "changeTime": 1548349004380,
+            "contentHash": "de953972bf34afd89e1e650726654893538d87ef"
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\customAlert\\customAlertController.js",
+        {
+            "state": "u",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\customAlert\\customAlertController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 161,
+            "modifiedTime": 1548349004385,
+            "changeTime": 1548349004385,
+            "contentHash": "24acf4ed378a78818a0d22b40876c14b8ed49f1c"
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\alertBlock",
+        {
+            "state": "u",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\alertBlock",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1548349004375,
+            "changeTime": 1548349004375,
+            "contentHash": "b298a3d4a6d9dd0bdde4bee45637d5850ab36360"
+        }
+    ],
+    [
+        "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\customAlert",
+        {
+            "state": "u",
+            "sourcePath": "C:\\JAsSite\\site\\Site\\force-app\\main\\default\\aura\\customAlert",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1548349004380,
+            "changeTime": 1548349004380,
+            "contentHash": "b78ea84d75fcbfa68931bc8b9546c6edf77a476e"
         }
     ]
 ]

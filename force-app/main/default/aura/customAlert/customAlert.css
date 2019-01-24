@@ -1,0 +1,50 @@
+.THIS .custom_alert_container{
+    transition: display 0.2s ease;
+    margin-top: 0.1rem;
+    border-radius: 0.5rem;
+    background-color: grey;
+    padding: 0.5rem;
+    font-family: 'Salesforce Sans',Arial,sans-serif;
+    font-size: 1rem;
+    min-height: 3rem;
+    color: rgb(22, 50, 92);
+    border: 1px solid grey;
+}
+.THIS .custom_alert_container.error{
+    border-color: #f2a199;
+    background-color: #fdedea;
+    
+}
+.THIS .custom_alert_container.info{
+    border-color: #bee6ff;
+    background-color: #f5fcff;
+    
+}
+.THIS .custom_alert_container.warning{
+    
+    border-color: #f8e38e;
+    background-color: #ffffdc;
+    
+}
+.THIS .custom_alert_container.success{
+    
+    border-color: #9bebb3;
+    background-color: #edfff1;
+    
+}
+.THIS>div.toggle{
+    display: none;
+}
+.THIS button{
+    position:absolute;
+    margin:3px;
+    fill:grey;
+    right: 0;
+    transition: 0.3s transform ease;
+}
+.THIS button:hover{
+    transform: scale(1.4);    
+}
+.THIS svg{
+    fill:black;
+}

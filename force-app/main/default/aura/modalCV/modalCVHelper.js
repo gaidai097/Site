@@ -39,9 +39,21 @@
             var state = response.getState();
             if (state === "SUCCESS") {
                 console.log('Done');
-            }else {
-                console.log("Failed with state: " + state);
-            }   
+            }else if (state === "ERROR") {
+                var errors = response.getError();
+                console.log(response);
+                console.log(errors);
+                if(errors){
+                    if (errors[0] && errors[0].message) {
+                        console.log("Error message: " + 
+                                 errors[0].message);
+                    }
+                }else{
+                    console.log("Unknown error");
+                }
+            }else if (state === "INCOMPLETE") {
+                console.log('Action state === "INCOMPLETE"');
+            }  
         });        
         $A.enqueueAction(action);
         
@@ -100,9 +112,11 @@
         console.log( '********END*********');
     },
     validateUploadedfile : function(component, event, file) {
+        var inputFile= component.find('inputFile');
         if(file.size > 128*1024){
-            inputFile.value = "";
-            alert('File is too big',' Choose only image less then 128Kb !');
+            inputFile.set('v.value', null);
+            inputFile.setCustomValidity('File is too big. Choose only image less then 128Kb !') ;
+            inputFile.reportValidity() ;
         }else{
             var marker = false;            
             var types = ["image/gif","image/jpeg","image/jpg","image/png","image/bmp"];                
@@ -119,6 +133,8 @@
                 }else {
                     fileSize = (Math.round(file.size / 1024) ).toString() + ' KB';
                 }; 
+                inputFile.setCustomValidity('') ;
+                inputFile.reportValidity() ;
                 var helpObj = this;
                 var imageName = file.name;
                 if(file.name.length >20){
@@ -127,7 +143,7 @@
                 component.set('v.cvPhotoName', imageName); 
                 var reader = new FileReader();                
                 reader.onload = function (e) {
-                    
+                    console.log(e.target.result);
                     var tmppath =  e.target.result;
                     var removeLink = "<span class=\"removeFile\" title=\"Remove\" href=\"#\" ><span>&#10006;</span></span>";
                     
@@ -153,11 +169,12 @@
                     });
                 }
                 reader.readAsDataURL(file);                
-                $A.util.removeClass( component.find('draggableDiv') , 'on_drag');
-                
+                $A.util.removeClass( component.find('draggableDiv') , 'on_drag');                
                 
             }else{ 
-                alert('Inappropriate type. Choose only image file!'); 
+                inputFile.set('v.value', null);
+                inputFile.setCustomValidity('Inappropriate type. Choose only image file!') ;
+                inputFile.reportValidity() ;
             }                
         }       
     }

@@ -1,9 +1,8 @@
 <aura:component controller="JobsLController" >
     <aura:attribute name="cvToSend" type="CV__c"  default="{ 'sobjectType': 'CV__c',
-                        'Name': null, 'Email__c': null, 'Status__c': null,
-                        'Salary__c': null, 'Additional_info__c': null,
-                        'Age__c': null, 'Phone__c': null
-                         }"/>
+                                                           'Name': null, 'Email__c': null, 'Status__c': null,'Additional_info__c': null,
+                                                           'Salary__c': null, 'Age__c': null, 'Phone__c': null
+                                                           }"/>
     <aura:attribute name="cvPhoto" type="Blob" />
     <aura:attribute name="cvPhotoName" type="String" />
     <aura:attribute name="firstName" type="String" />
@@ -63,7 +62,7 @@
                                 <lightning:input type="email" onchange="{!c.emailValidation}" name="email" required="true" placeholder="lightning@force.com" label="Email :" />
                             </div>
                             <div class="row">
-                                <lightning:input  messageWhenPatternMismatch="Your salary can be from 10 to 99999!" required="true"  
+                                <lightning:input messageWhenPatternMismatch="Your salary can be from 10 to 99999!" required="true"  
                                                  name="salary" label="Salary :" pattern="[1-9]{1}[0-9]{1,4}" maxlength="5" minlength="2" onchange="{!c.salaryValidation}"
                                                  />                              
                             </div>
@@ -77,23 +76,21 @@
                         <div class=" slds-col slds-size_1-of-12"></div>
                         <div class="slds-col slds-size_3-of-12">
                             
-                            <lightning:input aura:id="inputFile"  multiple="false" name="fileInput" 
-                                                 accept="image/png, image/jpg, image/jpeg, image/bmp, image/gif" 
-                                                 type="file" label="Upload your photo: " required="true" onchange="{! c.handleUploadFinished }"
-                                                 />
-                            <div aura:id="draggableDiv" class="dragPicture " ondragleave="{!c.onDragLeave}"  ondragenter="{!c.onDragEnter}"  
+                            <lightning:input aura:id="inputFile"  multiple="false" name="fileInput" type="file" label="Upload your photo: " required="true"
+                                             accept="image/png, image/jpg, image/jpeg, image/bmp, image/gif" onchange="{!c.handleUploadFinished }"
+                                             />
+                            <div aura:id="draggableDiv" class="dragPicture" ondragleave="{!c.onDragLeave}" ondragenter="{!c.onDragEnter}"  
                                  ondragover="{!c.onDragOver}" ondrop="{!c.onDrop}"> 
                             </div> 
                             <div id="preview" >    
                             </div>                        
-                         </div>
                         </div>
+                    </div>
                     <div class="slds-m-left_small row slds-grid">
                         <div class="slds-col slds-size_7-of-12">
                             <lightning:textarea value="{!v.cvToSend.Additional_info__c}" aura:id="additionalInfo" name="input3" label=" Additional info :" placeholder="I am ...."/>
                         </div>
                     </div>  
-                    <lightning:button class="slds-button slds-button_brand" onclick="{!c.sendCV}" >Send</lightning:button>
                 </div>
                 <footer class="slds-modal__footer">
                     <button class="slds-button slds-button_neutral" onclick="{!c.hide}" >Cancel</button>

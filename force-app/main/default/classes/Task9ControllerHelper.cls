@@ -4,9 +4,9 @@ public with sharing class Task9ControllerHelper {
 		validateCV(cv);
         Map<Id,Job_Advertisement__c> jobsMap = filterSelectedJobs(new Map<Id,Job_Advertisement__c>(jobs) , cv.Email__c);
         if( jobsMap.isEmpty() ) throw new Task6Exception(Label.All_selected_Jobs_were_checked);
-        insertCV(cv);
+        insertCV(cv);        
         insertCVJs(cv, jobsMap);
-        sendEmailNotification(cv, jobs);
+        sendEmailNotification(cv, jobsMap.values() );
         saveImage( cv, image, fileName);
         return jobsMap;
     }
@@ -47,6 +47,9 @@ public with sharing class Task9ControllerHelper {
         Messaging.SingleEmailMessage email = new Messaging.SingleEmailMessage();
         email.setToAddresses( new String[]{ cv.Email__c } );
         email.setSubject( ' Hello, ' + cv.Name );
+        if(jobs[0].Name == null){
+            jobs = [SELECT ID, Name FROM Job_Advertisement__c WHERE ID IN :jobs];
+        }
         String body = ' Your CV was successfully posted for these Jobs: \n  ' + jobs[0].Name ;
         for( Integer i = 1; i < jobs.size(); i++ ){
             body += ', \n  ' + jobs[i].Name  ;
