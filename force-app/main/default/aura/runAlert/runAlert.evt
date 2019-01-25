@@ -1,0 +1,4 @@
+<aura:event type="APPLICATION"  >
+	<aura:attribute name="msg" type="String" />
+    <aura:attribute name="severity" type="String" />
+</aura:event>

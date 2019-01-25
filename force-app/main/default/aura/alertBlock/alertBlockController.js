@@ -1,28 +1,20 @@
 ({
-    handleShowNotice : function(component, event, helper) {
-        component.find('notifLib').showNotice({
-            "variant": "error",
-            "header": "Something has gone wrong!",
-            "message": "Unfortunately, there was a problem updating the record.",
-            closeCallback: function() {
-                alert('You closed the alert!');
-            }
-        });
-    },
-    onRender: function(component,event, helper) {
-        
-		var alerts = document.querySelectorAll('.mainAlertBlock .close');
-        console.log('alerts === ' + alerts.length);
-        for(var i= 0 ; i < alerts.length ; i++){
-            var onclickClose = function(alert){
-                alert.onclick = function(e){
-                    alert.parentElement.parentElement.parentElement.classList.add('toggle');
-                    
-                };
-            };
-            onclickClose( alerts[i]);            
+    addAlert : function(component, event, helper) {
+        var msg = event.getParam("msg");
+        var severity = event.getParam("severity");
+        var alerts = component.get("v.alerts" ) ;
+        var closedAlerts = document.querySelectorAll('.cCustomAlert>div.toggle');
+        console.log( '===');
+        console.log( closedAlerts.length);
+        console.log( alerts.length);
+        if( closedAlerts.length == alerts.length){
+            alerts = [];
+        }      
+        alerts.unshift({"msg":msg, "severity":severity});         
+        if( alerts.length == 7){
+            alerts.splice(  alerts.length -1, 1);
         }
-        alerts = document.querySelectorAll('.mainAlertBlock .toggle');
-        console.log('alerts === ' + alerts.length);
-	}
+        component.set("v.alerts" , alerts) ; 
+        event.stopPropagation();
+    },
 })

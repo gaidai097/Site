@@ -1,4 +1,4 @@
-<aura:component controller="JobsLController">
+<aura:component controller="JobsLController" implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes">
     <aura:attribute name="selectedJobs" type="Job_Advertisement__c[]"/>
     <aura:attribute name="selectedCount" type="Integer" default="0"/>
     <aura:attribute name="isSelected" type="boolean" default="false"/> 

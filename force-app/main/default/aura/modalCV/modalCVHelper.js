@@ -1,10 +1,8 @@
 ({  
-    willReturn: function(component){
-        return 'run' ;
-    },
-    runOld: function(component, event){
-              
-	console.log('runOld ');
+    runAlert: function(msg, severity){ 
+        var event = $A.get("e.c:runAlert");
+        event.setParams({ "msg": msg ,"severity": severity });        
+        event.fire();
     },
     makeRequest: function( component, event){
 		console.log('saveCV ');
@@ -39,21 +37,29 @@
             var state = response.getState();
             if (state === "SUCCESS") {
                 console.log('Done');
+                this.runAlert('CV successfully saved!' , 'success');
             }else if (state === "ERROR") {
                 var errors = response.getError();
                 console.log(response);
                 console.log(errors);
                 if(errors){
                     if (errors[0] && errors[0].message) {
+                        this.runAlert('Error message: ' + errors[0].message , 'error');
                         console.log("Error message: " + 
                                  errors[0].message);
                     }
                 }else{
+                     this.runAlert('Unknown error' , 'error');
                     console.log("Unknown error");
                 }
             }else if (state === "INCOMPLETE") {
                 console.log('Action state === "INCOMPLETE"');
-            }  
+                this.runAlert('Action state === "INCOMPLETE"' , 'error');
+            }
+            var modal = component.find( 'cvModalWindow' );
+            var mask = component.find( 'cvModalMask' );
+            $A.util.removeClass( modal, 'slds-fade-in-open' );
+            $A.util.removeClass( mask, 'slds-backdrop_open' );
         });        
         $A.enqueueAction(action);
         

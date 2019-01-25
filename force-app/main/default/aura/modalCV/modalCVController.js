@@ -1,5 +1,6 @@
 ({
-	 show: function(component, event, helper){ 
+    
+    show: function(component, event, helper){ 
          var modal = component.find('cvModalWindow');
          var mask = component.find('cvModalMask');
          $A.util.addClass(modal, 'slds-fade-in-open');

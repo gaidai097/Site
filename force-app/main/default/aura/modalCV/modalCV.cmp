@@ -11,7 +11,10 @@
     <aura:attribute name="accept" type="List" default="['.jpg', '.jpeg', '.bmp', '.gif', '.png']"/>
     <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
     <aura:handler event="c:openCVModal" action="{!c.show}"/>
+    <aura:registerEvent name="runAlert" type="c:runAlert"/> 
     <div class="demo-only" style="height: 640px;">
+          
+
         <section onclick="{!c.hideOutside}" aura:id="cvModalWindow" role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true" 
                  aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
             <div class="slds-modal__container">

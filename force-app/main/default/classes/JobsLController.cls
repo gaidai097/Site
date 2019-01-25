@@ -1,7 +1,7 @@
 public class JobsLController {
    
     @AuraEnabled
-    public static List<Job_Advertisement__c> getJobs(Map<String, Object> params){        
+    public static List<Job_Advertisement__c> getJobs( Map<String, Object> params){        
         System.debug(params);
         try{ 
             Map <String, String> stringParams = transformParamsMap(params);

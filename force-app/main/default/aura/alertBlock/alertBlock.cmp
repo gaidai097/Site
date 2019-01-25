@@ -1,31 +1,22 @@
 <aura:component >
-    <aura:attribute name="confirmMsg" type="String" />
-    <aura:attribute name="infoMsg" type="String" />
-    <aura:attribute name="warningMsg" type="String" />
-    <aura:attribute name="errorMsg" type="String" />
-    
-    
-    
-
-
-    <div class="mainAlertBlock">
-        <ui:message class="toggle"  title="Confirmation" severity="confirm" closable="true">
-            {!v.confirmMsg}
-        </ui:message>
-        <ui:message class="toggle" title="Information" severity="info" closable="true">
-            {!v.infoMsg}
-        </ui:message>
-        <ui:message class="toggle" title="Warning" severity="warning" closable="true">
-            {!v.warningMsg}
-        </ui:message>
-        <c:customAlert severity="warning"  msg="some error" >
+   
+    <aura:attribute name="alerts" type="Object[]" default="[]" />
+	<aura:handler event="c:runAlert" action="{!c.addAlert}"/>
+    <div class="mainAlertBlock">  
+        <aura:iteration items="{!v.alerts}" var="alert">
+            <c:customAlert severity="{!alert.severity}"  msg="{!alert.msg}"/>            
+        </aura:iteration>
+        
+        <!--
+		<c:customAlert severity="warning"  msg="some warning" >
         </c:customAlert>
         <c:customAlert severity="error"  msg="some error" >
         </c:customAlert>
-        <c:customAlert severity="success"  msg="some error" >
+        <c:customAlert severity="success"  msg="some success" >
         </c:customAlert>
-        <c:customAlert severity="info"  msg="some error" >
+        <c:customAlert severity="info"  msg="some info" >
         </c:customAlert>
+        -->
     </div>
     
 </aura:component>

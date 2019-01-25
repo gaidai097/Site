@@ -1,45 +1,46 @@
 .THIS .custom_alert_container{
     transition: display 0.2s ease;
-    margin-top: 0.1rem;
+    margin-top: 0.3rem;
     border-radius: 0.5rem;
     background-color: grey;
     padding: 0.5rem;
     font-family: 'Salesforce Sans',Arial,sans-serif;
     font-size: 1rem;
     min-height: 3rem;
-    color: rgb(22, 50, 92);
-    border: 1px solid grey;
+    color: rgb(10, 40, 80);
+    border: 1px solid  rgb(10, 40, 80);
+    box-shadow: 1px 1px 4px 1px  rgb(60, 60, 100);
+    transition: 0.2s all ease;
+    animation: 0.4s linear 0s 1 slideIn;
+}
+.THIS .custom_alert_container:hover{
+    transform: scale(1.01);  
 }
 .THIS .custom_alert_container.error{
     border-color: #f2a199;
-    background-color: #fdedea;
-    
+    background-color: #fdedea;    
 }
 .THIS .custom_alert_container.info{
     border-color: #bee6ff;
-    background-color: #f5fcff;
-    
+    background-color: #f5fcff;    
 }
-.THIS .custom_alert_container.warning{
-    
+.THIS .custom_alert_container.warning{    
     border-color: #f8e38e;
-    background-color: #ffffdc;
-    
+    background-color: #ffffdc;    
 }
-.THIS .custom_alert_container.success{
-    
+.THIS .custom_alert_container.success{    
     border-color: #9bebb3;
-    background-color: #edfff1;
-    
+    background-color: #edfff1;    
 }
 .THIS>div.toggle{
-    display: none;
+    animation: 0.2s linear 0.3s 1 slideOut;
+    animation-fill-mode: forwards; 
 }
 .THIS button{
     position:absolute;
     margin:3px;
     fill:grey;
-    right: 0;
+    right: 0.5rem;
     transition: 0.3s transform ease;
 }
 .THIS button:hover{
@@ -47,4 +48,38 @@
 }
 .THIS svg{
     fill:black;
+}
+@keyframes slideIn {
+    0% {
+        transform: translateY(-150%);
+        opacity: 0.2;
+    }
+    50% {
+        transform: translateY(-75%);
+        opacity: 0.75;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes slideOut {
+    0% {
+        transform: translateY(0%);
+        height: 1.5rem;
+        opacity: 0.9;
+    }
+    50% {
+        transform: translateY(20%); 
+        height: 1rem;
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateY(50%);
+        height: 0;
+        position:absolute;
+        opacity: 0.0;
+        visibility: hidden;
+        display:none;
+    }
 }
